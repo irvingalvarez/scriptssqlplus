@@ -1,0 +1,12 @@
+#!/usr/bin/ksh
+
+export MAILTO="ia915e@att.com"
+export CONTENT="test.htm"
+export SUBJECT="Subject"
+(
+ echo "Subject: $SUBJECT"
+ echo "MIME-Version: 1.0"
+ echo "Content-Type: text/html"
+ echo "Content-Disposition: inline"
+ cat $CONTENT
+) | /usr/sbin/sendmail $MAILTO

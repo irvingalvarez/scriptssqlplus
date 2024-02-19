@@ -1,0 +1,16 @@
+<html><body>
+<table border="1">
+<tr>
+<th nowrap>Nombre</th>
+<th nowrap>Apellido</th>
+<th nowrap>Otro 1</th>
+<th nowrap>Otro 2</th>
+</tr>
+<tr>
+<th nowrap>Franco</th>
+<th nowrap>Catrin</th>
+<th nowrap>Prueba de</th>
+<th nowrap>XLS</th>
+</table>
+</body></html>
+

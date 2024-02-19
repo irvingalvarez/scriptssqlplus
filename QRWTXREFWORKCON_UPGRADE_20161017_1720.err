@@ -1,0 +1,6714 @@
+Upgrading ACCOUNT_TYPE
+
+56 rows deleted.
+
+Elapsed: 00:00:00.11
+
+56 rows created.
+
+Elapsed: 00:00:01.43
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading ACCOUNT_TYPE_DESC
+
+7 rows deleted.
+
+Elapsed: 00:00:00.06
+
+7 rows created.
+
+Elapsed: 00:00:00.39
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading ACTIVITY_REASON_TEXT
+
+10541 rows deleted.
+
+Elapsed: 00:00:00.69
+
+10541 rows created.
+
+Elapsed: 00:00:01.60
+
+Commit complete.
+
+Elapsed: 00:00:00.12
+Upgrading ACTIVITY_REWARD_MAP
+
+31 rows deleted.
+
+Elapsed: 00:00:00.06
+
+31 rows created.
+
+Elapsed: 00:00:00.39
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading AC_PGM_FILES_CONTROL
+
+1183 rows deleted.
+
+Elapsed: 00:00:00.22
+
+1182 rows created.
+
+Elapsed: 00:00:00.55
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading AC_PROGRAMS
+
+305 rows deleted.
+
+Elapsed: 00:00:00.12
+
+303 rows created.
+
+Elapsed: 00:00:00.40
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading ADJUSTMENT_REASON
+
+1070 rows deleted.
+
+Elapsed: 00:00:00.14
+
+1070 rows created.
+
+Elapsed: 00:00:00.59
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading AGENT_INFO
+
+0 rows deleted.
+
+Elapsed: 00:00:00.05
+
+1167491 rows created.
+
+Elapsed: 00:01:31.78
+
+Commit complete.
+
+Elapsed: 00:00:00.14
+Upgrading AGENT_LOCATION
+
+0 rows deleted.
+
+Elapsed: 00:00:00.06
+
+1169965 rows created.
+
+Elapsed: 00:01:21.42
+
+Commit complete.
+
+Elapsed: 00:00:00.15
+Upgrading APL_LIST
+
+83 rows deleted.
+
+Elapsed: 00:00:00.08
+
+83 rows created.
+
+Elapsed: 00:00:00.38
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading APN_TRANSLATION
+
+5 rows deleted.
+
+Elapsed: 00:00:00.06
+
+5 rows created.
+
+Elapsed: 00:00:00.38
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading APPL_REJECT_REASON
+
+38 rows deleted.
+
+Elapsed: 00:00:00.06
+
+38 rows created.
+
+Elapsed: 00:00:00.38
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading AR_ACCOUNT_TYPE
+
+141 rows deleted.
+
+Elapsed: 00:00:00.08
+
+141 rows created.
+
+Elapsed: 00:00:00.40
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading AR_ACTIVITIES
+
+30 rows deleted.
+
+Elapsed: 00:00:00.08
+
+30 rows created.
+
+Elapsed: 00:00:00.38
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading AR_METRO2_FMT_DATA
+
+10 rows deleted.
+
+Elapsed: 00:00:00.06
+
+10 rows created.
+
+Elapsed: 00:00:00.38
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading ATLAS_XML_TAGS
+
+780 rows deleted.
+
+Elapsed: 00:00:00.18
+
+772 rows created.
+
+Elapsed: 00:00:00.67
+
+Commit complete.
+
+Elapsed: 00:00:00.12
+Upgrading AUTO_PAYMENT_TYPE
+
+18 rows deleted.
+
+Elapsed: 00:00:00.06
+
+18 rows created.
+
+Elapsed: 00:00:00.39
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading BACKOUT_REASON_CODE
+
+139 rows deleted.
+
+Elapsed: 00:00:00.08
+
+139 rows created.
+
+Elapsed: 00:00:00.40
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading BILL_PARAM_FORMAT
+
+26 rows deleted.
+
+Elapsed: 00:00:00.09
+
+26 rows created.
+
+Elapsed: 00:00:00.38
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading BTM_REASONS
+
+7 rows deleted.
+
+Elapsed: 00:00:00.08
+
+7 rows created.
+
+Elapsed: 00:00:00.37
+
+Commit complete.
+
+Elapsed: 00:00:00.12
+Upgrading BUREAU
+
+796 rows deleted.
+
+Elapsed: 00:00:00.13
+
+796 rows created.
+
+Elapsed: 00:00:00.75
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading CALLING_ROUTE_CONTROL
+
+11 rows deleted.
+
+Elapsed: 00:00:00.09
+
+11 rows created.
+
+Elapsed: 00:00:00.40
+
+Commit complete.
+
+Elapsed: 00:00:00.12
+Upgrading CALL_AREA
+
+1375 rows deleted.
+
+Elapsed: 00:00:00.20
+
+1375 rows created.
+
+Elapsed: 00:00:00.64
+
+Commit complete.
+
+Elapsed: 00:00:00.12
+Upgrading CANCEL_REASON
+
+3 rows deleted.
+
+Elapsed: 00:00:00.07
+
+3 rows created.
+
+Elapsed: 00:00:00.38
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading CANCEL_USAGE_RSN
+
+2 rows deleted.
+
+Elapsed: 00:00:00.09
+
+2 rows created.
+
+Elapsed: 00:00:00.38
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading CAPM_PYM_SOURCE
+
+804 rows deleted.
+
+Elapsed: 00:00:00.10
+
+804 rows created.
+
+Elapsed: 00:00:00.58
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading CAS_APPLICATION_TYPE
+
+21 rows deleted.
+
+Elapsed: 00:00:00.08
+
+21 rows created.
+
+Elapsed: 00:00:00.38
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading CAS_STATUS_REASON
+
+217 rows deleted.
+
+Elapsed: 00:00:00.09
+
+217 rows created.
+
+Elapsed: 00:00:00.39
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading CATEGORIES_DETAILS
+
+103 rows deleted.
+
+Elapsed: 00:00:00.09
+
+103 rows created.
+
+Elapsed: 00:00:00.45
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading CC_PRODUCT
+
+6 rows deleted.
+
+Elapsed: 00:00:00.06
+
+6 rows created.
+
+Elapsed: 00:00:00.38
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading CD_SOC_MIGR_MAP
+
+288 rows deleted.
+
+Elapsed: 00:00:00.06
+
+288 rows created.
+
+Elapsed: 00:00:00.46
+
+Commit complete.
+
+Elapsed: 00:00:00.12
+Upgrading CFAS_EXCP_GLREP
+
+533 rows deleted.
+
+Elapsed: 00:00:00.08
+
+533 rows created.
+
+Elapsed: 00:00:00.60
+
+Commit complete.
+
+Elapsed: 00:00:00.12
+Upgrading CFAS_GL_ACCOUNTS
+
+121 rows deleted.
+
+Elapsed: 00:00:00.06
+
+121 rows created.
+
+Elapsed: 00:00:00.39
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading CFAS_GL_REPORTING
+
+14828 rows deleted.
+
+Elapsed: 00:00:01.73
+
+14828 rows created.
+
+Elapsed: 00:00:01.96
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading CHANGE_TECH
+
+18 rows deleted.
+
+Elapsed: 00:00:00.06
+
+18 rows created.
+
+Elapsed: 00:00:00.49
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading CHARGE_INFO
+
+9095 rows deleted.
+
+Elapsed: 00:00:00.56
+
+9095 rows created.
+
+Elapsed: 00:00:01.23
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading CHARGE_TAX_INFO
+
+0 rows deleted.
+
+Elapsed: 00:00:00.06
+
+56949 rows created.
+
+Elapsed: 00:00:02.78
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading CODE_SETS
+
+2136 rows deleted.
+
+Elapsed: 00:00:00.23
+
+2136 rows created.
+
+Elapsed: 00:00:00.62
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading COLLECTION_ACTIVITIES
+
+28 rows deleted.
+
+Elapsed: 00:00:00.09
+
+28 rows created.
+
+Elapsed: 00:00:00.38
+
+Commit complete.
+
+Elapsed: 00:00:00.12
+Upgrading COLLECTION_AGENCY
+
+87 rows deleted.
+
+Elapsed: 00:00:00.08
+
+87 rows created.
+
+Elapsed: 00:00:00.38
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading COLLECTION_CATEGORY
+
+273 rows deleted.
+
+Elapsed: 00:00:00.07
+
+273 rows created.
+
+Elapsed: 00:00:00.40
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading COLLECTION_POLICY_STEP
+
+168 rows deleted.
+
+Elapsed: 00:00:00.07
+
+168 rows created.
+
+Elapsed: 00:00:00.42
+
+Commit complete.
+
+Elapsed: 00:00:00.12
+Upgrading COLLECTION_REF_GRPS
+
+33 rows deleted.
+
+Elapsed: 00:00:00.06
+
+33 rows created.
+
+Elapsed: 00:00:00.39
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading COLLECTION_REF_LINK
+
+80 rows deleted.
+
+Elapsed: 00:00:00.06
+
+80 rows created.
+
+Elapsed: 00:00:00.40
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading COMMITMENT_TERMS_DESC
+
+71 rows deleted.
+
+Elapsed: 00:00:00.09
+
+71 rows created.
+
+Elapsed: 00:00:00.43
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading COMPANY
+
+9 rows deleted.
+
+Elapsed: 00:00:00.13
+
+9 rows created.
+
+Elapsed: 00:00:00.38
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading COM_AGREEMENT
+
+808 rows deleted.
+
+Elapsed: 00:00:00.15
+
+808 rows created.
+
+Elapsed: 00:00:00.79
+
+Commit complete.
+
+Elapsed: 00:00:00.12
+Upgrading COM_COMMITMENT_TERMS
+
+189 rows deleted.
+
+Elapsed: 00:00:00.10
+
+189 rows created.
+
+Elapsed: 00:00:00.39
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading COM_DLR_AGREEMENT
+
+0 rows deleted.
+
+Elapsed: 00:00:00.06
+
+108190 rows created.
+
+Elapsed: 00:00:04.89
+
+Commit complete.
+
+Elapsed: 00:00:00.12
+Upgrading COM_PAYMENT_GROUP
+
+383 rows deleted.
+
+Elapsed: 00:00:00.10
+
+383 rows created.
+
+Elapsed: 00:00:00.42
+
+Commit complete.
+
+Elapsed: 00:00:00.12
+Upgrading COM_RAMP_DETAILS
+
+645 rows deleted.
+
+Elapsed: 00:00:00.13
+
+645 rows created.
+
+Elapsed: 00:00:00.44
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading COM_RAMP_GROUP
+
+616 rows deleted.
+
+Elapsed: 00:00:00.12
+
+616 rows created.
+
+Elapsed: 00:00:00.46
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading COM_RED_BONUS_RAMP
+
+0 rows deleted.
+
+Elapsed: 00:00:00.04
+
+0 rows created.
+
+Elapsed: 00:00:00.33
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading COM_REL_DATE_BONUS
+
+273 rows deleted.
+
+Elapsed: 00:00:00.09
+
+273 rows created.
+
+Elapsed: 00:00:00.40
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading COM_RETAIN_DETAIL
+
+916 rows deleted.
+
+Elapsed: 00:00:00.11
+
+916 rows created.
+
+Elapsed: 00:00:00.48
+
+Commit complete.
+
+Elapsed: 00:00:00.12
+Upgrading COM_SOC_SPA
+
+1 row deleted.
+
+Elapsed: 00:00:00.06
+
+1 row created.
+
+Elapsed: 00:00:00.38
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading CONTRACT_MAPPING_SOC
+
+137 rows deleted.
+
+Elapsed: 00:00:00.09
+
+137 rows created.
+
+Elapsed: 00:00:00.39
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading COUNTRY_GROUPS
+
+188 rows deleted.
+
+Elapsed: 00:00:00.09
+
+188 rows created.
+
+Elapsed: 00:00:00.39
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading CPC_PROMO_STATUS
+
+59 rows deleted.
+
+Elapsed: 00:00:00.08
+
+57 rows created.
+
+Elapsed: 00:00:00.38
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading CPNI_CODES
+
+22 rows deleted.
+
+Elapsed: 00:00:00.07
+
+22 rows created.
+
+Elapsed: 00:00:00.38
+
+Commit complete.
+
+Elapsed: 00:00:00.12
+Upgrading CREDIT_CLASS
+
+27 rows deleted.
+
+Elapsed: 00:00:00.05
+
+27 rows created.
+
+Elapsed: 00:00:00.38
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading CREDIT_CLASS_POLICY
+
+90 rows deleted.
+
+Elapsed: 00:00:00.09
+
+90 rows created.
+
+Elapsed: 00:00:00.46
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading CREDIT_GAMING_ALGO
+
+16 rows deleted.
+
+Elapsed: 00:00:00.09
+
+16 rows created.
+
+Elapsed: 00:00:00.39
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading CRSM_ON_OFF_RULES
+
+0 rows deleted.
+
+Elapsed: 00:00:00.08
+
+Commit complete.
+
+Elapsed: 00:00:00.05
+Upgrading CSM_ACTIVITY
+
+464 rows deleted.
+
+Elapsed: 00:00:00.09
+
+462 rows created.
+
+Elapsed: 00:00:00.62
+
+Commit complete.
+
+Elapsed: 00:00:00.12
+Upgrading CSM_BACKDATE_ACTV
+
+14 rows deleted.
+
+Elapsed: 00:00:00.06
+
+14 rows created.
+
+Elapsed: 00:00:00.38
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading CSM_STATUS_ACTIVITY
+
+727 rows deleted.
+
+Elapsed: 00:00:00.12
+
+727 rows created.
+
+Elapsed: 00:00:00.73
+
+Commit complete.
+
+Elapsed: 00:00:00.12
+Upgrading CTN_STATUSES
+
+19 rows deleted.
+
+Elapsed: 00:00:00.08
+
+19 rows created.
+
+Elapsed: 00:00:00.39
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading DATA_TIER
+
+0 rows deleted.
+
+Elapsed: 00:00:00.05
+
+113 rows created.
+
+Elapsed: 00:00:00.40
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading DC_GL_ACCOUNT
+
+15 rows deleted.
+
+Elapsed: 00:00:00.08
+
+15 rows created.
+
+Elapsed: 00:00:00.39
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading DD_BUSINESS_RULES
+
+11215 rows deleted.
+
+Elapsed: 00:00:02.80
+
+11215 rows created.
+
+Elapsed: 00:00:01.97
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading DD_BUSINESS_RULE_COLUMNS
+
+11937 rows deleted.
+
+Elapsed: 00:00:00.89
+
+11937 rows created.
+
+Elapsed: 00:00:01.18
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading DD_TABLES
+
+1055 rows deleted.
+
+Elapsed: 00:00:00.17
+
+1055 rows created.
+
+Elapsed: 00:00:00.49
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading DD_TABLE_COLUMNS
+
+17156 rows deleted.
+
+Elapsed: 00:00:01.03
+
+17156 rows created.
+
+Elapsed: 00:00:01.43
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading DEALER_ADDITIONAL_COM
+
+271 rows deleted.
+
+Elapsed: 00:00:00.08
+
+271 rows created.
+
+Elapsed: 00:00:00.45
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading DEALER_AGENT_LINK
+
+0 rows deleted.
+
+Elapsed: 00:00:00.08
+
+193197 rows created.
+
+Elapsed: 00:00:09.69
+
+Commit complete.
+
+Elapsed: 00:00:00.12
+Upgrading DEALER_CLASS
+
+233 rows deleted.
+
+Elapsed: 00:00:00.07
+
+233 rows created.
+
+Elapsed: 00:00:00.40
+
+Commit complete.
+
+Elapsed: 00:00:00.12
+Upgrading DEALER_COMP_ATTR
+
+0 rows deleted.
+
+Elapsed: 00:00:00.06
+
+1296741 rows created.
+
+Elapsed: 00:01:46.31
+
+Commit complete.
+
+Elapsed: 00:00:00.16
+Upgrading DEALER_POLICY
+
+50 rows deleted.
+
+Elapsed: 00:00:00.08
+
+50 rows created.
+
+Elapsed: 00:00:00.40
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading DEALER_PROFILE
+
+0 rows deleted.
+
+Elapsed: 00:00:00.08
+
+1296741 rows created.
+
+Elapsed: 00:04:30.40
+
+Commit complete.
+
+Elapsed: 00:00:00.21
+Upgrading DEALER_QTA
+
+578 rows deleted.
+
+Elapsed: 00:00:00.15
+
+578 rows created.
+
+Elapsed: 00:00:00.69
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading DEALER_TYPE
+
+41 rows deleted.
+
+Elapsed: 00:00:00.12
+
+41 rows created.
+
+Elapsed: 00:00:00.37
+
+Commit complete.
+
+Elapsed: 00:00:00.12
+Upgrading DECISION_RULES
+
+50 rows deleted.
+
+Elapsed: 00:00:00.08
+
+50 rows created.
+
+Elapsed: 00:00:00.40
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading DEPARTMENT
+
+0 rows deleted.
+
+Elapsed: 00:00:00.10
+
+61700 rows created.
+
+Elapsed: 00:00:07.87
+
+Commit complete.
+
+Elapsed: 00:00:00.12
+Upgrading DEPOSIT_BANK
+
+7 rows deleted.
+
+Elapsed: 00:00:00.09
+
+7 rows created.
+
+Elapsed: 00:00:00.38
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading DEST_AREA_DETAILS
+
+0 rows deleted.
+
+Elapsed: 00:00:00.09
+
+448219 rows created.
+
+Elapsed: 00:00:44.54
+
+Commit complete.
+
+Elapsed: 00:00:00.13
+Upgrading DE_CONDITIONS
+
+0 rows deleted.
+
+Elapsed: 00:00:00.08
+
+0 rows created.
+
+Elapsed: 00:00:00.32
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading DE_CONTRIBUTE_LIST
+
+0 rows deleted.
+
+Elapsed: 00:00:00.07
+
+0 rows created.
+
+Elapsed: 00:00:00.31
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading DE_CRI_ALLOWED_OPS
+
+0 rows deleted.
+
+Elapsed: 00:00:00.07
+
+0 rows created.
+
+Elapsed: 00:00:00.32
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading DE_CRI_CONNECTIONS
+
+0 rows deleted.
+
+Elapsed: 00:00:00.07
+
+0 rows created.
+
+Elapsed: 00:00:00.31
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading DE_CRI_ITEMS
+
+0 rows deleted.
+
+Elapsed: 00:00:00.06
+
+0 rows created.
+
+Elapsed: 00:00:00.36
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading DE_CRI_PARAMS
+
+0 rows deleted.
+
+Elapsed: 00:00:00.06
+
+0 rows created.
+
+Elapsed: 00:00:00.32
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading DE_CRI_POOL
+
+0 rows deleted.
+
+Elapsed: 00:00:00.07
+
+0 rows created.
+
+Elapsed: 00:00:00.31
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading DE_CRI_PREDEF_VALUES
+
+0 rows deleted.
+
+Elapsed: 00:00:00.10
+
+0 rows created.
+
+Elapsed: 00:00:00.32
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading DE_DISCOUNT_ITEMS
+
+0 rows deleted.
+
+Elapsed: 00:00:00.08
+
+0 rows created.
+
+Elapsed: 00:00:00.34
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading DE_DISCOUNT_PLANS
+
+0 rows deleted.
+
+Elapsed: 00:00:00.09
+
+0 rows created.
+
+Elapsed: 00:00:00.32
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading DE_DI_FIELD_VVS
+
+0 rows deleted.
+
+Elapsed: 00:00:00.07
+
+0 rows created.
+
+Elapsed: 00:00:00.32
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading DE_DI_TYPES
+
+0 rows deleted.
+
+Elapsed: 00:00:00.06
+
+0 rows created.
+
+Elapsed: 00:00:00.32
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading DE_DI_TYPE_FIELDS
+
+0 rows deleted.
+
+Elapsed: 00:00:00.07
+
+0 rows created.
+
+Elapsed: 00:00:00.33
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading DE_DP_CATEGORIES
+
+0 rows deleted.
+
+Elapsed: 00:00:00.07
+
+0 rows created.
+
+Elapsed: 00:00:00.32
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading DE_DP_CAT_GROUPING
+
+0 rows deleted.
+
+Elapsed: 00:00:00.09
+
+0 rows created.
+
+Elapsed: 00:00:00.31
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading DE_DP_COMPONENTS
+
+0 rows deleted.
+
+Elapsed: 00:00:00.08
+
+0 rows created.
+
+Elapsed: 00:00:00.32
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading DE_ELIGIBLE_LIST
+
+0 rows deleted.
+
+Elapsed: 00:00:00.08
+
+0 rows created.
+
+Elapsed: 00:00:00.33
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading DE_EXTRA_COND_FIELDS
+
+0 rows deleted.
+
+Elapsed: 00:00:00.09
+
+0 rows created.
+
+Elapsed: 00:00:00.32
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading DE_EXTRA_DPC_FIELDS
+
+0 rows deleted.
+
+Elapsed: 00:00:00.05
+
+0 rows created.
+
+Elapsed: 00:00:00.32
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading DE_EXTRA_DP_FIELDS
+
+0 rows deleted.
+
+Elapsed: 00:00:00.11
+
+0 rows created.
+
+Elapsed: 00:00:00.31
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading DE_QUERY_AREA
+
+0 rows deleted.
+
+Elapsed: 00:00:00.08
+
+0 rows created.
+
+Elapsed: 00:00:00.31
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading DE_STEPS
+
+0 rows deleted.
+
+Elapsed: 00:00:00.08
+
+0 rows created.
+
+Elapsed: 00:00:00.32
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading DE_TIERS
+
+0 rows deleted.
+
+Elapsed: 00:00:00.08
+
+0 rows created.
+
+Elapsed: 00:00:00.32
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading DIRECT_DEBIT_CNCL_RSN
+
+209 rows deleted.
+
+Elapsed: 00:00:00.09
+
+209 rows created.
+
+Elapsed: 00:00:00.52
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading DISCOUNT_CATEGORY
+
+1152 rows deleted.
+
+Elapsed: 00:00:00.17
+
+1152 rows created.
+
+Elapsed: 00:00:00.63
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading DISCOUNT_ITEM
+
+20 rows deleted.
+
+Elapsed: 00:00:00.09
+
+20 rows created.
+
+Elapsed: 00:00:00.38
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading DISCOUNT_PLAN
+
+1082 rows deleted.
+
+Elapsed: 00:00:00.17
+
+1082 rows created.
+
+Elapsed: 00:00:00.68
+
+Commit complete.
+
+Elapsed: 00:00:00.12
+Upgrading DISCOUNT_SALE_CHANNEL
+
+1136 rows deleted.
+
+Elapsed: 00:00:00.19
+
+1136 rows created.
+
+Elapsed: 00:00:00.42
+
+Commit complete.
+
+Elapsed: 00:00:00.12
+Upgrading DISCOUNT_SOC
+
+0 rows deleted.
+
+Elapsed: 00:00:00.07
+
+2391 rows created.
+
+Elapsed: 00:00:00.51
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading DISCOUNT_SUB_MARKET
+
+0 rows deleted.
+
+Elapsed: 00:00:00.08
+
+0 rows created.
+
+Elapsed: 00:00:00.31
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading DISCOUNT_TIER
+
+0 rows deleted.
+
+Elapsed: 00:00:00.08
+
+0 rows created.
+
+Elapsed: 00:00:00.32
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading DLR_ADJ_RSN
+
+82 rows deleted.
+
+Elapsed: 00:00:00.09
+
+82 rows created.
+
+Elapsed: 00:00:00.41
+
+Commit complete.
+
+Elapsed: 00:00:00.12
+Upgrading DLR_COM_SOC_SPA
+
+0 rows deleted.
+
+Elapsed: 00:00:00.08
+
+3720 rows created.
+
+Elapsed: 00:00:00.80
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading DLR_SUBSCRIBER_ELIG
+
+3 rows deleted.
+
+Elapsed: 00:00:00.11
+
+3 rows created.
+
+Elapsed: 00:00:00.39
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading DOMESTIC_AREA_IND
+
+8 rows deleted.
+
+Elapsed: 00:00:00.07
+
+8 rows created.
+
+Elapsed: 00:00:00.39
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading DONOR_XUPGRADE_RULES
+
+12 rows deleted.
+
+Elapsed: 00:00:00.09
+
+12 rows created.
+
+Elapsed: 00:00:00.38
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading DROP_REASONS
+
+159 rows deleted.
+
+Elapsed: 00:00:00.08
+
+157 rows created.
+
+Elapsed: 00:00:00.45
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading DYNAMIC_COLUMNS
+
+3 rows deleted.
+
+Elapsed: 00:00:00.11
+
+3 rows created.
+
+Elapsed: 00:00:00.38
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading DYNAMIC_SOC_MAPPING
+
+0 rows deleted.
+
+Elapsed: 00:00:00.09
+
+0 rows created.
+
+Elapsed: 00:00:00.31
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading DYNAMIC_SOC_MAPPING_LINK
+
+0 rows deleted.
+
+Elapsed: 00:00:00.09
+
+0 rows created.
+
+Elapsed: 00:00:00.31
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading ELIGIBILITY_DECISION
+
+157 rows deleted.
+
+Elapsed: 00:00:00.11
+
+157 rows created.
+
+Elapsed: 00:00:00.46
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading ELIG_MAX_ALLOWED
+
+891 rows deleted.
+
+Elapsed: 00:00:00.29
+
+891 rows created.
+
+Elapsed: 00:00:00.94
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading ELIG_PP
+
+0 rows deleted.
+
+Elapsed: 00:00:00.10
+
+0 rows created.
+
+Elapsed: 00:00:00.31
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading EMI_BILL_TEXT
+
+689 rows deleted.
+
+Elapsed: 00:00:00.13
+
+687 rows created.
+
+Elapsed: 00:00:00.93
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading EQUAL_ACCESS_RMR
+
+59 rows deleted.
+
+Elapsed: 00:00:00.13
+
+59 rows created.
+
+Elapsed: 00:00:00.38
+
+Commit complete.
+
+Elapsed: 00:00:00.12
+Upgrading EQUIPMENT
+
+4 rows deleted.
+
+Elapsed: 00:00:00.12
+
+4 rows created.
+
+Elapsed: 00:00:00.38
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading EQUIPMENT_SKU
+
+1 row deleted.
+
+Elapsed: 00:00:00.09
+
+1 row created.
+
+Elapsed: 00:00:00.41
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading EQU_AGREEMENT
+
+1 row deleted.
+
+Elapsed: 00:00:00.08
+
+1 row created.
+
+Elapsed: 00:00:00.39
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading EQU_COMMIT_TERM_RAMP
+
+0 rows deleted.
+
+Elapsed: 00:00:00.09
+
+0 rows created.
+
+Elapsed: 00:00:00.33
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading EQU_DLR_AGREEMENT
+
+0 rows deleted.
+
+Elapsed: 00:00:00.09
+
+0 rows created.
+
+Elapsed: 00:00:00.33
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading EQU_PAYMENT_GROUP
+
+0 rows deleted.
+
+Elapsed: 00:00:00.06
+
+0 rows created.
+
+Elapsed: 00:00:00.34
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading EQU_RETAIN_DETAIL
+
+1 row deleted.
+
+Elapsed: 00:00:00.10
+
+1 row created.
+
+Elapsed: 00:00:00.39
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading ERROR_CODES
+
+78 rows deleted.
+
+Elapsed: 00:00:00.10
+
+78 rows created.
+
+Elapsed: 00:00:00.51
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading ESN_POOL_TRANSFER
+
+0 rows deleted.
+
+Elapsed: 00:00:00.10
+
+0 rows created.
+
+Elapsed: 00:00:00.32
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading EXCP_GL_COMPANY
+
+20 rows deleted.
+
+Elapsed: 00:00:00.08
+
+20 rows created.
+
+Elapsed: 00:00:00.39
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading FAN_BILL_DEST
+
+170 rows deleted.
+
+Elapsed: 00:00:00.11
+
+170 rows created.
+
+Elapsed: 00:00:00.47
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading FAN_MAP_SOC
+
+4 rows deleted.
+
+Elapsed: 00:00:00.11
+
+4 rows created.
+
+Elapsed: 00:00:00.38
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading FBF_FIXED_TEXT
+
+4901 rows deleted.
+
+Elapsed: 00:00:00.44
+
+4897 rows created.
+
+Elapsed: 00:00:02.09
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading FEATURE
+
+4714 rows deleted.
+
+Elapsed: 00:00:00.61
+
+4714 rows created.
+
+Elapsed: 00:00:02.28
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading FEATURE_CALLING_ROUTE
+
+0 rows deleted.
+
+Elapsed: 00:00:00.10
+
+4854 rows created.
+
+Elapsed: 00:00:01.90
+
+Commit complete.
+
+Elapsed: 00:00:00.12
+Upgrading FEATURE_GROUP_INFO
+
+1 row deleted.
+
+Elapsed: 00:00:00.09
+
+1 row created.
+
+Elapsed: 00:00:00.38
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading FEDERAL_AUTH
+
+944 rows deleted.
+
+Elapsed: 00:00:00.18
+
+944 rows created.
+
+Elapsed: 00:00:00.55
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading FIELDS_ERRORS
+
+3274 rows deleted.
+
+Elapsed: 00:00:00.32
+
+3274 rows created.
+
+Elapsed: 00:00:01.51
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading FILES_AND_PROCESS
+
+304 rows deleted.
+
+Elapsed: 00:00:00.11
+
+304 rows created.
+
+Elapsed: 00:00:00.39
+
+Commit complete.
+
+Elapsed: 00:00:00.12
+Upgrading FILES_APPLICATION
+
+314 rows deleted.
+
+Elapsed: 00:00:00.10
+
+314 rows created.
+
+Elapsed: 00:00:00.54
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading FILES_OPERATION
+
+337 rows deleted.
+
+Elapsed: 00:00:00.13
+
+337 rows created.
+
+Elapsed: 00:00:00.47
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading FLEXIBLE_ETF
+
+6447 rows deleted.
+
+Elapsed: 00:00:00.51
+
+6447 rows created.
+
+Elapsed: 00:00:01.41
+
+Commit complete.
+
+Elapsed: 00:00:00.12
+Upgrading FM_RELATED_FTR
+
+81 rows deleted.
+
+Elapsed: 00:00:00.09
+
+81 rows created.
+
+Elapsed: 00:00:00.39
+
+Commit complete.
+
+Elapsed: 00:00:00.12
+Upgrading FOLLOW_UP_TYPE
+
+70 rows deleted.
+
+Elapsed: 00:00:00.11
+
+70 rows created.
+
+Elapsed: 00:00:00.39
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading FORM_TYPE
+
+0 rows deleted.
+
+Elapsed: 00:00:00.08
+
+0 rows created.
+
+Elapsed: 00:00:00.36
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading FTR_PRESENTATION
+
+230 rows deleted.
+
+Elapsed: 00:00:00.09
+
+230 rows created.
+
+Elapsed: 00:00:00.54
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading FUNCTION
+
+0 rows deleted.
+
+Elapsed: 00:00:00.09
+
+61754 rows created.
+
+Elapsed: 00:00:10.98
+
+Commit complete.
+
+Elapsed: 00:00:00.12
+Upgrading FYI_PARAMETERS
+
+3662 rows deleted.
+
+Elapsed: 00:00:00.41
+
+3663 rows created.
+
+Elapsed: 00:00:01.78
+
+Commit complete.
+
+Elapsed: 00:00:00.12
+Upgrading FYI_TEXT
+
+1586 rows deleted.
+
+Elapsed: 00:00:00.19
+
+1588 rows created.
+
+Elapsed: 00:00:00.60
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading FYI_TEXT_LINES
+
+9893 rows deleted.
+
+Elapsed: 00:00:00.56
+
+9907 rows created.
+
+Elapsed: 00:00:01.63
+
+Commit complete.
+
+Elapsed: 00:00:00.12
+Upgrading GENERAL_INFO
+
+1911 rows deleted.
+
+Elapsed: 00:00:00.20
+
+1911 rows created.
+
+Elapsed: 00:00:00.74
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading GENERAL_LEDGER_ACCOUNTS
+
+123 rows deleted.
+
+Elapsed: 00:00:00.09
+
+123 rows created.
+
+Elapsed: 00:00:00.38
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading GENERIC_CODES
+
+6296 rows deleted.
+
+Elapsed: 00:00:00.44
+
+6263 rows created.
+
+Elapsed: 00:00:01.25
+
+Commit complete.
+
+Elapsed: 00:00:00.12
+Upgrading GL_LOGICAL_ACCOUNTS
+
+24 rows deleted.
+
+Elapsed: 00:00:00.12
+
+24 rows created.
+
+Elapsed: 00:00:00.39
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading GL_REPORTING
+
+13595 rows deleted.
+
+Elapsed: 00:00:01.34
+
+13595 rows created.
+
+Elapsed: 00:00:02.73
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading GL_REVENUE_MAPPING
+
+0 rows deleted.
+
+Elapsed: 00:00:00.08
+
+17107 rows created.
+
+Elapsed: 00:00:01.50
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading GROUP_NL_LINK
+
+9 rows deleted.
+
+Elapsed: 00:00:00.09
+
+9 rows created.
+
+Elapsed: 00:00:00.38
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading HOLIDAYS
+
+0 rows deleted.
+
+Elapsed: 00:00:00.08
+
+0 rows created.
+
+Elapsed: 00:00:00.37
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading HYB_CONV_PP
+
+17 rows deleted.
+
+Elapsed: 00:00:00.09
+
+17 rows created.
+
+Elapsed: 00:00:00.39
+
+Commit complete.
+
+Elapsed: 00:00:00.12
+Upgrading IMEI_SOC_RELATION
+
+53 rows deleted.
+
+Elapsed: 00:00:00.06
+
+53 rows created.
+
+Elapsed: 00:00:00.39
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading INCLUS_BY_PERIOD
+
+0 rows deleted.
+
+Elapsed: 00:00:00.09
+
+7343 rows created.
+
+Elapsed: 00:00:01.37
+
+Commit complete.
+
+Elapsed: 00:00:00.12
+Upgrading INSTLMNT_ELIG_RULES
+
+227 rows deleted.
+
+Elapsed: 00:00:00.07
+
+227 rows created.
+
+Elapsed: 00:00:00.40
+
+Commit complete.
+
+Elapsed: 00:00:00.12
+Upgrading INTL_SOC_CATEGORY
+
+0 rows deleted.
+
+Elapsed: 00:00:00.08
+
+279 rows created.
+
+Elapsed: 00:00:00.39
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading INVOICE_TYPE
+
+10 rows deleted.
+
+Elapsed: 00:00:00.10
+
+10 rows created.
+
+Elapsed: 00:00:00.38
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading ITEM_CAT
+
+23 rows deleted.
+
+Elapsed: 00:00:00.10
+
+23 rows created.
+
+Elapsed: 00:00:00.38
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading ITEM_DEFINITION
+
+18998 rows deleted.
+
+Elapsed: 00:00:01.12
+
+19002 rows created.
+
+Elapsed: 00:00:02.83
+
+Commit complete.
+
+Elapsed: 00:00:00.12
+Upgrading ITEM_POLICY
+
+9249 rows deleted.
+
+Elapsed: 00:00:00.69
+
+9249 rows created.
+
+Elapsed: 00:00:01.36
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading ITEM_SUBCAT
+
+124 rows deleted.
+
+Elapsed: 00:00:00.11
+
+124 rows created.
+
+Elapsed: 00:00:00.39
+
+Commit complete.
+
+Elapsed: 00:00:00.16
+Upgrading IXC
+
+44 rows deleted.
+
+Elapsed: 00:00:00.10
+
+44 rows created.
+
+Elapsed: 00:00:00.38
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading IXC_PROFILE
+
+87 rows deleted.
+
+Elapsed: 00:00:00.12
+
+87 rows created.
+
+Elapsed: 00:00:00.39
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading JIP_TO_SID
+
+0 rows deleted.
+
+Elapsed: 00:00:00.09
+
+0 rows created.
+
+Elapsed: 00:00:00.31
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading JOBLIST
+
+528 rows deleted.
+
+Elapsed: 00:00:00.14
+
+528 rows created.
+
+Elapsed: 00:00:00.66
+
+Commit complete.
+
+Elapsed: 00:00:00.12
+Upgrading LAYOUT_DATE
+
+359 rows deleted.
+
+Elapsed: 00:00:00.09
+
+359 rows created.
+
+Elapsed: 00:00:00.47
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading LD_COUNTRY_RATES
+
+1062 rows deleted.
+
+Elapsed: 00:00:00.21
+
+1062 rows created.
+
+Elapsed: 00:00:00.57
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading LEC_SOA_ACTIVITIES
+
+81 rows deleted.
+
+Elapsed: 00:00:00.09
+
+81 rows created.
+
+Elapsed: 00:00:00.39
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading LEC_SOA_ERROR_CODES
+
+11 rows deleted.
+
+Elapsed: 00:00:00.08
+
+11 rows created.
+
+Elapsed: 00:00:00.38
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading LETTERS
+
+59 rows deleted.
+
+Elapsed: 00:00:00.11
+
+59 rows created.
+
+Elapsed: 00:00:00.38
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading LETTER_VARIABLE_LINK
+
+226 rows deleted.
+
+Elapsed: 00:00:00.09
+
+226 rows created.
+
+Elapsed: 00:00:00.45
+
+Commit complete.
+
+Elapsed: 00:00:00.12
+Upgrading LOCAL_MOVE_VALID
+
+19 rows deleted.
+
+Elapsed: 00:00:00.09
+
+19 rows created.
+
+Elapsed: 00:00:00.39
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading LOCATION_COMPID_LINK
+
+0 rows deleted.
+
+Elapsed: 00:00:00.06
+
+0 rows created.
+
+Elapsed: 00:00:00.32
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading LOGIC_PHD
+
+48 rows deleted.
+
+Elapsed: 00:00:00.10
+
+48 rows created.
+
+Elapsed: 00:00:00.39
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading LRN_TO_SID
+
+0 rows deleted.
+
+Elapsed: 00:00:00.09
+
+0 rows created.
+
+Elapsed: 00:00:00.31
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading MAF_GSM_SERVICES
+
+119 rows deleted.
+
+Elapsed: 00:00:00.11
+
+119 rows created.
+
+Elapsed: 00:00:00.52
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading MAF_MESSAGE
+
+215 rows deleted.
+
+Elapsed: 00:00:00.12
+
+215 rows created.
+
+Elapsed: 00:00:00.52
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading MAF_PERIOD
+
+46 rows deleted.
+
+Elapsed: 00:00:00.09
+
+46 rows created.
+
+Elapsed: 00:00:00.38
+
+Commit complete.
+
+Elapsed: 00:00:00.12
+Upgrading MAF_PERIOD_NAME
+
+5 rows deleted.
+
+Elapsed: 00:00:00.07
+
+5 rows created.
+
+Elapsed: 00:00:00.39
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading MAF_PERIOD_SET
+
+4 rows deleted.
+
+Elapsed: 00:00:00.07
+
+4 rows created.
+
+Elapsed: 00:00:00.38
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading MANUFACTURER
+
+894 rows deleted.
+
+Elapsed: 00:00:00.16
+
+894 rows created.
+
+Elapsed: 00:00:00.65
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading MANUFACTURER_ESN
+
+1646 rows deleted.
+
+Elapsed: 00:00:00.17
+
+1646 rows created.
+
+Elapsed: 00:00:00.64
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading MANUFACTURER_SPA
+
+0 rows deleted.
+
+Elapsed: 00:00:00.08
+
+0 rows created.
+
+Elapsed: 00:00:00.34
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading MARKET_MIN_LR
+
+0 rows deleted.
+
+Elapsed: 00:00:00.09
+
+901 rows created.
+
+Elapsed: 00:00:00.55
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading MASTER_DLR_CAN_RULE
+
+2 rows deleted.
+
+Elapsed: 00:00:00.13
+
+2 rows created.
+
+Elapsed: 00:00:00.39
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading MEMO_TYPE
+
+1064 rows deleted.
+
+Elapsed: 00:00:00.19
+
+1055 rows created.
+
+Elapsed: 00:00:00.57
+
+Commit complete.
+
+Elapsed: 00:00:00.12
+Upgrading MESSAGE_PARAM
+
+1048 rows deleted.
+
+Elapsed: 00:00:00.16
+
+1048 rows created.
+
+Elapsed: 00:00:00.49
+
+Commit complete.
+
+Elapsed: 00:00:00.12
+Upgrading MESSAGE_TEXT_PARAM
+
+41 rows deleted.
+
+Elapsed: 00:00:00.12
+
+41 rows created.
+
+Elapsed: 00:00:00.39
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading MKTING_PROGRAM
+
+191 rows deleted.
+
+Elapsed: 00:00:00.11
+
+191 rows created.
+
+Elapsed: 00:00:00.39
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading MNG_PARAM
+
+1 row deleted.
+
+Elapsed: 00:00:00.08
+
+1 row created.
+
+Elapsed: 00:00:00.39
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading MODEL_SPA
+
+1 row deleted.
+
+Elapsed: 00:00:00.10
+
+1 row created.
+
+Elapsed: 00:00:00.39
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading MOU_BY_PERIOD
+
+0 rows deleted.
+
+Elapsed: 00:00:00.07
+
+0 rows created.
+
+Elapsed: 00:00:00.32
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading NAME_GENERATION
+
+8 rows deleted.
+
+Elapsed: 00:00:00.11
+
+8 rows created.
+
+Elapsed: 00:00:00.39
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading NATIONAL_MAJOR_ACC
+
+1125 rows deleted.
+
+Elapsed: 00:00:00.19
+
+1125 rows created.
+
+Elapsed: 00:00:00.73
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading NBI_FTR_SWITCH_PRM
+
+0 rows deleted.
+
+Elapsed: 00:00:00.06
+
+0 rows created.
+
+Elapsed: 00:00:00.35
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading NBI_MIGRATION_VALID
+
+42 rows deleted.
+
+Elapsed: 00:00:00.09
+
+42 rows created.
+
+Elapsed: 00:00:00.39
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading NCI_MOVE_VALID
+
+37 rows deleted.
+
+Elapsed: 00:00:00.09
+
+37 rows created.
+
+Elapsed: 00:00:00.41
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading NEXT_PORT_ACT
+
+237 rows deleted.
+
+Elapsed: 00:00:00.11
+
+237 rows created.
+
+Elapsed: 00:00:00.39
+
+Commit complete.
+
+Elapsed: 00:00:00.12
+Upgrading NL_PRODUCT_ATTR
+
+2047 rows deleted.
+
+Elapsed: 00:00:00.25
+
+2047 rows created.
+
+Elapsed: 00:00:00.76
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading NM_CONTAMINATION_POLICY
+
+59 rows deleted.
+
+Elapsed: 00:00:00.12
+
+59 rows created.
+
+Elapsed: 00:00:00.39
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading NM_PARAMETERS
+
+59 rows deleted.
+
+Elapsed: 00:00:00.08
+
+59 rows created.
+
+Elapsed: 00:00:00.38
+
+Commit complete.
+
+Elapsed: 00:00:00.12
+Upgrading NM_TRX_CODES
+
+60 rows deleted.
+
+Elapsed: 00:00:00.08
+
+60 rows created.
+
+Elapsed: 00:00:00.38
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading NM_TRX_VALID_STS
+
+62 rows deleted.
+
+Elapsed: 00:00:00.10
+
+62 rows created.
+
+Elapsed: 00:00:00.38
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading NUMBER_LOCATION
+
+1028 rows deleted.
+
+Elapsed: 00:00:00.18
+
+1028 rows created.
+
+Elapsed: 00:00:00.70
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading NUMBER_VALIDATIONS
+
+0 rows deleted.
+
+Elapsed: 00:00:00.10
+
+0 rows created.
+
+Elapsed: 00:00:00.32
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading OBJ_SYNTAX
+
+1085 rows deleted.
+
+Elapsed: 00:00:00.26
+
+1085 rows created.
+
+Elapsed: 00:00:01.09
+
+Commit complete.
+
+Elapsed: 00:00:00.12
+Upgrading OFFER_DECLINE_REASON
+
+8 rows deleted.
+
+Elapsed: 00:00:00.07
+
+8 rows created.
+
+Elapsed: 00:00:00.39
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading ONLINE_DESC
+
+3176 rows deleted.
+
+Elapsed: 00:00:00.72
+
+3176 rows created.
+
+Elapsed: 00:00:01.75
+
+Commit complete.
+
+Elapsed: 00:00:00.12
+Upgrading ONLINE_FIELDS
+
+119 rows deleted.
+
+Elapsed: 00:00:00.10
+
+119 rows created.
+
+Elapsed: 00:00:00.40
+
+Commit complete.
+
+Elapsed: 00:00:00.12
+Upgrading ONLINE_HELP
+
+871 rows deleted.
+
+Elapsed: 00:00:00.16
+
+871 rows created.
+
+Elapsed: 00:00:00.57
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading ONLINE_MESSAGES
+
+3855 rows deleted.
+
+Elapsed: 00:00:00.42
+
+3821 rows created.
+
+Elapsed: 00:00:01.12
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading OTA_ACTIVITY
+
+5 rows deleted.
+
+Elapsed: 00:00:00.09
+
+5 rows created.
+
+Elapsed: 00:00:00.38
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading PAGER_TYPE
+
+10 rows deleted.
+
+Elapsed: 00:00:00.08
+
+10 rows created.
+
+Elapsed: 00:00:00.38
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading PAPER_WORK_STATUS
+
+11 rows deleted.
+
+Elapsed: 00:00:00.10
+
+11 rows created.
+
+Elapsed: 00:00:00.39
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading PARAM_CHARACTERISTICS
+
+0 rows deleted.
+
+Elapsed: 00:00:00.07
+
+0 rows created.
+
+Elapsed: 00:00:00.31
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading PARAM_VALID_VALUES
+
+0 rows deleted.
+
+Elapsed: 00:00:00.09
+
+0 rows created.
+
+Elapsed: 00:00:00.36
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading PARAM_VALUES
+
+1030 rows deleted.
+
+Elapsed: 00:00:00.16
+
+984 rows created.
+
+Elapsed: 00:00:00.73
+
+Commit complete.
+
+Elapsed: 00:00:00.12
+Upgrading PAYMENT_METHOD
+
+67 rows deleted.
+
+Elapsed: 00:00:00.10
+
+67 rows created.
+
+Elapsed: 00:00:00.39
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading PAYMENT_SOURCE
+
+446 rows deleted.
+
+Elapsed: 00:00:00.17
+
+446 rows created.
+
+Elapsed: 00:00:00.48
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading PAYMENT_SUB_METHOD
+
+65 rows deleted.
+
+Elapsed: 00:00:00.10
+
+65 rows created.
+
+Elapsed: 00:00:00.38
+
+Commit complete.
+
+Elapsed: 00:00:00.12
+Upgrading PAY_ARR_TYPE
+
+1 row deleted.
+
+Elapsed: 00:00:00.09
+
+1 row created.
+
+Elapsed: 00:00:00.38
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading PB_REPORTING
+
+30 rows deleted.
+
+Elapsed: 00:00:00.08
+
+30 rows created.
+
+Elapsed: 00:00:00.39
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading PERIOD
+
+357 rows deleted.
+
+Elapsed: 00:00:00.15
+
+357 rows created.
+
+Elapsed: 00:00:00.52
+
+Commit complete.
+
+Elapsed: 00:00:00.12
+Upgrading PERIOD_NAME
+
+78 rows deleted.
+
+Elapsed: 00:00:00.11
+
+78 rows created.
+
+Elapsed: 00:00:00.39
+
+Commit complete.
+
+Elapsed: 00:00:00.12
+Upgrading PERIOD_NAME_LANG
+
+0 rows deleted.
+
+Elapsed: 00:00:00.07
+
+0 rows created.
+
+Elapsed: 00:00:00.32
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading PERIOD_SET
+
+21 rows deleted.
+
+Elapsed: 00:00:00.09
+
+21 rows created.
+
+Elapsed: 00:00:00.37
+
+Commit complete.
+
+Elapsed: 00:00:00.12
+Upgrading POOL
+
+3 rows deleted.
+
+Elapsed: 00:00:00.06
+
+3 rows created.
+
+Elapsed: 00:00:00.40
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading POOLING_PROFILES
+
+26 rows deleted.
+
+Elapsed: 00:00:00.09
+
+26 rows created.
+
+Elapsed: 00:00:00.37
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading PORT_ACTION
+
+99 rows deleted.
+
+Elapsed: 00:00:00.11
+
+99 rows created.
+
+Elapsed: 00:00:00.45
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading PORT_ACTIVITY
+
+113 rows deleted.
+
+Elapsed: 00:00:00.08
+
+113 rows created.
+
+Elapsed: 00:00:00.45
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading PORT_FIELDS
+
+191 rows deleted.
+
+Elapsed: 00:00:00.09
+
+191 rows created.
+
+Elapsed: 00:00:00.47
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading PORT_NOTIFICATION
+
+631 rows deleted.
+
+Elapsed: 00:00:00.12
+
+631 rows created.
+
+Elapsed: 00:00:00.64
+
+Commit complete.
+
+Elapsed: 00:00:00.12
+Upgrading PORT_OUT_MATCH
+
+55 rows deleted.
+
+Elapsed: 00:00:00.10
+
+55 rows created.
+
+Elapsed: 00:00:00.38
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading PP_AC_RATE
+
+0 rows deleted.
+
+Elapsed: 00:00:00.10
+
+263 rows created.
+
+Elapsed: 00:00:00.46
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading PP_CATEGORIES
+
+5 rows deleted.
+
+Elapsed: 00:00:00.10
+
+5 rows created.
+
+Elapsed: 00:00:00.39
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading PP_COMMITMENT
+
+0 rows deleted.
+
+Elapsed: 00:00:00.11
+
+12079 rows created.
+
+Elapsed: 00:00:01.37
+
+Commit complete.
+
+Elapsed: 00:00:00.12
+Upgrading PP_OC_RATE
+
+0 rows deleted.
+
+Elapsed: 00:00:00.09
+
+62137 rows created.
+
+Elapsed: 00:00:06.27
+
+Commit complete.
+
+Elapsed: 00:00:00.12
+Upgrading PP_PROMO_TERMS
+
+0 rows deleted.
+
+Elapsed: 00:00:00.09
+
+60 rows created.
+
+Elapsed: 00:00:00.41
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading PP_RC_RATE
+
+0 rows deleted.
+
+Elapsed: 00:00:00.07
+
+32477 rows created.
+
+Elapsed: 00:00:02.86
+
+Commit complete.
+
+Elapsed: 00:00:00.12
+Upgrading PP_REMARK
+
+0 rows deleted.
+
+Elapsed: 00:00:00.07
+
+9013 rows created.
+
+Elapsed: 00:00:01.61
+
+Commit complete.
+
+Elapsed: 00:00:00.12
+Upgrading PP_UC_RATE
+
+0 rows deleted.
+
+Elapsed: 00:00:00.08
+
+16786 rows created.
+
+Elapsed: 00:00:01.70
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading PRICING
+
+0 rows deleted.
+
+Elapsed: 00:00:00.08
+
+0 rows created.
+
+Elapsed: 00:00:00.32
+
+Commit complete.
+
+Elapsed: 00:00:00.10
+Upgrading PRINTFILERANGES
+
+12 rows deleted.
+
+Elapsed: 00:00:00.07
+
+12 rows created.
+
+Elapsed: 00:00:00.39
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading PRINT_BATCH
+
+12 rows deleted.
+
+Elapsed: 00:00:00.10
+
+12 rows created.
+
+Elapsed: 00:00:00.39
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading PRODUCT
+
+4 rows deleted.
+
+Elapsed: 00:00:00.07
+
+4 rows created.
+
+Elapsed: 00:00:00.40
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading PROD_EQU_LINK
+
+4 rows deleted.
+
+Elapsed: 00:00:00.07
+
+4 rows created.
+
+Elapsed: 00:00:00.39
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading PROFILE_REASON_RESTRICT
+
+225 rows deleted.
+
+Elapsed: 00:00:00.10
+
+226 rows created.
+
+Elapsed: 00:00:00.46
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading PROMOTION_TERMS
+
+0 rows deleted.
+
+Elapsed: 00:00:00.08
+
+663 rows created.
+
+Elapsed: 00:00:00.66
+
+Commit complete.
+
+Elapsed: 00:00:00.12
+Upgrading PROMO_AGREEMENT
+
+43 rows deleted.
+
+Elapsed: 00:00:00.09
+
+43 rows created.
+
+Elapsed: 00:00:00.43
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading PROMO_DLR_AGREEMENT
+
+8810 rows deleted.
+
+Elapsed: 00:00:00.62
+
+8810 rows created.
+
+Elapsed: 00:00:01.36
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading PROMO_RAMP_DETAILS
+
+0 rows deleted.
+
+Elapsed: 00:00:00.07
+
+0 rows created.
+
+Elapsed: 00:00:00.32
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading PROMO_TYPE
+
+0 rows deleted.
+
+Elapsed: 00:00:00.11
+
+182 rows created.
+
+Elapsed: 00:00:00.41
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading PROMO_TYPE_PERIOD
+
+46 rows deleted.
+
+Elapsed: 00:00:00.08
+
+46 rows created.
+
+Elapsed: 00:00:00.39
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading PRTNR_ADJ_RSN_CHRG
+
+2 rows deleted.
+
+Elapsed: 00:00:00.09
+
+2 rows created.
+
+Elapsed: 00:00:00.38
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading PURCHASE_CARD_BIN_RANGE
+
+0 rows deleted.
+
+Elapsed: 00:00:00.07
+
+0 rows created.
+
+Elapsed: 00:00:00.32
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading QA_PARAMETERS
+
+329 rows deleted.
+
+Elapsed: 00:00:00.18
+
+329 rows created.
+
+Elapsed: 00:00:00.70
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading QA_REQUESTED_CUST
+
+0 rows deleted.
+
+Elapsed: 00:00:00.09
+
+0 rows created.
+
+Elapsed: 00:00:00.33
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading QA_TOLERANCE
+
+0 rows deleted.
+
+Elapsed: 00:00:00.07
+
+0 rows created.
+
+Elapsed: 00:00:00.32
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading RATED_FEATURE
+
+0 rows deleted.
+
+Elapsed: 00:00:00.06
+
+164852 rows created.
+
+Elapsed: 00:00:28.66
+
+Commit complete.
+
+Elapsed: 00:00:00.13
+Upgrading RATE_LEVEL_DESC
+
+23 rows deleted.
+
+Elapsed: 00:00:00.08
+
+23 rows created.
+
+Elapsed: 00:00:00.39
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading REFUND_CRITERIA
+
+28 rows deleted.
+
+Elapsed: 00:00:00.10
+
+28 rows created.
+
+Elapsed: 00:00:00.37
+
+Commit complete.
+
+Elapsed: 00:00:00.12
+Upgrading REFUND_ELIGIBILITY
+
+60 rows deleted.
+
+Elapsed: 00:00:00.09
+
+60 rows created.
+
+Elapsed: 00:00:00.38
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading REFUND_REASON
+
+14 rows deleted.
+
+Elapsed: 00:00:00.08
+
+14 rows created.
+
+Elapsed: 00:00:00.39
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading REGION
+
+0 rows deleted.
+
+Elapsed: 00:00:00.08
+
+0 rows created.
+
+Elapsed: 00:00:00.32
+
+Commit complete.
+
+Elapsed: 00:00:00.10
+Upgrading REGISTER
+
+1 row deleted.
+
+Elapsed: 00:00:00.12
+
+1 row created.
+
+Elapsed: 00:00:00.41
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading REJECT_ERROR_CODE
+
+17 rows deleted.
+
+Elapsed: 00:00:00.08
+
+17 rows created.
+
+Elapsed: 00:00:00.38
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading REJECT_INTERNAL_RRC
+
+50 rows deleted.
+
+Elapsed: 00:00:00.08
+
+50 rows created.
+
+Elapsed: 00:00:00.37
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading REJECT_TAP_RRC_HANDLE
+
+965 rows deleted.
+
+Elapsed: 00:00:00.15
+
+965 rows created.
+
+Elapsed: 00:00:00.62
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading REN_DLR_AGREEMENT
+
+718 rows deleted.
+
+Elapsed: 00:00:00.14
+
+718 rows created.
+
+Elapsed: 00:00:00.55
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading REN_UPG_AGREEMENT
+
+17 rows deleted.
+
+Elapsed: 00:00:00.08
+
+17 rows created.
+
+Elapsed: 00:00:00.38
+
+Commit complete.
+
+Elapsed: 00:00:00.12
+Upgrading REN_UPG_GRID
+
+12 rows deleted.
+
+Elapsed: 00:00:00.07
+
+12 rows created.
+
+Elapsed: 00:00:00.40
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading REPAIR_LOCATION
+
+0 rows deleted.
+
+Elapsed: 00:00:00.09
+
+0 rows created.
+
+Elapsed: 00:00:00.32
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading RESELLER_TLG_AGENT
+
+14 rows deleted.
+
+Elapsed: 00:00:00.12
+
+14 rows created.
+
+Elapsed: 00:00:00.38
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading RESTRICTED_ACTIVITIES
+
+167 rows deleted.
+
+Elapsed: 00:00:00.10
+
+167 rows created.
+
+Elapsed: 00:00:00.53
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading RES_AGREEMENT
+
+58 rows deleted.
+
+Elapsed: 00:00:00.09
+
+58 rows created.
+
+Elapsed: 00:00:00.40
+
+Commit complete.
+
+Elapsed: 00:00:00.12
+Upgrading RES_CHURN_BONUS
+
+0 rows deleted.
+
+Elapsed: 00:00:00.07
+
+0 rows created.
+
+Elapsed: 00:00:00.33
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading RES_COMMITMENT_TERMS
+
+0 rows deleted.
+
+Elapsed: 00:00:00.09
+
+0 rows created.
+
+Elapsed: 00:00:00.31
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading RES_CRT_CHURN
+
+0 rows deleted.
+
+Elapsed: 00:00:00.07
+
+0 rows created.
+
+Elapsed: 00:00:00.33
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading RES_DLR_AGREEMENT
+
+1478 rows deleted.
+
+Elapsed: 00:00:00.19
+
+1478 rows created.
+
+Elapsed: 00:00:00.76
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading RES_DLR_MINI_ELIG_PARAMS
+
+0 rows deleted.
+
+Elapsed: 00:00:00.08
+
+0 rows created.
+
+Elapsed: 00:00:00.35
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading RES_PAYMENT_GROUP
+
+375 rows deleted.
+
+Elapsed: 00:00:00.12
+
+375 rows created.
+
+Elapsed: 00:00:00.41
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading RES_PER_COUNT_RAMP
+
+92 rows deleted.
+
+Elapsed: 00:00:00.08
+
+92 rows created.
+
+Elapsed: 00:00:00.40
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading RES_RAMP_GROUP
+
+511 rows deleted.
+
+Elapsed: 00:00:00.10
+
+511 rows created.
+
+Elapsed: 00:00:00.48
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading RES_RED_BONUS
+
+0 rows deleted.
+
+Elapsed: 00:00:00.07
+
+0 rows created.
+
+Elapsed: 00:00:00.33
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading RES_SUB_ACTV_DATE
+
+7 rows deleted.
+
+Elapsed: 00:00:00.08
+
+7 rows created.
+
+Elapsed: 00:00:00.38
+
+Commit complete.
+
+Elapsed: 00:00:00.12
+Upgrading RES_SUB_AVERA_RAMP
+
+0 rows deleted.
+
+Elapsed: 00:00:00.07
+
+0 rows created.
+
+Elapsed: 00:00:00.33
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading RES_SUB_COMB
+
+12 rows deleted.
+
+Elapsed: 00:00:00.09
+
+12 rows created.
+
+Elapsed: 00:00:00.38
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading RES_SUB_COUNT_RAMP
+
+0 rows deleted.
+
+Elapsed: 00:00:00.08
+
+0 rows created.
+
+Elapsed: 00:00:00.33
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading RES_SUB_RVN
+
+0 rows deleted.
+
+Elapsed: 00:00:00.08
+
+0 rows created.
+
+Elapsed: 00:00:00.34
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading RES_SUB_SRV_LGTH
+
+0 rows deleted.
+
+Elapsed: 00:00:00.09
+
+0 rows created.
+
+Elapsed: 00:00:00.33
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading RETIRING_GROUP_PP
+
+283 rows deleted.
+
+Elapsed: 00:00:00.13
+
+283 rows created.
+
+Elapsed: 00:00:00.52
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading RETURN_TAP_RRC_HANDLE
+
+962 rows deleted.
+
+Elapsed: 00:00:00.14
+
+962 rows created.
+
+Elapsed: 00:00:00.56
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading REWARD_ATTR_MAPPING
+
+7 rows deleted.
+
+Elapsed: 00:00:00.08
+
+7 rows created.
+
+Elapsed: 00:00:00.39
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading RLH_SOC_AND_FEE
+
+4 rows deleted.
+
+Elapsed: 00:00:00.09
+
+4 rows created.
+
+Elapsed: 00:00:00.38
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading RMR_REJECT_RRC
+
+37 rows deleted.
+
+Elapsed: 00:00:00.12
+
+37 rows created.
+
+Elapsed: 00:00:00.38
+
+Commit complete.
+
+Elapsed: 00:00:00.12
+Upgrading RMS_ACTIVITY_CODE
+
+43 rows deleted.
+
+Elapsed: 00:00:00.08
+
+43 rows created.
+
+Elapsed: 00:00:00.39
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading RMS_LOCATION
+
+37 rows deleted.
+
+Elapsed: 00:00:00.10
+
+37 rows created.
+
+Elapsed: 00:00:00.46
+
+Commit complete.
+
+Elapsed: 00:00:00.12
+Upgrading RMS_MARKET_POLICY
+
+2 rows deleted.
+
+Elapsed: 00:00:00.08
+
+2 rows created.
+
+Elapsed: 00:00:00.39
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading RMS_POS_RSN_CODE
+
+0 rows deleted.
+
+Elapsed: 00:00:00.07
+
+0 rows created.
+
+Elapsed: 00:00:00.32
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading ROLLOVER_BONUS
+
+58 rows deleted.
+
+Elapsed: 00:00:00.11
+
+58 rows created.
+
+Elapsed: 00:00:00.38
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading SBMS_INVENTORY
+
+571 rows deleted.
+
+Elapsed: 00:00:00.10
+
+571 rows created.
+
+Elapsed: 00:00:00.62
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading SBP_MP_CODES
+
+83 rows deleted.
+
+Elapsed: 00:00:00.11
+
+83 rows created.
+
+Elapsed: 00:00:00.39
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading SCREEN_LIST
+
+1074 rows deleted.
+
+Elapsed: 00:00:00.16
+
+1074 rows created.
+
+Elapsed: 00:00:00.68
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading SERVICE_STAT_DEF
+
+286 rows deleted.
+
+Elapsed: 00:00:00.11
+
+286 rows created.
+
+Elapsed: 00:00:00.38
+
+Commit complete.
+
+Elapsed: 00:00:00.12
+Upgrading SIC
+
+40 rows deleted.
+
+Elapsed: 00:00:00.11
+
+40 rows created.
+
+Elapsed: 00:00:00.39
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading SID
+
+17312 rows deleted.
+
+Elapsed: 00:00:01.69
+
+17312 rows created.
+
+Elapsed: 00:00:04.14
+
+Commit complete.
+
+Elapsed: 00:00:00.12
+Upgrading SIM_PROFILE
+
+3 rows deleted.
+
+Elapsed: 00:00:00.07
+
+3 rows created.
+
+Elapsed: 00:00:00.39
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading SIM_PROFILE_PRODUCT
+
+0 rows deleted.
+
+Elapsed: 00:00:00.08
+
+0 rows created.
+
+Elapsed: 00:00:00.32
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading SKU_GP_DSC
+
+1 row deleted.
+
+Elapsed: 00:00:00.07
+
+1 row created.
+
+Elapsed: 00:00:00.39
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading SKU_GROUP
+
+1 row deleted.
+
+Elapsed: 00:00:00.07
+
+1 row created.
+
+Elapsed: 00:00:00.39
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading SOC
+
+0 rows deleted.
+
+Elapsed: 00:00:01.43
+
+25143 rows created.
+
+Elapsed: 00:00:26.08
+
+Commit complete.
+
+Elapsed: 00:00:00.12
+Upgrading SOC_ACC_TYPE_EXCL
+
+0 rows deleted.
+
+Elapsed: 00:00:00.07
+
+144727 rows created.
+
+Elapsed: 00:00:06.78
+
+Commit complete.
+
+Elapsed: 00:00:00.12
+Upgrading SOC_CATEGORIES_LINK
+
+0 rows deleted.
+
+Elapsed: 00:00:00.08
+
+24 rows created.
+
+Elapsed: 00:00:00.39
+
+Commit complete.
+
+Elapsed: 00:00:00.12
+Upgrading SOC_CLASS
+
+471 rows deleted.
+
+Elapsed: 00:00:00.11
+
+471 rows created.
+
+Elapsed: 00:00:00.39
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading SOC_GP_DSC
+
+475 rows deleted.
+
+Elapsed: 00:00:00.16
+
+475 rows created.
+
+Elapsed: 00:00:00.44
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading SOC_GROUP
+
+10896 rows deleted.
+
+Elapsed: 00:00:00.69
+
+10896 rows created.
+
+Elapsed: 00:00:01.28
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading SOC_INTNL_TOLL
+
+0 rows deleted.
+
+Elapsed: 00:00:00.09
+
+359712 rows created.
+
+Elapsed: 00:00:29.89
+
+Commit complete.
+
+Elapsed: 00:00:00.13
+Upgrading SOC_MAPPING
+
+231 rows deleted.
+
+Elapsed: 00:00:00.09
+
+231 rows created.
+
+Elapsed: 00:00:00.40
+
+Commit complete.
+
+Elapsed: 00:00:00.12
+Upgrading SOC_RELATION
+
+0 rows deleted.
+
+Elapsed: 00:00:00.09
+
+498745 rows created.
+
+Elapsed: 00:00:57.53
+
+Commit complete.
+
+Elapsed: 00:00:00.14
+Upgrading SOC_SALE_CHANNEL
+
+0 rows deleted.
+
+Elapsed: 00:00:00.09
+
+52673 rows created.
+
+Elapsed: 00:00:02.95
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading SOC_SUB_MARKET
+
+0 rows deleted.
+
+Elapsed: 00:00:00.10
+
+178 rows created.
+
+Elapsed: 00:00:00.42
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading SPECIAL_DAYS
+
+348 rows deleted.
+
+Elapsed: 00:00:00.10
+
+348 rows created.
+
+Elapsed: 00:00:00.39
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading SPECIAL_DAYS_SET
+
+23 rows deleted.
+
+Elapsed: 00:00:00.10
+
+23 rows created.
+
+Elapsed: 00:00:00.41
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading SPF_PARAM
+
+1 row deleted.
+
+Elapsed: 00:00:00.09
+
+1 row created.
+
+Elapsed: 00:00:00.39
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading SPP_COMPONENT
+
+0 rows deleted.
+
+Elapsed: 00:00:00.07
+
+0 rows created.
+
+Elapsed: 00:00:00.31
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading STATE
+
+74 rows deleted.
+
+Elapsed: 00:00:00.08
+
+74 rows created.
+
+Elapsed: 00:00:00.45
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading STUDY_SECTION
+
+88 rows deleted.
+
+Elapsed: 00:00:00.09
+
+88 rows created.
+
+Elapsed: 00:00:00.38
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading SUB_CLASS_RULES
+
+184 rows deleted.
+
+Elapsed: 00:00:00.11
+
+184 rows created.
+
+Elapsed: 00:00:00.45
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading SUB_MARKET_SEC
+
+0 rows deleted.
+
+Elapsed: 00:00:00.06
+
+0 rows created.
+
+Elapsed: 00:00:00.39
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading TABLES_LIST
+
+379 rows deleted.
+
+Elapsed: 00:00:00.13
+
+379 rows created.
+
+Elapsed: 00:00:00.60
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading TAP_RRC
+
+1031 rows deleted.
+
+Elapsed: 00:00:00.14
+
+1031 rows created.
+
+Elapsed: 00:00:00.64
+
+Commit complete.
+
+Elapsed: 00:00:00.12
+Upgrading TAX_CODE
+
+6 rows deleted.
+
+Elapsed: 00:00:00.08
+
+6 rows created.
+
+Elapsed: 00:00:00.38
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading TAX_EXCEPTION
+
+402 rows deleted.
+
+Elapsed: 00:00:00.09
+
+402 rows created.
+
+Elapsed: 00:00:00.46
+
+Commit complete.
+
+Elapsed: 00:00:00.12
+Upgrading TAX_FEDERAL_RATE
+
+1 row deleted.
+
+Elapsed: 00:00:00.11
+
+1 row created.
+
+Elapsed: 00:00:00.38
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading TAX_FEE_TIER
+
+24 rows deleted.
+
+Elapsed: 00:00:00.09
+
+24 rows created.
+
+Elapsed: 00:00:00.38
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading TAX_MAP_BY_STATE
+
+7 rows deleted.
+
+Elapsed: 00:00:00.11
+
+7 rows created.
+
+Elapsed: 00:00:00.38
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading TAX_POLICY
+
+33 rows deleted.
+
+Elapsed: 00:00:00.10
+
+33 rows created.
+
+Elapsed: 00:00:00.37
+
+Commit complete.
+
+Elapsed: 00:00:00.12
+Upgrading TAX_SERVICE_CTG
+
+5 rows deleted.
+
+Elapsed: 00:00:00.07
+
+5 rows created.
+
+Elapsed: 00:00:00.38
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading TAX_STATE_POLICY
+
+544 rows deleted.
+
+Elapsed: 00:00:00.13
+
+544 rows created.
+
+Elapsed: 00:00:00.64
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading TBL_RLT
+
+0 rows deleted.
+
+Elapsed: 00:00:00.07
+
+0 rows created.
+
+Elapsed: 00:00:00.31
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading TC_DEFINITIONS
+
+13 rows deleted.
+
+Elapsed: 00:00:00.09
+
+13 rows created.
+
+Elapsed: 00:00:00.41
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading TELCO_DISCOUNTS
+
+104 rows deleted.
+
+Elapsed: 00:00:00.10
+
+104 rows created.
+
+Elapsed: 00:00:00.45
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading TERM_ACT_PRD_STAT
+
+8 rows deleted.
+
+Elapsed: 00:00:00.10
+
+8 rows created.
+
+Elapsed: 00:00:00.38
+
+Commit complete.
+
+Elapsed: 00:00:00.12
+Upgrading THIRD_PARTY_ACCESS
+
+5 rows deleted.
+
+Elapsed: 00:00:00.07
+
+5 rows created.
+
+Elapsed: 00:00:00.37
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading TIER
+
+0 rows deleted.
+
+Elapsed: 00:00:00.07
+
+679 rows created.
+
+Elapsed: 00:00:00.70
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading TITAN_ELIG_RULES
+
+54 rows deleted.
+
+Elapsed: 00:00:00.08
+
+54 rows created.
+
+Elapsed: 00:00:00.38
+
+Commit complete.
+
+Elapsed: 00:00:00.12
+Upgrading TNT_STATISTICAL_CODES
+
+370 rows deleted.
+
+Elapsed: 00:00:00.16
+
+370 rows created.
+
+Elapsed: 00:00:00.47
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading TOLL_ALGORITHM
+
+8 rows deleted.
+
+Elapsed: 00:00:00.08
+
+8 rows created.
+
+Elapsed: 00:00:00.38
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading TRACK_SOC_RULES
+
+51 rows deleted.
+
+Elapsed: 00:00:00.10
+
+51 rows created.
+
+Elapsed: 00:00:00.38
+
+Commit complete.
+
+Elapsed: 00:00:00.12
+Upgrading TREE_ITEMS
+
+1105 rows deleted.
+
+Elapsed: 00:00:00.17
+
+1105 rows created.
+
+Elapsed: 00:00:00.64
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading TRUNK
+
+22 rows deleted.
+
+Elapsed: 00:00:00.08
+
+22 rows created.
+
+Elapsed: 00:00:00.39
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading TYPE_SPA
+
+0 rows deleted.
+
+Elapsed: 00:00:00.09
+
+0 rows created.
+
+Elapsed: 00:00:00.31
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading UC_RATED_FEATURE
+
+0 rows deleted.
+
+Elapsed: 00:00:00.07
+
+15237 rows created.
+
+Elapsed: 00:00:01.69
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading USAGE_ERR_HANDLING
+
+1137 rows deleted.
+
+Elapsed: 00:00:00.16
+
+1137 rows created.
+
+Elapsed: 00:00:00.57
+
+Commit complete.
+
+Elapsed: 00:00:00.12
+Upgrading VENDOR
+
+222 rows deleted.
+
+Elapsed: 00:00:00.11
+
+222 rows created.
+
+Elapsed: 00:00:00.39
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading VENDOR_ATTR
+
+16 rows deleted.
+
+Elapsed: 00:00:00.09
+
+16 rows created.
+
+Elapsed: 00:00:00.41
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading VIP_INVALID_FOR_BMG
+
+42 rows deleted.
+
+Elapsed: 00:00:00.14
+
+42 rows created.
+
+Elapsed: 00:00:00.38
+
+Commit complete.
+
+Elapsed: 00:00:00.12
+Upgrading VOLTAGE_INFO
+
+1 row deleted.
+
+Elapsed: 00:00:00.06
+
+1 row created.
+
+Elapsed: 00:00:00.38
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading WAF_PROMO_PERIOD
+
+0 rows deleted.
+
+Elapsed: 00:00:00.09
+
+80945 rows created.
+
+Elapsed: 00:00:05.58
+
+Commit complete.
+
+Elapsed: 00:00:00.12
+Upgrading WHSE_ITEM
+
+0 rows deleted.
+
+Elapsed: 00:00:00.08
+
+0 rows created.
+
+Elapsed: 00:00:00.31
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading WS_CALL_PARAMS
+
+5 rows deleted.
+
+Elapsed: 00:00:00.09
+
+5 rows created.
+
+Elapsed: 00:00:00.38
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading XML_PARSER_ATTR
+
+6 rows deleted.
+
+Elapsed: 00:00:00.09
+
+6 rows created.
+
+Elapsed: 00:00:00.38
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+Upgrading ZERO_AT_SOC_REP
+
+0 rows deleted.
+
+Elapsed: 00:00:00.09
+
+0 rows created.
+
+Elapsed: 00:00:00.32
+
+Commit complete.
+
+Elapsed: 00:00:00.11
+
+Session altered.
+
+Elapsed: 00:00:00.05
+Running POST_COPY_SCRIPT For AC_PGM_FILES_CONTROL.
+RUNNING FILE /tables/tables/Upgrade/UpgradeAllMarkets1610/AllSqds/ac_pgm_files_control_ins_ind_20160913_144014.sqd
+
+1 row created.
+
+Elapsed: 00:00:00.09
+
+Commit complete.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.04
+
+Commit complete.
+
+Elapsed: 00:00:00.05
+Running POST_COPY_SCRIPT For AC_PROGRAMS.
+RUNNING FILE /tables/tables/Upgrade/UpgradeAllMarkets1610/AllSqds/ac_programs_ins_ind_20160913_144013.sqd
+
+1 row created.
+
+Elapsed: 00:00:00.06
+
+1 row created.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.04
+
+Commit complete.
+
+Elapsed: 00:00:00.05
+Running POST_COPY_SCRIPT For ATLAS_XML_TAGS.
+RUNNING FILE /tables/tables/Upgrade/UpgradeAllMarkets1610/AllSqds/atlas_xml_tags_upd_dls_20160410_010101.sqd
+
+0 rows updated.
+
+Elapsed: 00:00:00.06
+
+0 rows updated.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.04
+RUNNING FILE /tables/tables/Upgrade/UpgradeAllMarkets1610/AllSqds/atlas_xml_tags_ins_dls_20160630_105503.sqd
+
+1 row created.
+
+Elapsed: 00:00:00.07
+
+1 row created.
+
+Elapsed: 00:00:00.04
+
+1 row created.
+
+Elapsed: 00:00:00.05
+
+1 row created.
+
+Elapsed: 00:00:00.05
+
+1 row created.
+
+Elapsed: 00:00:00.04
+
+Commit complete.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.05
+RUNNING FILE /tables/tables/Upgrade/UpgradeAllMarkets1610/AllSqds/atlas_xml_tags_ins_dls_20160824_105503.sqd
+
+1 row created.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.04
+RUNNING FILE /tables/tables/Upgrade/UpgradeAllMarkets1610/AllSqds/atlas_xml_tags_ins_dls_20160824_220000.sqd
+
+1 row created.
+
+Elapsed: 00:00:00.04
+
+1 row created.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.04
+RUNNING FILE /tables/tables/Upgrade/UpgradeAllMarkets1610/AllSqds/atlas_xml_tags_upd_dls_20160907_090000.sqd
+
+4 rows updated.
+
+Elapsed: 00:00:00.05
+
+1 row updated.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.04
+
+Commit complete.
+
+Elapsed: 00:00:00.05
+Running POST_COPY_SCRIPT For CPC_PROMO_STATUS.
+RUNNING FILE /tables/tables/Upgrade/UpgradeAllMarkets1610/AllSqds/cpc_promo_status_ins_ind_20160823_180000.sqd
+
+1 row created.
+
+Elapsed: 00:00:00.06
+
+1 row created.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.04
+
+Commit complete.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.04
+Running POST_COPY_SCRIPT For CSM_ACTIVITY.
+RUNNING FILE /tables/tables/Upgrade/UpgradeAllMarkets1610/AllSqds/csm_activity_ins_ind_20160728_170923.sqd
+
+1 row created.
+
+Elapsed: 00:00:00.08
+
+Commit complete.
+
+Elapsed: 00:00:00.04
+
+Commit complete.
+
+Elapsed: 00:00:00.05
+RUNNING FILE /tables/tables/Upgrade/UpgradeAllMarkets1610/AllSqds/csm_activity_ins_ind_20160808_120340.sqd
+
+1 row created.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.04
+
+Commit complete.
+
+Elapsed: 00:00:00.05
+RUNNING FILE /tables/tables/Upgrade/UpgradeAllMarkets1610/AllSqds/csm_activity_upd_ind_20160818_133721.sqd
+
+1 row updated.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.04
+
+Commit complete.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.04
+Running POST_COPY_SCRIPT For DROP_REASONS.
+RUNNING FILE /tables/tables/Upgrade/UpgradeAllMarkets1610/AllSqds/drop_reasons_ins_ind_20160725_010203.sqd
+
+1 row created.
+
+Elapsed: 00:00:00.05
+
+1 row created.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.04
+
+Commit complete.
+
+Elapsed: 00:00:00.05
+Running POST_COPY_SCRIPT For EMI_BILL_TEXT.
+RUNNING FILE /tables/tables/Upgrade/UpgradeAllMarkets1610/AllSqds/emi_bill_text_ins_cyp_20160707_120000.sqd
+
+1 row created.
+
+Elapsed: 00:00:00.05
+
+1 row created.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.04
+
+Commit complete.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.05
+Running POST_COPY_SCRIPT For FBF_FIXED_TEXT.
+RUNNING FILE /tables/tables/Upgrade/UpgradeAllMarkets1610/AllSqds/fbf_fixed_text_ins_cyp_20160622_120000.sqd
+
+1 row created.
+
+Elapsed: 00:00:00.05
+
+1 row created.
+
+Elapsed: 00:00:00.04
+
+1 row created.
+
+Elapsed: 00:00:00.05
+
+1 row created.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.04
+
+Commit complete.
+
+Elapsed: 00:00:00.05
+RUNNING FILE /tables/tables/Upgrade/UpgradeAllMarkets1610/AllSqds/fbf_fixed_text_upd_cyp_20160718_110000.sqd
+
+1 row updated.
+
+Elapsed: 00:00:00.05
+
+1 row updated.
+
+Elapsed: 00:00:00.05
+
+1 row updated.
+
+Elapsed: 00:00:00.05
+
+1 row updated.
+
+Elapsed: 00:00:00.05
+
+1 row updated.
+
+Elapsed: 00:00:00.04
+
+1 row updated.
+
+Elapsed: 00:00:00.05
+
+1 row updated.
+
+Elapsed: 00:00:00.05
+
+1 row updated.
+
+Elapsed: 00:00:00.05
+
+1 row updated.
+
+Elapsed: 00:00:00.04
+
+1 row updated.
+
+Elapsed: 00:00:00.05
+
+1 row updated.
+
+Elapsed: 00:00:00.05
+
+1 row updated.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.04
+
+Commit complete.
+
+Elapsed: 00:00:00.05
+RUNNING FILE /tables/tables/Upgrade/UpgradeAllMarkets1610/AllSqds/fbf_fixed_text_upd_cyp_20160921_110000.sqd
+
+1 row updated.
+
+Elapsed: 00:00:00.05
+
+1 row updated.
+
+Elapsed: 00:00:00.04
+
+1 row updated.
+
+Elapsed: 00:00:00.05
+
+1 row updated.
+
+Elapsed: 00:00:00.05
+
+1 row updated.
+
+Elapsed: 00:00:00.04
+
+1 row updated.
+
+Elapsed: 00:00:00.05
+
+1 row updated.
+
+Elapsed: 00:00:00.04
+
+1 row updated.
+
+Elapsed: 00:00:00.05
+
+1 row updated.
+
+Elapsed: 00:00:00.05
+
+1 row updated.
+
+Elapsed: 00:00:00.04
+
+1 row updated.
+
+Elapsed: 00:00:00.05
+
+1 row updated.
+
+Elapsed: 00:00:00.05
+
+2 rows deleted.
+
+Elapsed: 00:00:00.05
+
+2 rows deleted.
+
+Elapsed: 00:00:00.04
+
+1 row created.
+
+Elapsed: 00:00:00.05
+
+1 row created.
+
+Elapsed: 00:00:00.05
+
+1 row created.
+
+Elapsed: 00:00:00.04
+
+1 row created.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.04
+
+Commit complete.
+
+Elapsed: 00:00:00.05
+RUNNING FILE /tables/tables/Upgrade/UpgradeAllMarkets1610/AllSqds/fbf_fixed_text_upd_dls_20160923_120000.sqd
+
+1 row updated.
+
+Elapsed: 00:00:00.05
+
+1 row updated.
+
+Elapsed: 00:00:00.05
+
+1 row updated.
+
+Elapsed: 00:00:00.05
+
+1 row updated.
+
+Elapsed: 00:00:00.05
+
+1 row updated.
+
+Elapsed: 00:00:00.04
+
+1 row updated.
+
+Elapsed: 00:00:00.05
+
+1 row updated.
+
+Elapsed: 00:00:00.05
+
+1 row updated.
+
+Elapsed: 00:00:00.04
+
+1 row updated.
+
+Elapsed: 00:00:00.04
+
+1 row updated.
+
+Elapsed: 00:00:00.05
+
+1 row updated.
+
+Elapsed: 00:00:00.05
+
+1 row updated.
+
+Elapsed: 00:00:00.05
+
+1 row updated.
+
+Elapsed: 00:00:00.05
+
+1 row updated.
+
+Elapsed: 00:00:00.04
+
+1 row updated.
+
+Elapsed: 00:00:00.05
+
+1 row updated.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.04
+RUNNING FILE /tables/tables/Upgrade/UpgradeAllMarkets1610/AllSqds/fbf_fixed_text_upd_dls_20161014_120000.sqd
+
+2 rows updated.
+
+Elapsed: 00:00:00.05
+
+2 rows updated.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.04
+
+Commit complete.
+
+Elapsed: 00:00:00.05
+Running POST_COPY_SCRIPT For GENERIC_CODES.
+RUNNING FILE /tables/tables/Upgrade/UpgradeAllMarkets1610/AllSqds/generic_codes_ins_ind_20160715_010101.sqd
+
+1 row created.
+
+Elapsed: 00:00:00.05
+
+1 row created.
+
+Elapsed: 00:00:00.04
+
+1 row created.
+
+Elapsed: 00:00:00.05
+
+1 row created.
+
+Elapsed: 00:00:00.05
+
+1 row created.
+
+Elapsed: 00:00:00.04
+
+1 row created.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.04
+RUNNING FILE /tables/tables/Upgrade/UpgradeAllMarkets1610/AllSqds/generic_codes_ins_ind_20160725_181600.sqd
+
+1 row created.
+
+Elapsed: 00:00:00.05
+
+1 row created.
+
+Elapsed: 00:00:00.05
+
+1 row created.
+
+Elapsed: 00:00:00.04
+
+1 row created.
+
+Elapsed: 00:00:00.05
+
+1 row created.
+
+Elapsed: 00:00:00.05
+
+1 row created.
+
+Elapsed: 00:00:00.04
+
+1 row created.
+
+Elapsed: 00:00:00.05
+
+1 row created.
+
+Elapsed: 00:00:00.05
+
+1 row created.
+
+Elapsed: 00:00:00.04
+
+1 row created.
+
+Elapsed: 00:00:00.05
+
+1 row created.
+
+Elapsed: 00:00:00.04
+
+1 row created.
+
+Elapsed: 00:00:00.04
+
+1 row created.
+
+Elapsed: 00:00:00.05
+
+1 row created.
+
+Elapsed: 00:00:00.05
+
+1 row created.
+
+Elapsed: 00:00:00.04
+
+1 row created.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.04
+RUNNING FILE /tables/tables/Upgrade/UpgradeAllMarkets1610/AllSqds/generic_codes_ins_ind_20160808_222222.sqd
+
+1 row created.
+
+Elapsed: 00:00:00.05
+
+1 row created.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.04
+
+Commit complete.
+
+Elapsed: 00:00:00.05
+RUNNING FILE /tables/tables/Upgrade/UpgradeAllMarkets1610/AllSqds/generic_codes_ins_ind_20160818_125310.sqd
+
+1 row created.
+
+Elapsed: 00:00:00.05
+
+1 row created.
+
+Elapsed: 00:00:00.05
+
+1 row created.
+
+Elapsed: 00:00:00.04
+
+Commit complete.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.04
+RUNNING FILE /tables/tables/Upgrade/UpgradeAllMarkets1610/AllSqds/generic_codes_ins_ind_20160826_111111.sqd
+
+1 row created.
+
+Elapsed: 00:00:00.04
+
+1 row created.
+
+Elapsed: 00:00:00.05
+
+1 row created.
+
+Elapsed: 00:00:00.05
+
+1 row created.
+
+Elapsed: 00:00:00.04
+
+Commit complete.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.05
+RUNNING FILE /tables/tables/Upgrade/UpgradeAllMarkets1610/AllSqds/generic_codes_ins_ind_20160829_111111.sqd
+
+1 row created.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.04
+
+Commit complete.
+
+Elapsed: 00:00:00.05
+RUNNING FILE /tables/tables/Upgrade/UpgradeAllMarkets1610/AllSqds/generic_codes_ins_ind_20160913_085801.sqd
+
+1 row created.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.04
+
+Commit complete.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.04
+Running POST_COPY_SCRIPT For MEMO_TYPE.
+RUNNING FILE /tables/tables/Upgrade/UpgradeAllMarkets1610/AllSqds/memo_type_ins_dls_20160615_133621.sqd
+
+1 row created.
+
+Elapsed: 00:00:00.04
+
+Commit complete.
+
+Elapsed: 00:00:00.05
+
+1 row created.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.04
+
+1 row created.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.05
+
+1 row created.
+
+Elapsed: 00:00:00.04
+
+Commit complete.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.05
+RUNNING FILE /tables/tables/Upgrade/UpgradeAllMarkets1610/AllSqds/memo_type_ins_ind_20160615_133621.sqd
+
+1 row created.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.04
+RUNNING FILE /tables/tables/Upgrade/UpgradeAllMarkets1610/AllSqds/memo_type_ins_dls_20160803_145953.sqd
+
+1 row created.
+
+Elapsed: 00:00:00.05
+
+1 row created.
+
+Elapsed: 00:00:00.04
+
+Commit complete.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.05
+RUNNING FILE /tables/tables/Upgrade/UpgradeAllMarkets1610/AllSqds/memo_type_ins_ind_20160808_120550.sqd
+
+1 row created.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.04
+
+Commit complete.
+
+Elapsed: 00:00:00.05
+RUNNING FILE /tables/tables/Upgrade/UpgradeAllMarkets1610/AllSqds/memo_type_upd_ind_20160810_196000.sqd
+
+1 row updated.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.04
+
+Commit complete.
+
+Elapsed: 00:00:00.05
+RUNNING FILE /tables/tables/Upgrade/UpgradeAllMarkets1610/AllSqds/memo_type_upd_ind_20160818_132832.sqd
+
+1 row updated.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.04
+
+Commit complete.
+
+Elapsed: 00:00:00.05
+RUNNING FILE /tables/tables/Upgrade/UpgradeAllMarkets1610/AllSqds/memo_type_ins_ind_20162006_141818.sqd
+
+1 row created.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.04
+
+Commit complete.
+
+Elapsed: 00:00:00.05
+Running POST_COPY_SCRIPT For ONLINE_MESSAGES.
+RUNNING FILE /tables/tables/Upgrade/UpgradeAllMarkets1610/AllSqds/online_messages_ins_ind_20160621_101010.sqd
+
+1 row created.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.05
+RUNNING FILE /tables/tables/Upgrade/UpgradeAllMarkets1610/AllSqds/online_messages_ins_ind_20160621_121212.sqd
+
+1 row created.
+
+Elapsed: 00:00:00.06
+
+Commit complete.
+
+Elapsed: 00:00:00.04
+
+Commit complete.
+
+Elapsed: 00:00:00.05
+RUNNING FILE /tables/tables/Upgrade/UpgradeAllMarkets1610/AllSqds/online_messages_ins_ind_20160718_101010.sqd
+
+1 row created.
+
+Elapsed: 00:00:00.05
+
+1 row created.
+
+Elapsed: 00:00:00.05
+
+1 row created.
+
+Elapsed: 00:00:00.04
+
+Commit complete.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.04
+RUNNING FILE /tables/tables/Upgrade/UpgradeAllMarkets1610/AllSqds/online_messages_ins_ind_20160720_101010.sqd
+
+1 row created.
+
+Elapsed: 00:00:00.04
+
+Commit complete.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.04
+RUNNING FILE /tables/tables/Upgrade/UpgradeAllMarkets1610/AllSqds/online_messages_ins_ind_20160725_121212.sqd
+
+1 row created.
+
+Elapsed: 00:00:00.05
+
+1 row created.
+
+Elapsed: 00:00:00.04
+
+1 row created.
+
+Elapsed: 00:00:00.05
+
+1 row created.
+
+Elapsed: 00:00:00.05
+
+1 row created.
+
+Elapsed: 00:00:00.04
+
+1 row created.
+
+Elapsed: 00:00:00.04
+
+Commit complete.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.04
+RUNNING FILE /tables/tables/Upgrade/UpgradeAllMarkets1610/AllSqds/online_messages_ins_ind_20160801_121212.sqd
+
+1 row created.
+
+Elapsed: 00:00:00.04
+
+Commit complete.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.04
+RUNNING FILE /tables/tables/Upgrade/UpgradeAllMarkets1610/AllSqds/online_messages_ins_ind_20160802_113300.sqd
+
+1 row created.
+
+Elapsed: 00:00:00.04
+
+1 row created.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.04
+RUNNING FILE /tables/tables/Upgrade/UpgradeAllMarkets1610/AllSqds/online_messages_ins_ind_20160803_180000.sqd
+
+1 row created.
+
+Elapsed: 00:00:00.04
+
+Commit complete.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.05
+RUNNING FILE /tables/tables/Upgrade/UpgradeAllMarkets1610/AllSqds/online_messages_ins_ind_20160805_104158.sqd
+
+1 row created.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.04
+
+Commit complete.
+
+Elapsed: 00:00:00.05
+RUNNING FILE /tables/tables/Upgrade/UpgradeAllMarkets1610/AllSqds/online_messages_ins_ind_20160808_182419.sqd
+
+1 row created.
+
+Elapsed: 00:00:00.05
+
+1 row created.
+
+Elapsed: 00:00:00.04
+
+1 row created.
+
+Elapsed: 00:00:00.05
+
+1 row created.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.04
+
+Commit complete.
+
+Elapsed: 00:00:00.05
+RUNNING FILE /tables/tables/Upgrade/UpgradeAllMarkets1610/AllSqds/online_messages_ins_ind_20160810_075147.sqd
+
+1 row created.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.04
+
+Commit complete.
+
+Elapsed: 00:00:00.05
+RUNNING FILE /tables/tables/Upgrade/UpgradeAllMarkets1610/AllSqds/online_messages_ins_ind_20160826_010101.sqd
+
+1 row created.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.04
+RUNNING FILE /tables/tables/Upgrade/UpgradeAllMarkets1610/AllSqds/online_messages_ins_ind_20160826_020202.sqd
+
+1 row created.
+
+Elapsed: 00:00:00.04
+
+Commit complete.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.04
+RUNNING FILE /tables/tables/Upgrade/UpgradeAllMarkets1610/AllSqds/online_messages_ins_ind_20160830_095931.sqd
+
+1 row created.
+
+Elapsed: 00:00:00.04
+
+1 row created.
+
+Elapsed: 00:00:00.05
+
+1 row created.
+
+Elapsed: 00:00:00.05
+
+1 row created.
+
+Elapsed: 00:00:00.04
+
+1 row created.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.04
+RUNNING FILE /tables/tables/Upgrade/UpgradeAllMarkets1610/AllSqds/online_messages_ins_ind_20160830_095940.sqd
+
+1 row created.
+
+Elapsed: 00:00:00.04
+
+Commit complete.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.04
+RUNNING FILE /tables/tables/Upgrade/UpgradeAllMarkets1610/AllSqds/online_messages_ins_ind_20160905_012210.sqd
+
+1 row created.
+
+Elapsed: 00:00:00.04
+
+Commit complete.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.04
+RUNNING FILE /tables/tables/Upgrade/UpgradeAllMarkets1610/AllSqds/online_messages_ins_ind_20160905_012211.sqd
+
+1 row created.
+
+Elapsed: 00:00:00.04
+
+Commit complete.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.04
+RUNNING FILE /tables/tables/Upgrade/UpgradeAllMarkets1610/AllSqds/online_messages_ins_ind_20160905_012212.sqd
+
+1 row created.
+
+Elapsed: 00:00:00.04
+
+Commit complete.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.05
+RUNNING FILE /tables/tables/Upgrade/UpgradeAllMarkets1610/AllSqds/online_messages_ins_ind_20160922_124109.sqd
+
+1 row created.
+
+Elapsed: 00:00:00.04
+
+Commit complete.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.05
+RUNNING FILE /tables/tables/Upgrade/UpgradeAllMarkets1610/AllSqds/online_messages_upd_dls_20161006_012210.sqd
+
+1 row updated.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.04
+
+Commit complete.
+
+Elapsed: 00:00:00.05
+RUNNING FILE /tables/tables/Upgrade/UpgradeAllMarkets1610/AllSqds/online_messages_upd_dls_20161011_160111.sqd
+
+1 row updated.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.04
+
+Commit complete.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.04
+Running POST_COPY_SCRIPT For PARAM_VALUES.
+RUNNING FILE /tables/tables/Upgrade/UpgradeAllMarkets1610/AllSqds/param_values_upd_ind_20160509_124458.sqd
+
+1 row updated.
+
+Elapsed: 00:00:00.04
+
+Commit complete.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.05
+RUNNING FILE /tables/tables/Upgrade/UpgradeAllMarkets1610/AllSqds/param_values_ins_ind_20160606_094003.sqd
+
+1 row created.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.04
+
+Commit complete.
+
+Elapsed: 00:00:00.05
+RUNNING FILE /tables/tables/Upgrade/UpgradeAllMarkets1610/AllSqds/param_values_ins_ind_20160608_091824.sqd
+
+1 row created.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.04
+
+Commit complete.
+
+Elapsed: 00:00:00.05
+RUNNING FILE /tables/tables/Upgrade/UpgradeAllMarkets1610/AllSqds/param_values_ins_ind_20160615_133621.sqd
+
+1 row created.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.04
+
+1 row created.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.04
+RUNNING FILE /tables/tables/Upgrade/UpgradeAllMarkets1610/AllSqds/param_values_ins_ind_20160620_102359.sqd
+
+1 row created.
+
+Elapsed: 00:00:00.04
+
+1 row created.
+
+Elapsed: 00:00:00.05
+
+1 row created.
+
+Elapsed: 00:00:00.05
+
+1 row created.
+
+Elapsed: 00:00:00.04
+
+Commit complete.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.04
+RUNNING FILE /tables/tables/Upgrade/UpgradeAllMarkets1610/AllSqds/param_values_ins_ind_20160624_093004.sqd
+
+1 row created.
+
+Elapsed: 00:00:00.04
+
+Commit complete.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.05
+RUNNING FILE /tables/tables/Upgrade/UpgradeAllMarkets1610/AllSqds/param_values_ins_dls_20160630_145953.sqd
+
+1 row created.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.04
+
+Commit complete.
+
+Elapsed: 00:00:00.05
+RUNNING FILE /tables/tables/Upgrade/UpgradeAllMarkets1610/AllSqds/param_values_ins_ind_20160704_085119.sqd
+
+1 row created.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.04
+
+Commit complete.
+
+Elapsed: 00:00:00.05
+RUNNING FILE /tables/tables/Upgrade/UpgradeAllMarkets1610/AllSqds/param_values_ins_ind_20160712_124548.sqd
+
+1 row created.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.04
+
+Commit complete.
+
+Elapsed: 00:00:00.05
+RUNNING FILE /tables/tables/Upgrade/UpgradeAllMarkets1610/AllSqds/param_values_ins_ind_20160721_104800.sqd
+
+1 row created.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.04
+
+Commit complete.
+
+Elapsed: 00:00:00.05
+RUNNING FILE /tables/tables/Upgrade/UpgradeAllMarkets1610/AllSqds/param_values_ins_ind_20160725_172554.sqd
+
+1 row created.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.04
+RUNNING FILE /tables/tables/Upgrade/UpgradeAllMarkets1610/AllSqds/param_values_ins_ind_20160726_104800.sqd
+
+1 row created.
+
+Elapsed: 00:00:00.05
+
+1 row created.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.04
+RUNNING FILE /tables/tables/Upgrade/UpgradeAllMarkets1610/AllSqds/param_values_ins_ind_20160726_151420.sqd
+
+1 row created.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.04
+RUNNING FILE /tables/tables/Upgrade/UpgradeAllMarkets1610/AllSqds/param_values_ins_ind_20160726_151602.sqd
+
+1 row created.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.04
+RUNNING FILE /tables/tables/Upgrade/UpgradeAllMarkets1610/AllSqds/param_values_ins_ind_20160726_151634.sqd
+
+1 row created.
+
+Elapsed: 00:00:00.04
+
+Commit complete.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.04
+RUNNING FILE /tables/tables/Upgrade/UpgradeAllMarkets1610/AllSqds/param_values_ins_ind_20160728_001111.sqd
+
+1 row created.
+
+Elapsed: 00:00:00.04
+
+Commit complete.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.04
+RUNNING FILE /tables/tables/Upgrade/UpgradeAllMarkets1610/AllSqds/param_values_ins_ind_20160729_001111.sqd
+
+1 row created.
+
+Elapsed: 00:00:00.04
+
+Commit complete.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.04
+RUNNING FILE /tables/tables/Upgrade/UpgradeAllMarkets1610/AllSqds/param_values_ins_ind_20160729_085119.sqd
+
+1 row created.
+
+Elapsed: 00:00:00.04
+
+Commit complete.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.04
+RUNNING FILE /tables/tables/Upgrade/UpgradeAllMarkets1610/AllSqds/param_values_ins_ind_20160802_082215.sqd
+
+1 row created.
+
+Elapsed: 00:00:00.04
+
+Commit complete.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.04
+RUNNING FILE /tables/tables/Upgrade/UpgradeAllMarkets1610/AllSqds/param_values_ins_ind_20160805_134552.sqd
+
+1 row created.
+
+Elapsed: 00:00:00.04
+
+Commit complete.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.05
+RUNNING FILE /tables/tables/Upgrade/UpgradeAllMarkets1610/AllSqds/param_values_ins_ind_20160808_111111.sqd
+
+1 row created.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.04
+
+Commit complete.
+
+Elapsed: 00:00:00.05
+RUNNING FILE /tables/tables/Upgrade/UpgradeAllMarkets1610/AllSqds/param_values_ins_ind_20160809_110200.sqd
+
+1 row created.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.05
+RUNNING FILE /tables/tables/Upgrade/UpgradeAllMarkets1610/AllSqds/param_values_ins_ind_20160810_093334.sqd
+
+0 rows deleted.
+
+Elapsed: 00:00:00.05
+
+1 row created.
+
+Elapsed: 00:00:00.04
+
+Commit complete.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.05
+RUNNING FILE /tables/tables/Upgrade/UpgradeAllMarkets1610/AllSqds/param_values_ins_ind_20160811_173600.sqd
+
+1 row created.
+
+Elapsed: 00:00:00.04
+
+Commit complete.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.05
+RUNNING FILE /tables/tables/Upgrade/UpgradeAllMarkets1610/AllSqds/param_values_ins_ind_20160811_173930.sqd
+INSERT INTO PARAM_VALUES
+*
+ERROR at line 1:
+ORA-00001: unique constraint (QRWTXREFWORK.PARAM_VALUES_PK) violated
+
+
+Elapsed: 00:00:00.12
+
+Commit complete.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.04
+RUNNING FILE /tables/tables/Upgrade/UpgradeAllMarkets1610/AllSqds/param_values_ins_ind_20160811_174120.sqd
+
+1 row created.
+
+Elapsed: 00:00:00.04
+
+Commit complete.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.04
+RUNNING FILE /tables/tables/Upgrade/UpgradeAllMarkets1610/AllSqds/param_values_ins_ind_20160818_090549.sqd
+
+1 row created.
+
+Elapsed: 00:00:00.04
+
+Commit complete.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.05
+RUNNING FILE /tables/tables/Upgrade/UpgradeAllMarkets1610/AllSqds/param_values_ins_ind_20160818_102337.sqd
+
+1 row created.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.04
+
+Commit complete.
+
+Elapsed: 00:00:00.05
+RUNNING FILE /tables/tables/Upgrade/UpgradeAllMarkets1610/AllSqds/param_values_ins_ind_20160818_123700.sqd
+
+1 row created.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.08
+
+Commit complete.
+
+Elapsed: 00:00:00.04
+RUNNING FILE /tables/tables/Upgrade/UpgradeAllMarkets1610/AllSqds/param_values_upd_ind_20160823_115116.sqd
+SP2-0734: unknown command beginning "reated by ..." - rest of line ignored.
+
+1 row updated.
+
+Elapsed: 00:00:00.04
+
+Commit complete.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.05
+RUNNING FILE /tables/tables/Upgrade/UpgradeAllMarkets1610/AllSqds/param_values_ins_ind_20160823_173600.sqd
+
+1 row created.
+
+Elapsed: 00:00:00.06
+
+Commit complete.
+
+Elapsed: 00:00:00.04
+
+Commit complete.
+
+Elapsed: 00:00:00.05
+RUNNING FILE /tables/tables/Upgrade/UpgradeAllMarkets1610/AllSqds/param_values_ins_ind_20160823_181900.sqd
+
+1 row created.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.04
+
+Commit complete.
+
+Elapsed: 00:00:00.05
+RUNNING FILE /tables/tables/Upgrade/UpgradeAllMarkets1610/AllSqds/param_values_ins_ind_20160824_220000.sqd
+
+1 row created.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.04
+
+Commit complete.
+
+Elapsed: 00:00:00.05
+RUNNING FILE /tables/tables/Upgrade/UpgradeAllMarkets1610/AllSqds/param_values_ins_ind_20160829_111111.sqd
+
+1 row created.
+
+Elapsed: 00:00:00.05
+
+1 row created.
+
+Elapsed: 00:00:00.04
+
+1 row created.
+
+Elapsed: 00:00:00.05
+
+1 row created.
+
+Elapsed: 00:00:00.05
+
+1 row created.
+
+Elapsed: 00:00:00.04
+
+1 row created.
+
+Elapsed: 00:00:00.05
+
+1 row created.
+
+Elapsed: 00:00:00.05
+
+1 row created.
+
+Elapsed: 00:00:00.04
+
+Commit complete.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.04
+RUNNING FILE /tables/tables/Upgrade/UpgradeAllMarkets1610/AllSqds/param_values_ins_ind_20160901_155123.sqd
+
+1 row created.
+
+Elapsed: 00:00:00.04
+
+Commit complete.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.05
+RUNNING FILE /tables/tables/Upgrade/UpgradeAllMarkets1610/AllSqds/param_values_ins_ind_20160905_141326.sqd
+
+1 row created.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.04
+
+Commit complete.
+
+Elapsed: 00:00:00.05
+RUNNING FILE /tables/tables/Upgrade/UpgradeAllMarkets1610/AllSqds/param_values_ins_ind_20160910_093650.sqd
+
+1 row deleted.
+
+Elapsed: 00:00:00.05
+
+1 row created.
+
+Elapsed: 00:00:00.04
+
+Commit complete.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.04
+RUNNING FILE /tables/tables/Upgrade/UpgradeAllMarkets1610/AllSqds/param_values_ins_ind_20160910_094227.sqd
+
+1 row deleted.
+
+Elapsed: 00:00:00.04
+
+1 row created.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.04
+RUNNING FILE /tables/tables/Upgrade/UpgradeAllMarkets1610/AllSqds/param_values_ins_ind_20160910_102059.sqd
+
+1 row deleted.
+
+Elapsed: 00:00:00.05
+
+1 row created.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.04
+RUNNING FILE /tables/tables/Upgrade/UpgradeAllMarkets1610/AllSqds/param_values_ins_ind_20160916_090549.sqd
+
+1 row created.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.05
+
+Commit complete.
+
+Elapsed: 00:00:00.04
+
+Commit complete.
+
+Elapsed: 00:00:00.05

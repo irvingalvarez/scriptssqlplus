@@ -1,0 +1,41 @@
+
+# ****************************************************************
+
+echo -e "(A)ll mkts, (F)ew mkts, (X)MKT, (E)xit:\n"
+read MktsToRun
+rm report.html
+filename='.xls'
+
+
+case $MktsToRun in
+   "A")
+       echo "Running in All Markets"
+       set -A MktList ARK COR LAR OKC RGV SAN TUL AUS DLS HCL MWR STL WTX BOS GLR ILL NCA NYR PAC SNE WAS ALH GPL IND MTZ NWS FLP GAC GLF MNY PHI TNK NBI
+      ;;
+   "F")
+       echo -e "List mkts separated by space"
+       read -A MktList
+       echo "Running in selected Markets"
+       ;;
+   "X")
+       echo "Running in XMKT"
+       set -A MktList XMK
+       ;;
+   "E")
+       exit
+       ;;
+   *) print "Good Bye...";;
+esac
+
+
+echo ${MktList[@]}
+for MKT in ${MktList[@]}
+do
+
+Get_MKT_ConnStrings $MKT
+
+sqlplus -S $userconn @/$curdir/queriestest.sql $MKT
+cat top.html report.html bottom.html > $MKT$filename
+done
+
+exit

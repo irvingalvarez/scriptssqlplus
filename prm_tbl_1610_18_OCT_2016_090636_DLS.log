@@ -1,0 +1,45 @@
+DROP TABLE TMP_PARAM_VALUES_1610
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist
+
+
+18-oct-2016 09:06:44
+
+Discrepancy Report for Market: <DLS>
+MisMatch PARAM_VALUES
+-------------------------------------------------
+Project Flag : CR146424_ON_OFF_FLAG is expected to go as :Y
+*************************************************
+Missing PARAM_VALUES
+-------------------------------------------------
+*************************************************
+Valid PARAM_VALUES
+-------------------------------------------------
+Project Flag : P280914_ON_OFF_FLAG is going as expected:N
+Project Flag : CR144644_ON_OFF_FLAG is going as expected:N
+Project Flag : CR144817_ON_OFF_FLAG is going as expected:N
+Project Flag : P286251_ON_OFF_FLAG is going as expected:Y
+Project Flag : 287070_PORT_IN_NOTIF is going as expected:Y
+Project Flag : CR287204b_ON_OFF_FLAG is going as expected:Y
+Project Flag : P287209a_ON_OFF_FLAG is going as expected:N
+Project Flag : P287334_CR142832_ON_OFF_FLAG is going as expected:N
+Project Flag : P287493_ON_OFF_FLAG is going as expected:N
+Project Flag : P287614_CR140283_ON_OFF_FLAG is going as expected:N
+Project Flag : CR145889_ON_OFF_FLAG is going as expected:N
+Project Flag : 288455a_ON_OFF_FLAG is going as expected:N
+Project Flag : 288683_MSV_DISC_ON_OFF is going as expected:Y
+Project Flag : 288683_CSMOL_ON_OFF is going as expected:Y
+Project Flag : P288698a_ON_OFF_FLAG is going as expected:N
+Project Flag : P289514_ON_OFF_FLAG is going as expected:N
+Project Flag : CBR_PUB_TO_ATLS is going as expected:Y
+Project Flag : P290137_CBR_CLEANUP_PARAM is going as expected:Y
+Project Flag : P291161_CR146657_ON_OFF_FLAG is going as expected:N
+Project Flag : P291190_ON_OFF_FLAG is going as expected:N
+Project Flag : P292361_ON_OFF_FLAG is going as expected:N
+Project Flag : P292377_ON_OFF_FLAG is going as expected:N
+Project Flag : P292377_UB_ON_OFF_FLAG is going as expected:N
+Project Flag : P292377_VELOCITY_ON_OFF_FLAG is going as expected:N
+Project Flag : P293340_ON_OFF_FLAG is going as expected:N
+Project Flag : P293697_ON_OFF_FLAG is going as expected:N
+18-oct-2016 09:06:47

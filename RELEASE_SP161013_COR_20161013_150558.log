@@ -1,0 +1,1156 @@
+***********************************************************************
+*  Amdocs Batch Job Manager Script Job Activation, on Thu Oct 13 15:05:58 CDT 2016
+*
+*  Job: RELEASE  Request: SP161013  Market: COR  Host: tlpvebc2
+***********************************************************************
+ 
+Pre-execution started
+ 
+Application run starts
+ 
+
+Starting /tlg/app/bin/dst_incrl_release
+Pid is 1138
+
+
+*Error Reporting At  Thu Oct 13 15:06:00 2016
+
+Connect to User ORACLE : COROPERCON Instance : PMDY12C 
+Connect to User ORACLE : COROPERCON Instance : PMDY12C 
+
+----------------------------------------------
+BATCH_DATE=20161013
+THE TABLESPACE FOR TEMPORARY TABLES IS: USERS 
+========================================================
+
+Summary of Errors:
+--------------------------------------------------------------------------------
+FILE             : dgn_gen_con.c
+Function         : dgni_connect_n, Line:14156   DL_CONNECT_USER
+Message          : Connect to User ORACLE : COROPERCON Instance : PMDY12C 
+--------------------------------------------------------------------------------
+FILE             : dgn_gen_con.c
+Function         : dgni_connect_n, Line:14156   DL_CONNECT_USER
+Message          : Connect to User ORACLE : COROPERCON Instance : PMDY12C 
+
+ End of Summary 
+========================================================
+
+-----------------------------------
+draft_user: CORREFWORK1607
+draft_inst: PMDY12A
+draft_node: dhpcdbc2
+wait_user: CORREFWAIT1607
+wait_inst: PMDY12A
+wait_node: dhpcdbc2
+tables_list: ACTIVITY_REASON_TEXT ACTIVITY_REWARD_MAP AGENT_INFO AGENT_LOCATION CALLING_ROUTE_CONTROL CATEGORIES_DETAILS CHARGE_INFO CHARGE_TAX_INFO CONTRACT_MAPPING_SOC CSM_ACTIVITY DATA_TIER DEALER_AGENT_LINK DEALER_CLASS DEALER_COMP_ATTR DEALER_PROFILE DEALER_TYPE DEPARTMENT DISCOUNT_CATEGORY DISCOUNT_PLAN DISCOUNT_SALE_CHANNEL DISCOUNT_SOC DISCOUNT_SUB_MARKET DISCOUNT_TIER DOMESTIC_AREA_IND DYNAMIC_SOC_MAPPING DYNAMIC_SOC_MAPPING_LINK ELIGIBILITY_DECISION ELIG_PP FEATURE FEATURE_CALLING_ROUTE FEATURE_GROUP_INFO FLEXIBLE_ETF FM_RELATED_FTR FTR_PRESENTATION FUNCTION GL_REVENUE_MAPPING IMEI_SOC_RELATION INCLUS_BY_PERIOD INTL_SOC_CATEGORY MKTING_PROGRAM MOU_BY_PERIOD NL_PRODUCT_ATTR NUMBER_LOCATION OPTIONAL_VIEW PAPER_WORK_STATUS PERIOD PERIOD_NAME PERIOD_NAME_LANG PERIOD_SET POOLING_PROFILES PP_AC_RATE PP_CATEGORIES PP_COMMITMENT PP_OC_RATE PP_PROMO_TERMS PP_RC_RATE PP_REMARK PP_UC_RATE PP_VIEW PRODUCT PROMOTION_TERMS PROMO_TYPE PROMO_TYPE_PERIOD PROMO_VIEW PRTNR_ADJ_RSN_CHRG QA_PARAMETERS QA_REQUESTED_CUST RATED_FEATURE RETIRING_GROUP_PP REWARD_ATTR_MAPPING SOC SOC_ACC_TYPE_EXCL SOC_CATEGORIES_LINK SOC_CLASS SOC_INTNL_TOLL SOC_MAPPING SOC_RELATION SOC_SALE_CHANNEL SOC_SUB_MARKET SPECIAL_DAYS SPECIAL_DAYS_SET SPP_COMPONENT TIER UC_RATED_FEATURE
+
+-----------------------------------
+dst_incrl_release: Look for all the RELEASE tables and their FK and PK relationship tables.
+*************************************************************
+The following tables will be locked until the end of RELEASE:
+*************************************************************
+ACCOUNT_TYPE
+ACTIVITY_REASON_TEXT
+ACTIVITY_REWARD_MAP
+ADJUSTMENT_REASON
+AGENT_INFO
+AGENT_LOCATION
+CALLING_ROUTE_CONTROL
+CATEGORIES_DETAILS
+CHARGE_INFO
+CHARGE_TAX_INFO
+COM_DLR_AGREEMENT
+COM_PAYMENT_GROUP
+COM_RAMP_GROUP
+CONTRACT_MAPPING_SOC
+CSM_ACTIVITY
+DATA_TIER
+DEALER_AGENT_LINK
+DEALER_CLASS
+DEALER_COMP_ATTR
+DEALER_PROFILE
+DEALER_TYPE
+DEPARTMENT
+DISCOUNT_CATEGORY
+DISCOUNT_PLAN
+DISCOUNT_SALE_CHANNEL
+DISCOUNT_SOC
+DISCOUNT_SUB_MARKET
+DISCOUNT_TIER
+DOMESTIC_AREA_IND
+DYNAMIC_SOC_MAPPING
+DYNAMIC_SOC_MAPPING_LINK
+ELIGIBILITY_DECISION
+ELIG_PP
+EQU_PAYMENT_GROUP
+FEATURE
+FEATURE_CALLING_ROUTE
+FEATURE_GROUP_INFO
+FLEXIBLE_ETF
+FM_RELATED_FTR
+FTR_PRESENTATION
+FUNCTION
+GL_REVENUE_MAPPING
+IMEI_SOC_RELATION
+INCLUS_BY_PERIOD
+INTL_SOC_CATEGORY
+INVOICE_TYPE
+MKTING_PROGRAM
+MOU_BY_PERIOD
+NL_PRODUCT_ATTR
+NUMBER_LOCATION
+OPTIONAL_VIEW
+PAPER_WORK_STATUS
+PERIOD
+PERIOD_NAME
+PERIOD_NAME_LANG
+PERIOD_SET
+POOLING_PROFILES
+PP_AC_RATE
+PP_CATEGORIES
+PP_COMMITMENT
+PP_OC_RATE
+PP_PROMO_TERMS
+PP_RC_RATE
+PP_REMARK
+PP_UC_RATE
+PP_VIEW
+PRODUCT
+PROMOTION_TERMS
+PROMO_DLR_AGREEMENT
+PROMO_TYPE
+PROMO_TYPE_PERIOD
+PROMO_VIEW
+PRTNR_ADJ_RSN_CHRG
+QA_PARAMETERS
+QA_REQUESTED_CUST
+RATED_FEATURE
+REN_DLR_AGREEMENT
+RES_DLR_AGREEMENT
+RES_PAYMENT_GROUP
+RES_RAMP_GROUP
+RETIRING_GROUP_PP
+REWARD_ATTR_MAPPING
+SOC
+SOC_ACC_TYPE_EXCL
+SOC_CATEGORIES_LINK
+SOC_CLASS
+SOC_INTNL_TOLL
+SOC_MAPPING
+SOC_RELATION
+SOC_SALE_CHANNEL
+SOC_SUB_MARKET
+SPECIAL_DAYS
+SPECIAL_DAYS_SET
+SPP_COMPONENT
+TERM_ACT_PRD_STAT
+TIER
+UC_RATED_FEATURE
+Update REF_TAB_REFRESH from JOB_STATUS='N' to JOB_STATUS='R'
+NORMAL, Result of rule 11: select count(*) from MKTING_PROGRAM where rownum < 2 is: 1 . release will continue. 
+NORMAL, Result of rule 12: select count(*) from NL_PRODUCT_ATTR where rownum < 2 is: 1 . release will continue. 
+NORMAL, Result of rule 33: select count(*) from ACTIVITY_REASON_TEXT where rownum < 2 is: 1 . release will continue. 
+NORMAL, Result of rule 54: select count(*) from CALLING_ROUTE_CONTROL where rownum < 2 is: 1 . release will continue. 
+NORMAL, Result of rule 63: select count(*) from CHARGE_INFO where rownum < 2 is: 1 . release will continue. 
+NORMAL, Result of rule 64: select count(*) from CHARGE_TAX_INFO where rownum < 2 is: 1 . release will continue. 
+NORMAL, Result of rule 79: select count(*) from CSM_ACTIVITY where rownum < 2 is: 1 . release will continue. 
+NORMAL, Result of rule 94: select count(*) from DEALER_CLASS where rownum < 2 is: 1 . release will continue. 
+NORMAL, Result of rule 95: select count(*) from DEALER_COMP_ATTR where rownum < 2 is: 1 . release will continue. 
+NORMAL, Result of rule 97: select count(*) from DEALER_PROFILE where rownum < 2 is: 1 . release will continue. 
+NORMAL, Result of rule 98: select count(*) from DEALER_TYPE where rownum < 2 is: 1 . release will continue. 
+NORMAL, Result of rule 99: select count(*) from DEPARTMENT where rownum < 2 is: 1 . release will continue. 
+NORMAL, Result of rule 109: select count(*) from DISCOUNT_CATEGORY where rownum < 2 is: 1 . release will continue. 
+NORMAL, Result of rule 111: select count(*) from DISCOUNT_PLAN where rownum < 2 is: 1 . release will continue. 
+NORMAL, Result of rule 112: select count(*) from DOMESTIC_AREA_IND where rownum < 2 is: 1 . release will continue. 
+NORMAL, Result of rule 123: select count(*) from FEATURE where rownum < 2 is: 1 . release will continue. 
+NORMAL, Result of rule 124: select count(*) from FEATURE_CALLING_ROUTE where rownum < 2 is: 1 . release will continue. 
+NORMAL, Result of rule 131: select count(*) from FUNCTION where rownum < 2 is: 1 . release will continue. 
+NORMAL, Result of rule 143: select count(*) from INCLUS_BY_PERIOD where rownum < 2 is: 1 . release will continue. 
+NORMAL, Result of rule 181: select count(*) from NL_PRODUCT_ATTR where rownum < 2 is: 1 . release will continue. 
+NORMAL, Result of rule 187: select count(*) from NUMBER_LOCATION where rownum < 2 is: 1 . release will continue. 
+NORMAL, Result of rule 197: select count(*) from PAPER_WORK_STATUS where rownum < 2 is: 1 . release will continue. 
+NORMAL, Result of rule 204: select count(*) from PERIOD where rownum < 2 is: 1 . release will continue. 
+NORMAL, Result of rule 205: select count(*) from PERIOD_NAME where rownum < 2 is: 1 . release will continue. 
+NORMAL, Result of rule 206: select count(*) from PERIOD_SET where rownum < 2 is: 1 . release will continue. 
+NORMAL, Result of rule 213: select count(*) from PP_AC_RATE where rownum < 2 is: 1 . release will continue. 
+NORMAL, Result of rule 214: select count(*) from PP_COMMITMENT where rownum < 2 is: 1 . release will continue. 
+NORMAL, Result of rule 215: select count(*) from PP_OC_RATE where rownum < 2 is: 1 . release will continue. 
+NORMAL, Result of rule 216: select count(*) from PP_RC_RATE where rownum < 2 is: 1 . release will continue. 
+NORMAL, Result of rule 217: select count(*) from PP_UC_RATE where rownum < 2 is: 1 . release will continue. 
+NORMAL, Result of rule 220: select count(*) from PRODUCT where rownum < 2 is: 1 . release will continue. 
+NORMAL, Result of rule 222: select count(*) from PROMOTION_TERMS where rownum < 2 is: 1 . release will continue. 
+NORMAL, Result of rule 223: select count(*) from QA_PARAMETERS where rownum < 2 is: 1 . release will continue. 
+NORMAL, Result of rule 224: select count(*) from RATED_FEATURE where rownum < 2 is: 1 . release will continue. 
+NORMAL, Result of rule 248: select count(*) from SOC where rownum < 2 is: 1 . release will continue. 
+NORMAL, Result of rule 249: select count(*) from SOC_RELATION where rownum < 2 is: 1 . release will continue. 
+NORMAL, Result of rule 250: select count(*) from SOC_SALE_CHANNEL where rownum < 2 is: 1 . release will continue. 
+NORMAL, Result of rule 251: select count(*) from SPECIAL_DAYS where rownum < 2 is: 1 . release will continue. 
+NORMAL, Result of rule 252: select count(*) from SPECIAL_DAYS_SET where rownum < 2 is: 1 . release will continue. 
+NORMAL, Result of rule 277: select count(*) from TIER where rownum < 2 is: 1 . release will continue. 
+NORMAL, Result of rule 281: select count(*) from UC_RATED_FEATURE where rownum < 2 is: 1 . release will continue. 
+NORMAL, Result of rule 291: select count(*) from UC_RATED_FEATURE where rownum < 2 is: 1 . release will continue. 
+NORMAL, Result of rule 296: select count(*) from SOC where INTERNAL_TYPE in ('O','I') and FOR_SALE_IND = 'Y' is: 0 . release will continue. 
+NORMAL, Result of rule 301: select count(*) from RATED_FEATURE R where RC_INFO_IND = 'Y' AND not exists (SELECT 1 FROM PP_RC_RATE where SOC = R.SOC) is: 0 . release will continue. 
+NORMAL, Result of rule 302: select count(*) from RATED_FEATURE r where UC_INFO_IND = 'Y' and not exists (select 1 from FEATURE where ENB_CHARGE_CODE is not null and FEATURE_CODE = r.FEATURE_CODE) and not exists (select 1 from PP_UC_RATE where SOC = r.SOC) is: 0 . release will continue. 
+NORMAL, Result of rule 303: select count(*) from RATED_FEATURE R where OC_INFO_IND = 'Y' AND not exists (SELECT 1 FROM PP_OC_RATE where SOC = R.SOC) is: 0 . release will continue. 
+NORMAL, Result of rule 304: select count(*) from RATED_FEATURE R where AC_INFO_IND = 'Y' AND not exists (SELECT 1 FROM PP_AC_RATE where SOC = R.SOC) is: 0 . release will continue. 
+NORMAL, Result of rule 307: select count(*) from SOC S where SOC_STATUS = 'I' and SERVICE_TYPE = 'O' and exists (select 1 from SOC_RELATION where SOC_DEST = S.SOC) is: 0 . release will continue. 
+NORMAL, Result of rule 310: select count(*) from DEALER_PROFILE where AGENT IS NULL OR AGENT_LOCATION IS NULL is: 0 . release will continue. 
+NORMAL, Result of rule 311: select count(*) from DEALER_PROFILE where AGENT_LEVEL not in ('R','L','A') is: 0 . release will continue. 
+NORMAL, Result of rule 317: select count(*) from SOC S where SOC_LEVEL_CODE = 'C' AND exists (SELECT 1 FROM UC_RATED_FEATURE where UC_RATE_LVL = 'X' and SOC = S.SOC) is: 0 . release will continue. 
+NORMAL, Result of rule 322: select count(*) from FEATURE_CALLING_ROUTE F where CALL_SERVE_AREA is not null and not exists (SELECT 1 FROM CALL_AREA where CALL_AREA_TYPE IN ('S', 'C','P') and CALL_AREA_CODE = F.CALL_SERVE_AREA) is: 0 . release will continue. 
+NORMAL, Result of rule 323: select count(*) from FEATURE_CALLING_ROUTE F where CALL_DEST_AREA is not null and not exists (SELECT 1 FROM CALL_AREA where CALL_AREA_TYPE = 'N' and CALL_AREA_CODE = F.CALL_DEST_AREA) is: 0 . release will continue. 
+NORMAL, Result of rule 326: select count(*) from DISCOUNT_PLAN D where not exists (SELECT 1 FROM ACTIVITY_REASON_TEXT where ACTV_REASON_CODE = D.ADJ_REASON_CODE) is: 0 . release will continue. 
+NORMAL, Result of rule 334: select count(*) from DEALER_PROFILE D where not exists (SELECT 1 FROM DEALER_COMP_ATTR where DEALER = D.DEALER) is: 0 . release will continue. 
+NORMAL, Result of rule 340: select count(*) from SOC where IRDB_TYPES IS NOT NULL AND SOC_MODE = 'G' AND SERVICE_TYPE = 'P' is: 0 . release will continue. 
+NORMAL, Result of rule 341: select count(*) from SOC where IRDB_TYPES IS NOT NULL AND SOC_LEVEL_CODE in ('B','P') AND SERVICE_TYPE = 'P' is: 0 . release will continue. 
+NORMAL, Result of rule 344: select count(*) from CHARGE_INFO where FEATURE_CODE in ('XBOTC', 'XBOTNW') and BL_ZERO_CHG_PRST_IND = 'N' or FEATURE_CODE in ('XBOTC', 'XBOTNW') and BL_INCL_PRST_IND = 'N' is: 0 . release will continue. 
+NORMAL, Result of rule 346: select count(*) from SOC where COVERAGE_TYPE in ('E','D') and ELA_FEE_IND = 'Y' or COVERAGE_TYPE in ('E','D') and EHA_FEE_IND = 'Y' is: 0 . release will continue. 
+NORMAL, Result of rule 353: select count(*) from PERIOD where EXPIRATION_DATE is null is: 306 . release will continue. 
+NORMAL, Result of rule 360: select count(*) from SOC where RTRIM(SOC, ' ') in (select GEN_DESC from GENERIC_CODES where GEN_TYPE like '%AUTO_ATTACH_SOC%') and SALE_EXP_DATE is not null and FOR_SALE_IND != 'Y' is: 0 . release will continue. 
+NORMAL, Result of rule 372: select count(*) from CHARGE_TAX_INFO where PRODUCT_TYPE != 'A' and FEATURE_CODE in (select FEATURE_CODE from CHARGE_INFO where MNL_OC_CHRG_LEVEL = 'B') is: 0 . release will continue. 
+NORMAL, Result of rule 376: select count(*) from SOC_SALE_CHANNEL S where exists (select 1 from SOC where SERVICE_TYPE = 'O' and SOC = S.SOC) is: 0 . release will continue. 
+NORMAL, Result of rule 384: select count(*) from SOC where SERVICE_TYPE = 'O' and SALE_EXP_DATE is not null is: 0 . release will continue. 
+NORMAL, Result of rule 385: select count(*) from FEATURE where FEATURE_CODE = 'DPKG' and DUP_FTR_ALLOW_IND = 'N' is: 0 . release will continue. 
+NORMAL, Result of rule 389: select count(*) from SOC S where SERVICE_TYPE in ('P','M','R','S') and FOR_SALE_IND = 'Y' and SOC_STATUS = 'A' and rtrim(INTERNAL_TYPE) is null and not exists (select 1 from SOC_SALE_CHANNEL where SOC = S.SOC) is: 0 . release will continue. 
+NORMAL, Result of rule 390: select count(*) from SOC S where SERVICE_TYPE in ('O','N') and exists (select 1 from SOC_SALE_CHANNEL where SOC = S.SOC) is: 0 . release will continue. 
+NORMAL, Result of rule 391: select count(*) from SOC S where FOR_SALE_IND = 'Y' and (SALE_EXP_DATE is null or SALE_EXP_DATE > sysdate) and (exists (select   1 from SOC_SALE_CHANNEL where SOC_CHANNEL_CD = 'AGENT' and SOC = S.SOC) and not exists (select SOC from SOC_SALE_CHANNEL where SOC_CHANNEL_CD = 'S8' and SOC = S.SOC) or exists (select 1 from SOC_SALE_CHANNEL where SOC_CHANNEL_CD = 'S8' and SOC = S.SOC) and not exists (select 1 from SOC_SALE_CHANNEL where SOC_CHANNEL_CD = 'AGENT' and SOC = S.SOC)) is: 0 . release will continue. 
+NORMAL, Result of rule 392: select count(*) from SOC S where FOR_SALE_IND = 'Y' and (SALE_EXP_DATE is null or SALE_EXP_DATE > sysdate) and (exists (select   1 from SOC_SALE_CHANNEL where SOC_CHANNEL_CD = 'AGENT' and SOC = S.SOC) and not exists (select SOC from SOC_SALE_CHANNEL where SOC_CHANNEL_CD = 'S8' and SOC = S.SOC) or exists (select 1 from SOC_SALE_CHANNEL where SOC_CHANNEL_CD = 'S8' and SOC = S.SOC) and not exists (select 1 from SOC_SALE_CHANNEL where SOC_CHANNEL_CD = 'AGENT' and SOC = S.SOC)) is: 0 . release will continue. 
+NORMAL, Result of rule 393: select count(1) from SOC where not regexp_like(SOC_DESCRIPTION,'^['||chr(32)||'-'||chr(126)||'¢]+$') and not regexp_like(SOC_DESCRIPTION, '^['||chr(32)||'-'||chr(126)||'¢]+\s+$') and not regexp_like(SOC_DESCRIPTION, '^['||chr(32)||'-'||chr(126)||'¢]+\s+['||chr(32)||'-'||chr(126)||'¢]+$') is: 0 . release will continue. 
+NORMAL, Result of rule 399: select count(*) from FEATURE where FM_TYPE is not null is: 40 . release will continue. 
+NORMAL, Result of rule 400: select count(*) from SOC where OFFER_ID != '0' and OFFER_ID in (select OFFER_ID from SOC where OFFER_ID is not null group by OFFER_ID having count(*) > 1) is: 0 . release will continue. 
+NORMAL, Result of rule 402: select count(*) from FEATURE where FM_TYPE = 'M' and FEATURE_CODE  not in ('ROLEX','ROLEXP') is: 0 . release will continue. 
+NORMAL, Result of rule 403: select count(*) from UC_RATED_FEATURE U where exists (select 1 from FEATURE where MPS_FEATURE_CODE like 'SMS%' and UC_UNIT_MEASUR_CODE != 'S' and FEATURE_CODE = U.FEATURE_CODE) is: 0 . release will continue. 
+NORMAL, Result of rule 404: select count(*) from RATED_FEATURE where CALLING_ROUTE_TYPE not in ('I','S') and FEATURE_CODE = 'ELATCA' is: 0 . release will continue. 
+NORMAL, Result of rule 405: select count(*) from FEATURE where FEATURE_GROUP = 'SF' and FEATURE_CATEGORY not in ('D','V') or FEATURE_GROUP = 'SF' and FEATURE_CATEGORY is null is: 0 . release will continue. 
+NORMAL, Result of rule 425: select count(*) from SOC where FOR_SALE_IND = 'Y' and SOC = 'DFMR' is: 0 . release will continue. 
+NORMAL, Result of rule 427: select count(*) from SOC S where FOR_SALE_IND = 'Y' and exists (select 1 from SOC_INTNL_TOLL where SOC like 'OIL%' and SOC = S.SOC) is: 0 . release will continue. 
+NORMAL, Result of rule 429: select count(*) from SOC where OFFER_MGR = 'C' and OFFER_ID is null is: 0 . release will continue. 
+NORMAL, Result of rule 430: select count(*) from UC_RATED_FEATURE U where UC_USG_DEPEND_CODE = 'D' and UC_RATE_QTY_TYPE != 'P' and exists (select 1 from FEATURE where MPS_FEATURE_CODE = 'TINTNL' and FEATURE_CODE = U.FEATURE_CODE) is: 0 . release will continue. 
+NORMAL, Result of rule 431: select count(*) from SOC where FOR_SALE_IND = 'Y' and rtrim(INTERNAL_TYPE) is null and SERVICE_TYPE in ('P','M','R','S') and SOC not in (select SOC from SOC_SALE_CHANNEL where SOC_CHANNEL_CD in ('TITAN','ARCHIVE', 'R3','DUMMY')) is: 0 . release will continue. 
+NORMAL, Result of rule 432: select count(*) from SOC_INTNL_TOLL S where not exists (select 1 from SOC where SOC = S.SOC) is: 0 . release will continue. 
+NORMAL, Result of rule 435: select count(*) from SOC_INTNL_TOLL S where not exists (select 1 from SOC T where exists (select 1 from UC_RATED_FEATURE where UC_USG_DEPEND_CODE = 'D' and SOC = T.SOC) and SOC = S.SOC) is: 0 . release will continue. 
+NORMAL, Result of rule 436: select count(*) from SOC where SOC_NETWORK is null is: 0 . release will continue. 
+NORMAL, Result of rule 438: select count(*) from SOC_RELATION S where exists (select 1 from SOC where SOC_SRC not in ('CNVPPCAX','CNVPPPX') and SOC_NETWORK = 'B' and SOC = S.SOC_DEST) and exists (select 1 from SOC where SOC_NETWORK in ('O','T') and SOC = S.SOC_SRC) is: 0 . release will continue. 
+NORMAL, Result of rule 439: select count(*) from SOC S where exists (select 1 from UC_RATED_FEATURE where UC_USG_DEPEND_CODE = 'D' and SOC = S.SOC) and not exists (select 1 from SOC_INTNL_TOLL where SOC = S.SOC) and SOC not in ('INTDISCTL', 'OILPDUMMY') is: 0 . release will continue. 
+NORMAL, Result of rule 446: select count(*) from SOC where SALE_EXP_DATE is null and SERVICE_TYPE = 'P' and SOC_MODE = 'G' and SOC not in (select SOC from RATED_FEATURE where FEATURE_CODE = 'ACTP') is: 0 . release will continue. 
+NORMAL, Result of rule 449: select count(*) from CONTRACT_MAPPING_SOC where MAPPING_SOC not in (select SOC from SOC where nvl(INTERNAL_TYPE, 0) = 'E' and FOR_SALE_IND = 'N' and SOC in (select SOC from SOC_SALE_CHANNEL where SOC_CHANNEL_CD = 'DUMMY')) is: 0 . release will continue. 
+NORMAL, Result of rule 450: select count(*) from PROMO_TYPE P where not exists (select SOC from SOC where p.SOC = SOC) is: 0 . release will continue. 
+NORMAL, Result of rule 451: select count(*) from PROMO_TYPE P where not exists (select PROMOTION_TYPE from PROMO_TYPE_PERIOD where p.PROMOTION_TYPE = PROMOTION_TYPE) is: 0 . release will continue. 
+NORMAL, Result of rule 452: select count(*) from ACTIVITY_REASON_TEXT where PRODUCT_TYPE != 'A' and FEATURE_CODE in (select FEATURE_CODE from CHARGE_INFO where MNL_OC_CHRG_LEVEL = 'B') is: 0 . release will continue. 
+NORMAL, Result of rule 453: select count(*) from CHARGE_TAX_INFO where EFFECTIVE_DATE > sysdate + 90 is: 0 . release will continue. 
+NORMAL, Result of rule 463: select count(uc.SOC) from UC_RATED_FEATURE uc, INCLUS_BY_PERIOD ip where uc.SOC = ip.SOC and uc.FEATURE_CODE = ip.FEATURE_CODE and uc.ACTION = ip.ACTION and uc.INCLUSIVE_QTY_TYPE = 'N' and uc.SOC in (select SOC from INCLUS_BY_PERIOD) and uc.SOC not in (select SOC from SOC where SOC_NETWORK = 'B') is: 0 . release will continue. 
+NORMAL, Result of rule 466: select count(*) from FTR_PRESENTATION where CITY_IND is null or BL_PRES_NO_IND is null or BL_PRSNT_FTR_IND is null is: 0 . release will continue. 
+NORMAL, Result of rule 474: select count(*) from SOC where SOC!='DXUSG' and SOC_MODE in ('G','S') and MOBILE_TECHNOLOGY = 'G' is: 0 . release will continue. 
+NORMAL, Result of rule 480: select count(*) from DISCOUNT_PLAN where DDRESTRICTION_TYPE = 'B' and DISCOUNT_PLAN_LEVEL != 'B' is: 0 . release will continue. 
+NORMAL, Result of rule 481: select count(*) from DISCOUNT_PLAN where DDRESTRICTION_TYPE = 'S' and DISCOUNT_PLAN_LEVEL != 'C' is: 0 . release will continue. 
+NORMAL, Result of rule 482: select count(*) from SOC where PUB_TO_ATLAS_IND = 'Y' and trim(GEN_ATTRIBUTE) not like '%RTP%' and trim(CUSTOMER_SUBTYPE) not in ('G','H') and trim(ATL_ATTR_NAME) is null and SOC not in (select SOC from RATED_FEATURE where FEATURE_CODE in (select FEATURE_CODE from FEATURE where SWITCH_CODE in ('VVPN','NBFMC','MAPATR'))) is: 0 . release will continue. 
+NORMAL, Result of rule 483: select count(*) from SOC where nvl(GEN_ATTRIBUTE,'*') like '%REQUIRED_COMBINE_BILL%' and SERVICE_TYPE not in ('R','O') is: 0 . release will continue. 
+NORMAL, Result of rule 514: select count(1) from dealer_profile where regexp_instr(dealer,'[a-z]') > 0 and end_date is null and START_DATE > '27-SEP-2006' is: 0 . release will continue. 
+NORMAL, Result of rule 515: select count(*) from CHARGE_INFO where FAN_ACC_DISC_IND is null or FAN_QLF_MAC_DISC_IND is null or FAN_QLF_MSC_DISC_IND is null is: 0 . release will continue. 
+NORMAL, Result of rule 521: select count(*) from ELIGIBILITY_DECISION where rownum < 2 is: 1 . release will continue. 
+NORMAL, Result of rule 522: select count(*) from SOC_INTNL_TOLL where rownum < 2 is: 1 . release will continue. 
+NORMAL, Result of rule 524: select count(*) from CONTRACT_MAPPING_SOC where rownum < 2 is: 1 . release will continue. 
+NORMAL, Result of rule 551: select count(*) from CHARGE_INFO c where not exists (select REASON_CODE from ADJUSTMENT_REASON where REASON_CODE = c.SYS_REL_ADJ_RSN) is: 0 . release will continue. 
+NORMAL, Result of rule 552: select count(*) from FM_RELATED_FTR frf where not exists (select MPS_FEATURE_CODE from FEATURE where frf.MPS_FEATURE_CODE = MPS_FEATURE_CODE) is: 0 . release will continue. 
+NORMAL, Result of rule 555: select count(*) from SOC s where SERVICE_TYPE = 'O' and nvl(GEN_ATTRIBUTE,'*') like '%UPG_EQU_MRC_CALC%' and nvl(GEN_ATTRIBUTE,'*') not like '%SPPCS%' and not exists (select SOC from PP_RC_RATE where RATE > 0 and s.SOC = SOC) is: 0 . release will continue. 
+NORMAL, Result of rule 556: select count(*) from SOC where nvl(INSR_SOC_TYPE,'X') != 'X' and (nvl(SOC_MODE,'X') != 'X' or SERVICE_TYPE != 'R') is: 0 . release will continue. 
+NORMAL, Result of rule 557: select count(1) from (select * from (select SOC, trim(regexp_substr(IRDB_TYPES, '[^@]+', 1, levels.column_value)) as irdb_type, IRDB_TYPES, INSR_SOC_TYPE from SOC, table(cast(multiset(select level from dual connect by level <= length(regexp_replace(IRDB_TYPES, '[^@]+'))+1) as sys.OdciNumberList)) levels) where (irdb_type between '1' and '15' or irdb_type in('99','D1','D2','D3')) and INSR_SOC_TYPE is not null order by SOC, irdb_type, IRDB_TYPES) is: 0 . release will continue. 
+NORMAL, Result of rule 558: select count(*) from SOC where CUSTOMER_SUBTYPE in ('G','H','T') and nvl(INSR_SOC_TYPE,'X') != 'X' is: 0 . release will continue. 
+NORMAL, Result of rule 560: select count(*) from FEATURE f where SWITCH_CODE = 'LBS' and FEATURE_CODE in (select FEATURE_CODE from RATED_FEATURE where SOC in (select SOC from SOC where nvl(PUB_TO_ATLAS_IND,'X') != 'Y' and GEN_ATTRIBUTE not like '%RTP%')) is: 0 . release will continue. 
+NORMAL, Result of rule 562: select count(*) from SOC where SERVICE_TYPE in ('P','M') and nvl(INTERNAL_TYPE,'*') = '*' and SOC_NETWORK != 'B' and SPECIAL_DAYS_SET_CODE != 'DEF' and SALE_EFF_DATE > '01-DEC-2006' is: 0 . release will continue. 
+NORMAL, Result of rule 563: select count(*) from SOC where SERVICE_TYPE = 'P' and FOR_SALE_IND = 'Y' and SOC_STATUS = 'A' and nvl(GEN_ATTRIBUTE,'*') not like '%CAP_MIN%' and SOC in (select SOC_SRC from SOC_RELATION where SOC_DEST in (select SOC from INCLUS_BY_PERIOD where FEATURE_CODE = 'ROLEX' and CAP_MINS is not null)) is: 0 . release will continue. 
+NORMAL, Result of rule 564: select count(*) from SOC where OFFER_ID is not null and GEN_ATTRIBUTE like '%ELIG_TYPE%' is: 0 . release will continue. 
+NORMAL, Result of rule 566: select count(*) from (select SOC_SRC, count(SOC_DEST) from SOC_RELATION where RELATION_TYPE not in ('R','I') and SOC_DEST in (select SOC from RATED_FEATURE where FEATURE_CODE in (select FEATURE_CODE from FEATURE where FM_TYPE is not null and FM_TYPE != 'T')) and SOC_SRC in (select SOC from SOC where FOR_SALE_IND = 'Y' and SOC_NETWORK != 'B' and SALE_EFF_DATE > '02-FEB-1998') group by SOC_SRC having count(SOC_DEST) > 4) is: 0 . release will continue. 
+NORMAL, Result of rule 571: select count(*) from SOC where SOC_LEVEL_CODE = 'C' and MAX_ALLOWED_CTNS > 0 is: 0 . release will continue. 
+NORMAL, Result of rule 572: select count(*) from SOC where SOC_MODE != 'G' and FOR_SALE_IND = 'Y' and MAX_MEMBERS > 0 is: 0 . release will continue. 
+NORMAL, Result of rule 573: select count(*) from FEATURE where SWITCH_CODE = 'ACDS' and VM_CATEGORY != 'ACDS' is: 0 . release will continue. 
+NORMAL, Result of rule 576: select count(*) from SOC where nvl(GEN_ATTRIBUTE,'*') like '%SUPFANDS%' and (SOC_MODE = 'G' or SOC_LEVEL_CODE = 'P') is: 0 . release will continue. 
+NORMAL, Result of rule 578: select count(*) from SOC s where COVERAGE_TYPE = 'W' and not exists (select SOC from RATED_FEATURE where FEATURE_CODE in ('IVPN','IVPNA') and s.SOC = SOC) is: 0 . release will continue. 
+NORMAL, Result of rule 580: select count(*) from RATED_FEATURE where FEATURE_CODE = 'ACMEVM' and SOC not in (select SOC from SOC where SERVICE_TYPE = 'O') is: 0 . release will continue. 
+NORMAL, Result of rule 581: select count(*) from RATED_FEATURE where FEATURE_CODE = 'ACMEVM' and SOC not in (select SOC from RATED_FEATURE where FEATURE_CODE = 'CPKG') and SOC in (select SOC from RATED_FEATURE where FEATURE_CODE in (select FEATURE_CODE from FEATURE where MPS_FEATURE_CODE = 'VM1')) is: 0 . release will continue. 
+NORMAL, Result of rule 589: select count(*) from RATED_FEATURE where FEATURE_CODE in ('VMRCN','VMRCF') is: 0 . release will continue. 
+NORMAL, Result of rule 591: select count(*) from SOC where GEN_ATTRIBUTE like '%IICP_SOC%' and GEN_ATTRIBUTE not like '%RTP%' and nvl(PUB_TO_ATLAS_IND,'X') != 'Y' is: 0 . release will continue. 
+NORMAL, Result of rule 592: select count(trim(PRM_VALUE)) from PARAM_VALUES where PARAM_CODE = 'LBS_SELF_OPT_SOC_NM_K40195' and PRM_VALUE in (select trim(SOC) from SOC where (FOR_SALE_IND = 'N' or SOC_STATUS = 'I')) is: 0 . release will continue. 
+NORMAL, Result of rule 593: select count(*) from FEATURE where nvl(SWITCH_PARAM,'*') like '% @%' is: 0 . release will continue. 
+NORMAL, Result of rule 594: select count(*) from SOC_CATEGORIES_LINK where CATEGORY like '% %' is: 0 . release will continue. 
+NORMAL, Result of rule 595: select count(*) from (select FEATURE_CODE, count(*) from CHARGE_INFO where FEATURE_CODE != 'STRACK' and FEATURE_CODE in (select FEATURE_CODE FROM FEATURE where ENB_CHARGE_CODE is not null) and FTR_REVENUE_CODE in ('U','L','M','E','R') group by feature_code having count(*)<5) is: 0 . release will continue. 
+NORMAL, Result of rule 597: select count(*) from SOC_CATEGORIES_LINK where SOC in (select SOC from SOC where (SOC_MODE in ('S','G') or SOC_LEVEL_CODE in ('B','P'))) is: 0 . release will continue. 
+NORMAL, Result of rule 599: select count(*) from SOC where substr(trim(GEN_ATTRIBUTE),-1)!=';' is: 0 . release will continue. 
+NORMAL, Result of rule 600: select count(*) from FEATURE where SWITCH_ACT_NEEDED = 'Y' and substr(trim(SWITCH_PARAM),-1)!='@' and FEATURE_CODE in (select FEATURE_CODE from RATED_FEATURE) is: 0 . release will continue. 
+NORMAL, Result of rule 601: select count(*) from (select r.soc, f.enb_charge_code, count(*) from rated_feature r, feature f where  r.feature_code=f.feature_code and f.enb_charge_code is not null and r.soc in (select soc from soc where customer_type||customer_subtype != 'IP' and sale_eff_date > '01-JUN-05') and f.ENB_CHARGE_CODE not in ('DUMMY') and f.feature_code not in ('APNA02','APNA04','APNST2','APNST3','APNST4','APNST5','APNST6','APNST7','APNT02','INETV6','APNNG2','APNNGT') group by r.soc, f.enb_charge_code having count(*)>1) is: 0 . release will continue. 
+NORMAL, Result of rule 602: select count(*) from feature where trim(feature_code) != trim(enb_charge_code) and feature_code in (select feature_code from rated_feature where soc in (select soc from pp_remark where nvl(REMARK_TEXT,'*') like '%ENABLER_MARKET_LEVEL_OFFER%') and feature_code not in ('CPKG','DPKG','GNRL') and soc not in ('MKT2')) is: 0 . release will continue. 
+NORMAL, Result of rule 603: select count(*) from soc_relation where soc_src in (select soc from pp_remark where nvl(REMARK_TEXT,'*') like '%ENABLER_MARKET_LEVEL_OFFER%' and soc not in ('MRKT1')) is: 0 . release will continue. 
+NORMAL, Result of rule 604: select count(*) from PP_REMARK where REMARK_TEXT like '%ENABLER_MARKET_LEVEL_OFFER%' and soc not in (select soc from rated_feature) is: 0 . release will continue. 
+NORMAL, Result of rule 605: select count(*) from soc_acc_type_excl a, soc s where a.soc=s.soc and a.ACC_TYPE=s.CUSTOMER_TYPE and a.ACC_SUB_TYPE=s.CUSTOMER_SUBTYPE is: 0 . release will continue. 
+NORMAL, Result of rule 611: select count(*) from CATEGORIES_DETAILS where CATEGORY_CODE not in (select CATEGORY_CODE from PP_CATEGORIES) is: 0 . release will continue. 
+NORMAL, Result of rule 613: select count(*) from FEATURE where SWITCH_CODE = 'LBS' and DUP_FTR_ALLOW_IND != 'N' is: 0 . release will continue. 
+NORMAL, Result of rule 614: select count(*) from RATED_FEATURE rf where exists (select FEATURE_CODE from FEATURE where SWITCH_CODE = 'LBS' and FEATURE_CODE = rf.FEATURE_CODE) and exists (select SOC from SOC where SERVICE_TYPE = 'O' and nvl(GEN_ATTRIBUTE,'*') not like '%RESSOCREM%' and SOC = rf.SOC) is: 0 . release will continue. 
+NORMAL, Result of rule 615: select count(*) from RATED_FEATURE rf where exists (select FEATURE_CODE from FEATURE where SWITCH_CODE = 'LBS' and FEATURE_CODE = rf.FEATURE_CODE) and not exists (select SOC from SOC where PUB_TO_ATLAS_IND = 'Y' and nvl(GEN_ATTRIBUTE,'*') like '%RTP%' and SOC = rf.SOC) is: 0 . release will continue. 
+NORMAL, Result of rule 616: select count(*) from DISCOUNT_PLAN where DISCOUNT_PLAN_LEVEL = 'B' and ADJ_REASON_CODE != 'BDISC' is: 0 . release will continue. 
+NORMAL, Result of rule 617: select count(*) from CONTRACT_MAPPING_SOC cms where ETF_TYPE = 'D' and not exists (select CONTRACT_GRP_CD from FLEXIBLE_ETF where CONTRACT_GRP_CD = cms.CONTRACT_GRP_CD) is: 0 . release will continue. 
+NORMAL, Result of rule 618: select count(*) from FLEXIBLE_ETF where MONTHS_LEFT = '0' is: 0 . release will continue. 
+NORMAL, Result of rule 619: select count(*) from FLEXIBLE_ETF where MONTHS_LEFT = TERM and REDUCTION != 0 is: 0 . release will continue. 
+NORMAL, Result of rule 621: select count(*) from RATED_FEATURE rf where exists (select FEATURE_CODE from FEATURE where SWITCH_CODE = 'VDSP' and FEATURE_CODE = rf.FEATURE_CODE) and exists (select SOC from SOC where SERVICE_TYPE in ('O','N','B') and SOC = rf.SOC) is: 0 . release will continue. 
+NORMAL, Result of rule 622: select count(*) from RATED_FEATURE rf where exists (select 1 from FEATURE where SWITCH_CODE = 'VDSP' and FEATURE_CODE = rf.FEATURE_CODE) and not exists (select 1 from SOC s where (CUSTOMER_TYPE||CUSTOMER_SUBTYPE != 'SU' or CUSTOMER_TYPE||CUSTOMER_SUBTYPE != 'SY' or CUSTOMER_TYPE||CUSTOMER_SUBTYPE != 'EY') and s.SOC = rf.SOC) is: 0 . release will continue. 
+NORMAL, Result of rule 623: select count(*) from SOC where FOR_SALE_IND = 'Y' and nvl(GEN_ATTRIBUTE,'*') not like '%RESSOCREM%' and SOC in (select SOC from RATED_FEATURE where FEATURE_CODE = 'UMTS') is: 0 . release will continue. 
+NORMAL, Result of rule 624: select count(*) from SOC s where FOR_SALE_IND = 'Y' and exists (select SOC from RATED_FEATURE where FEATURE_CODE = 'UMTS' and SOC = s.SOC) and exists (select SOC from SOC_SALE_CHANNEL where SOC_CHANNEL_CD != 'DUMMY' and SOC = s.SOC) is: 0 . release will continue. 
+NORMAL, Result of rule 626: select count(*) from DISCOUNT_PLAN dp where ADJ_REASON_CODE in ('ODNFLX','ODNMRC','ODNONE','BMGPRO') and not exists (select DISC_PLAN_CD from DISCOUNT_CATEGORY where CATEGORY_CD = 'BMG' and DISC_PLAN_CD = dp.DISCOUNT_PLAN_CD) is: 0 . release will continue. 
+NORMAL, Result of rule 628: select count(*) from SOC where FOR_SALE_IND = 'Y' and SERVICE_TYPE = 'P' and SOC not like '%COU%' and OFFER_ID is not null is: 0 . release will continue. 
+NORMAL, Result of rule 629: select count(*) from SOC s where SOC_NETWORK != 'B' and FOR_SALE_IND = 'Y' and PRODUCT_SUB_TYPE = 'GG' and exists (select SOC from RATED_FEATURE rf where rf.SOC = s.SOC and exists (select FEATURE_CODE from FEATURE where nvl(PRODUCT_SUB_TYPE,'XX') = 'XX' and FEATURE_CODE = rf.FEATURE_CODE)) is: 0 . release will continue. 
+NORMAL, Result of rule 630: select count(*) from RATED_FEATURE where SOC in (select SOC from SOC where FOR_SALE_IND = 'Y' and SOC_LEVEL_CODE = 'C' and nvl(SOC_MODE,'*') = '*' and UMTS_COMPATIBILITY != 'U') and FEATURE_CODE in (select FEATURE_CODE from FEATURE where SWITCH_CODE = 'PPVS') is: 0 . release will continue. 
+NORMAL, Result of rule 643: select count(*) from SOC where nvl(GEN_ATTRIBUTE,'*') like '%RM_SOC_ONLY_DUP_FTR%' and GEN_ATTRIBUTE like '%INTEGRATE_MSG%' is: 0 . release will continue. 
+NORMAL, Result of rule 644: select count(1) from (select soc, country_code, international_ind, from_city_code, to_city_code, city_desc, from_city_code_2, to_city_code_2, city_desc_2 from (select a.SOC,a.COUNTRY_CODE,a.INTERNATIONAL_IND,a.FROM_CITY_CODE,a.TO_CITY_CODE,a.CITY_DESC,b.FROM_CITY_CODE FROM_CITY_CODE_2,b.TO_CITY_CODE TO_CITY_CODE_2,b.CITY_DESC CITY_DESC_2 from SOC_INTNL_TOLL a, SOC_INTNL_TOLL b where a.soc = b.soc and a.country_code = b.country_code and a.international_ind = b.international_ind and a.expiration_date is null and b.expiration_date is null and a.rowid != b.rowid and substr(a.soc,1,3) != 'OIL') where FROM_CITY_CODE between FROM_CITY_CODE_2 and TO_CITY_CODE_2 or TO_CITY_CODE between FROM_CITY_CODE_2 and TO_CITY_CODE_2) is: 0 . release will continue. 
+NORMAL, Result of rule 645: select count(*) from SOC where SERVICE_TYPE = 'O' and GEN_ATTRIBUTE like '%EXPANDED_CALLING%' and GEN_ATTRIBUTE like '%RESSOCREM%' is: 0 . release will continue. 
+NORMAL, Result of rule 646: select count(*) from rated_feature where feature_code in (select feature_code from feature where enb_charge_code is not null) and soc in (select soc from soc where service_type='P' and sale_eff_date > '29-FEB-08') is: 0 . release will continue. 
+NORMAL, Result of rule 649: select count(*) from SOC where SOC_NETWORK = 'D' and nvl(GEN_ATTRIBUTE,'*') like '%OPTOUT%' is: 0 . release will continue. 
+NORMAL, Result of rule 650: select count(*) from (select RETIRING_GRP_PP_ID, count(*) from RETIRING_GROUP_PP where EXPIRATION_DATE is null group by RETIRING_GRP_PP_ID having count(*) > 1) is: 0 . release will continue. 
+NORMAL, Result of rule 652: select count(*) from SOC where SOC_STATUS = 'A' and FOR_SALE_IND = 'Y' and SERVICE_TYPE in ('P','R','O') and SALE_EFF_DATE > '05-MAY-2008' and nvl(FILTER_ATTRIBUTES,'*') = '*' is: 0 . release will continue. 
+NORMAL, Result of rule 653: select count(*) from FEATURE where FEATURE_GROUP = 'SF' and nvl(FILTER_ATTRIBUTES,'*') = '*' and FEATURE_CODE in (select FEATURE_CODE from RATED_FEATURE where SOC in (select SOC from SOC where FOR_SALE_IND = 'Y' and SALE_EFF_DATE > '05-MAY-2008')) is: 0 . release will continue. 
+NORMAL, Result of rule 654: select count(*) from SOC where substr(trim(FILTER_ATTRIBUTES),-1)!=';' is: 0 . release will continue. 
+NORMAL, Result of rule 655: select count(*) from CONTRACT_MAPPING_SOC where EXPIRATION_DATE is null and ETF_TYPE = 'D' and CONTRACT_GRP_CD not in (select CONTRACT_GRP_CD from FLEXIBLE_ETF) is: 0 . release will continue. 
+NORMAL, Result of rule 656: select count(*) from FLEXIBLE_ETF where CONTRACT_GRP_CD not in (select CONTRACT_GRP_CD from CONTRACT_MAPPING_SOC) is: 0 . release will continue. 
+NORMAL, Result of rule 657: select count(*) from PP_COMMITMENT where MINIMUM_NO_MONTHS not in ('0','11','12','24') is: 0 . release will continue. 
+NORMAL, Result of rule 658: select count(*) from SOC where MINIMUM_NO_MONTHS not in ('0','11','12','24') is: 0 . release will continue. 
+NORMAL, Result of rule 659: select count(*) from DEALER_COMP_ATTR where substr(trim(DLR_ATTR),-1)!=';' is: 0 . release will continue. 
+NORMAL, Result of rule 660: select count(*) from DEALER_COMP_ATTR where nvl(DLR_ATTR,'*') like '%ELIG%' and nvl(DLR_ATTR,'*') not like '%ELIG2%' is: 0 . release will continue. 
+NORMAL, Result of rule 661: select count(*) from param_values p, soc s where nvl(s.gen_attribute,'*') like '%OPTOUT_SMS%' and s.soc_mode='G' and p.param_code='ADD_PPU_FLAG' and p.prm_value ='Y' is: 0 . release will continue. 
+NORMAL, Result of rule 662: select count(*) from SOC where nvl(GEN_ATTRIBUTE,'*') like '%EXCLUDE_MPS%' and EXPIRATION_DATE is not null is: 0 . release will continue. 
+NORMAL, Result of rule 666: select count(*) from RATED_FEATURE where SOC = 'IWBCON' and FEATURE_CODE != 'CPKG' and BILL_DISPLAY_IND = 'Y' is: 0 . release will continue. 
+NORMAL, Result of rule 667: select count(*) from FEATURE where FEATURE_CODE = 'MMVBUN' and DUP_FTR_ALLOW_IND != 'N' is: 0 . release will continue. 
+NORMAL, Result of rule 668: select count(*) from SOC where SOC in ('IWBCON','MSG5','MSG6','MSG7') and GEN_ATTRIBUTE not like '%EXCLUDE_MPS%' is: 0 . release will continue. 
+NORMAL, Result of rule 669: select count(*) from SOC where SOC in ('IPN1','IPN2','EPN1','EPN2') and IRDB_TYPES not like '%V5%' is: 0 . release will continue. 
+NORMAL, Result of rule 670: select count(*) from RATED_FEATURE where SOC = 'IWBCON' is: 13 . release will continue. 
+NORMAL, Result of rule 671: select count(*) from RATED_FEATURE where SOC in ('MSG5','MSG6','MSG7') is: 42 . release will continue. 
+NORMAL, Result of rule 672: select count(*) from SOC where nvl(SOC_DESCRIPTION,'*') = '*' and (SYS_CREATION_DATE not like '%18-SEP-06%' and SYS_CREATION_DATE not like '%21-FEB-05%' and SYS_CREATION_DATE not like '%27-SEP-04%' and SYS_CREATION_DATE not like '%01-JAN-80%' and SYS_CREATION_DATE not like '%26-JAN-05%') is: 0 . release will continue. 
+NORMAL, Result of rule 674: select count(*) from FEATURE where SWITCH_CODE = '3PP' and upper(SWITCH_PARAM) not like 'APP_ID=%' is: 0 . release will continue. 
+NORMAL, Result of rule 677: select count(RETIRING_GRP_PP_ID) from SOC where RETIRING_GRP_PP_ID not in (select distinct RETIRING_GRP_PP_ID from RETIRING_GROUP_PP) is: 0 . release will continue. 
+NORMAL, Result of rule 685: select count(*) from RATED_FEATURE where FEATURE_CODE = 'CONF' is: 0 . release will continue. 
+NORMAL, Result of rule 690: select count(*) from SOC where UMTS_COMPATIBILITY = 'U' and SERVICE_TYPE = 'P' is: 0 . release will continue. 
+NORMAL, Result of rule 691: select count(*) from SOC where UMTS_COMPATIBILITY='U' and MOBILE_TECHNOLOGY != 'G' is: 0 . release will continue. 
+NORMAL, Result of rule 692: select count(*) from SOC where UMTS_COMPATIBILITY='U' and SOC_NETWORK != 'O' is: 0 . release will continue. 
+NORMAL, Result of rule 693: select count(*) from SOC where SERVICE_TYPE in ('P','M') and nvl(UMTS_COMPATIBILITY,'*') != '*' is: 0 . release will continue. 
+NORMAL, Result of rule 694: select count(*) from SOC where SOC = 'WWIF' and (FOR_SALE_IND = 'N' or SOC_STATUS != 'A' or SALE_EXP_DATE is not null) is: 0 . release will continue. 
+NORMAL, Result of rule 696: select count(*) from SOC where SOC_STATUS != 'A' and SOC in (select SOC from DISCOUNT_SOC) is: 0 . release will continue. 
+NORMAL, Result of rule 699: select count(*) from CHARGE_TAX_INFO where SOC is null is: 0 . release will continue. 
+NORMAL, Result of rule 706: select count(*) from SOC where FOR_SALE_IND = 'Y' and SOC in (select SOC from PP_REMARK where upper(REMARK_TEXT) like '%ENABLER_MARKET_LEVEL_OFFER%') is: 0 . release will continue. 
+NORMAL, Result of rule 707: select count(*) from soc where soc in (select soc from rated_feature where feature_code in ('SMR6','MMR1','SMR0','SMR2','SMR3','SMR4','SMR5')) and nvl(CUSTOMER_TYPE,'x') not in ('S') and  nvl(CUSTOMER_SUBTYPE,'x') not in ('T','G') is: 0 . release will continue. 
+NORMAL, Result of rule 715: select count(*) from SOC where SALE_EXP_DATE is null and SOC not in (select SOC from PROMOTION_TERMS where DURATION = '30') and SOC in (select SOC_DEST from SOC_RELATION where SOC_SRC in (select trim(GEN_CODE) from GENERIC_CODES where GEN_TYPE = 'AUTO_ATTACH_SOC') and SOC_SRC in (select SOC from PP_RC_RATE where RATE = 2.99)) is: 0 . release will continue. 
+NORMAL, Result of rule 716: select count(*) from CHARGE_INFO where FEATURE_CODE = 'DEPRLO' and INVOICE_TYPE != 'C' is: 0 . release will continue. 
+NORMAL, Result of rule 717: select count(*) from GL_REVENUE_MAPPING where rownum < 2 is: 1 . release will continue. 
+NORMAL, Result of rule 720: select count(*) from GL_REVENUE_MAPPING g where SOC != '*' and not exists (select SOC from SOC where g.SOC = SOC) is: 0 . release will continue. 
+NORMAL, Result of rule 721: select count(*) from CHARGE_INFO a where not exists (select 1 from GL_REVENUE_MAPPING where a.FEATURE_CODE=FEATURE_CODE and a.CHARGE_TYPE=CHARGE_TYPE and a.FTR_REVENUE_CODE=FTR_REVENUE_CODE and a.GL_CLASSIF_CODE=GL_CLASSIF_CODE and SOC='*') is: 0 . release will continue. 
+NORMAL, Result of rule 722: select count(*) from GL_REVENUE_MAPPING a where not exists (select 1 from CHARGE_INFO where a.FEATURE_CODE=FEATURE_CODE and a.CHARGE_TYPE=CHARGE_TYPE and a.FTR_REVENUE_CODE=FTR_REVENUE_CODE) is: 0 . release will continue. 
+NORMAL, Result of rule 723: select count(*) from FEATURE f where FEATURE_GROUP = 'SF' and exists (select FEATURE_CODE from CHARGE_INFO where f.FEATURE_CODE = FEATURE_CODE) and not exists (select FEATURE_CODE from GL_REVENUE_MAPPING where f.FEATURE_CODE = FEATURE_CODE) is: 0 . release will continue. 
+NORMAL, Result of rule 727: select count(*) from DEALER_PROFILE where DEALER like '% %' or AGENT like '% %' or AGENT_LOCATION like '% %' is: 0 . release will continue. 
+NORMAL, Result of rule 729: select count(*) from SOC where (nvl(GEN_ATTRIBUTE,'*') like '%; %' or nvl(GEN_ATTRIBUTE,'*') like '% ;%') is: 0 . release will continue. 
+NORMAL, Result of rule 730: select count(*) from RATED_FEATURE rf where CALLING_ROUTE_TYPE = 'G' and exists (select 1 from SOC where SYS_CREATION_DATE > '02-JUN-2009' and SOC = rf.SOC) and exists (select  1 from FEATURE_CALLING_ROUTE where (trim(CALL_SERVE_AREA) is not null or trim(CALL_DEST_AREA) is not null) and SOC= rf.SOC and FEATURE_CODE =rf.FEATURE_CODE) is: 0 . release will continue. 
+NORMAL, Result of rule 731: select count(*) from RATED_FEATURE a where CALLING_ROUTE_TYPE = 'S' and exists (select 1 from FEATURE_CALLING_ROUTE where a.soc=soc and a.feature_code=feature_code and trim(CALL_SERVE_AREA) is null and trim(CALL_DEST_AREA) is null) is: 0 . release will continue. 
+NORMAL, Result of rule 733: select count(*) from feature where product_type='G' is: 0 . release will continue. 
+NORMAL, Result of rule 735: select count(*) FROM FEATURE where FEATURE_CODE not in ('DIF3','SMS3','SMS9','STRACK') and ENB_CHARGE_CODE is not null and (FEATURE_CODE not in (select FEATURE_CODE FROM CHARGE_INFO where FTR_REVENUE_CODE = 'U') or FEATURE_CODE not in (select FEATURE_CODE FROM CHARGE_TAX_INFO where FTR_REVENUE_CODE = 'U')) is: 0 . release will continue. 
+NORMAL, Result of rule 744: select count(*) from SOC_RELATION sr where RELATION_TYPE = 'R' and exists (select SOC from SOC where SERVICE_TYPE = 'P' and SOC_MODE = 'G' and SOC = sr.SOC_SRC) and exists (select SOC from SOC where trim(SOC_MODE) is null and SOC in (select SOC from RATED_FEATURE where FEATURE_CODE = 'M2AN') and SOC = sr.SOC_DEST) is: 0 . release will continue. 
+NORMAL, Result of rule 745: select count(*) from SOC_RELATION sr where RELATION_TYPE = 'R' and exists (select SOC from SOC where SERVICE_TYPE = 'P' and trim(SOC_MODE) is null and SOC = sr.SOC_SRC) and exists (select SOC from SOC where SOC_MODE = 'G' and SOC in (select SOC from RATED_FEATURE where FEATURE_CODE = 'M2AN') and SOC = sr.SOC_DEST) is: 0 . release will continue. 
+NORMAL, Result of rule 747: select count(*) from SOC where RSTR_PP_IND = 'Y' is: 1353 . release will continue. 
+NORMAL, Result of rule 748: select count(*) from SOC where RSTR_PP_IND = 'Y' and SERVICE_TYPE != 'R' is: 0 . release will continue. 
+NORMAL, Result of rule 749: select count(*) from soc_relation where relation_type = 'R' and soc_src in (select soc from soc where RSTR_PP_IND in ('Y','S','B')) and soc_dest in (select soc from soc where RSTR_PP_IND not in ('Y','S','B')) is: 0 . release will continue. 
+NORMAL, Result of rule 750: select count(*) from FEATURE where product_sub_type = 'GG' and switch_param not like '%APN%' and switch_code='ISP' is: 0 . release will continue. 
+NORMAL, Result of rule 758: select count(SUB_MARKET) from DISCOUNT_SUB_MARKET d where not exists (select MARKET_CODE from MARKET@XMKBREFWORKCON.PMDY25A where MARKET_TYPE = 'S' and MARKET_CODE = d.SUB_MARKET) is: 0 . release will continue. 
+NORMAL, Result of rule 759: select count(*) from (select distinct t1.CONTRACT_GRP_CD,t1.TERM,t1.ETF_TYPE,t1.MONTHS_LEFT,t1.EFFECTIVE_DATE,t1.EXPIRATION_DATE,t2.EFFECTIVE_DATE,t2.EXPIRATION_DATE from FLEXIBLE_ETF t1, FLEXIBLE_ETF t2 where t1.CONTRACT_GRP_CD = t2.CONTRACT_GRP_CD and t1.TERM=t2.TERM and t1.ETF_TYPE=t2.ETF_TYPE and t1.MONTHS_LEFT=t2.MONTHS_LEFT and t1.rowid!=t2.rowid and t1.effective_date >= t2.effective_date and t1.effective_date <= t2.expiration_date and t1.expiration_date <= t2.expiration_date) is: 0 . release will continue. 
+NORMAL, Result of rule 782: select count(*) from SOC where LTE_IND = 'Y' and (SOC_LEVEL_CODE in ('B','P') or nvl(SOC_MODE,'*') != '*') is: 0 . release will continue. 
+NORMAL, Result of rule 783: select count(*) from RETIRING_GROUP_PP where PP_IND = 'Y' and RETIRING_GRP_PP_ID in (select RETIRING_GRP_PP_ID from SOC where SERVICE_TYPE not in ('P','M')) is: 0 . release will continue. 
+NORMAL, Result of rule 785: select count(*) from SOC where (GEN_ATTRIBUTE like '%GOLDLIST%' or RETIRING_GRP_PP_ID like '%GOLDLIST%') and (SERVICE_TYPE != 'R' or nvl(SOC_MODE,'*') in ('G','S') or SOC_LEVEL_CODE in ('B','P')) is: 0 . release will continue. 
+NORMAL, Result of rule 787: select count(*) from (select SOC_SRC, count(SOC_DEST) from SOC_RELATION where RELATION_TYPE = 'R' group by SOC_SRC having count(SOC_DEST) > 500) is: 0 . release will continue. 
+NORMAL, Result of rule 788: select count(*) from (select SOC, count(FEATURE_CODE) from PP_RC_RATE where EXPIRATION_DATE is null and SOC in (select SOC from SOC where FOR_SALE_IND = 'Y' and trim(INTERNAL_TYPE) is null and SERVICE_TYPE not in ('P','M')) group by SOC having count(FEATURE_CODE) > 1) is: 0 . release will continue. 
+NORMAL, Result of rule 789: select count(*) from (select SOC, count(FEATURE_CODE) from RATED_FEATURE where EXPIRATION_DATE is null and RC_INFO_IND = 'Y' and SOC in (select SOC from SOC where FOR_SALE_IND = 'Y' and trim(INTERNAL_TYPE) is null and SERVICE_TYPE not in ('P','M')) group by SOC having count(FEATURE_CODE) > 1) is: 0 . release will continue. 
+NORMAL, Result of rule 792: select count(*) from (select SOC_SRC, count(SOC_DEST) from SOC_RELATION where RELATION_TYPE = 'I' group by SOC_SRC having count(SOC_DEST) > 500) is: 0 . release will continue. 
+NORMAL, Result of rule 793: select count(*) from (select SOC_DEST, count(SOC_SRC) from SOC_RELATION where RELATION_TYPE = 'I' group by SOC_DEST having count(SOC_SRC) > 500) is: 0 . release will continue. 
+NORMAL, Result of rule 794: select count(*) from SOC where SALE_EXP_DATE > '01-JAN-2010' and FOR_SALE_IND = 'Y' and nvl(PUB_TO_ATLAS_IND,'*') = '*' and CUSTOMER_SUBTYPE in ('G','P') is: 0 . release will continue. 
+NORMAL, Result of rule 799: select count(*) from soc_relation where relation_type='I'and (soc_src in (select soc from soc where service_type in ('P','M','B')) or soc_dest in (select soc from soc where service_type in ('P','M','B'))) is: 0 . release will continue. 
+NORMAL, Result of rule 800: select count(*) from soc where gen_attribute like '%SPEED_TIER;%' and (ALLOWANCE is null or UOM is null) and (NVL(CUSTOMER_TYPE,'x') !='I' and nvl(CUSTOMER_SUBTYPE,'x') !='P') is: 0 . release will continue. 
+NORMAL, Result of rule 801: select count(*) from soc where service_type = 'O'and gen_attribute like '%SPEED_TIER;%' is: 0 . release will continue. 
+NORMAL, Result of rule 802: select count(*) from soc_relation where relation_type ='R'and soc_dest in (select soc from soc where RSTR_PP_IND='Y') and soc_src in (select soc from soc where service_type !='P') is: 0 . release will continue. 
+NORMAL, Result of rule 803: select count(*) from soc_relation where relation_type='R' and soc_dest in (select soc from soc where RSTR_PP_IND='S') and soc_src in (select soc from soc where (soc_mode='G' and data_group_ind!='G')) is: 0 . release will continue. 
+NORMAL, Result of rule 804: select count(*) from soc_relation where relation_type='R'and soc_dest in (select soc from soc where RSTR_PP_IND='B')and soc_src in (select soc from soc where service_type not in ('P','R') or soc_mode='G') is: 0 . release will continue. 
+NORMAL, Result of rule 805: select count(*) from soc where gen_attribute like '%TOP_UP;%' and gen_attribute like '%RES_BACK_DATE_ADD%' is: 0 . release will continue. 
+NORMAL, Result of rule 806: select count(*) from soc where GEN_ATTRIBUTE like '%TOP_UP;%'and (RSTR_PP_IND is null or RSTR_PP_IND ='N' or soc in (select soc_dest from soc_relation where relation_type = 'R' and soc_src in (select soc from soc where nvl(gen_attribute,'x') not like '%SPEED_TIER;%'))) is: 0 . release will continue. 
+NORMAL, Result of rule 809: select count(*) from soc where soc_med_desc is null is: 0 . release will continue. 
+NORMAL, Result of rule 810: select count(*) from FEATURE where FEATURE_GROUP = 'SF' and trim(FTR_MED_DESC) is null is: 0 . release will continue. 
+NORMAL, Result of rule 811: select count(*) from discount_plan where disc_med_desc is null and DISCOUNT_PLAN_CD ! = 'UNI10' is: 0 . release will continue. 
+NORMAL, Result of rule 812: select count(*) from soc_relation where bill_display_ind not in ('Y','N') is: 0 . release will continue. 
+NORMAL, Result of rule 813: select count(*) from rated_feature where bl_incl_prst_ind not in ('Y','N') is: 0 . release will continue. 
+NORMAL, Result of rule 815: select count(*) from SOC where SERVICE_TYPE = 'R' and GEN_ATTRIBUTE like '%RESSOCREM%' and GEN_ATTRIBUTE not like '%OK_RESTRICT%' and SALE_EXP_DATE is null and FOR_SALE_IND = 'Y' and FILTER_ATTRIBUTES not like '%A070%' and SOC not in ('UMTS','UMTSIH','UMTSIP','XSPAM') is: 0 . release will continue. 
+NORMAL, Result of rule 816: select count(*) from SOC s where FOR_SALE_IND = 'Y' and SOC_LEVEL_CODE = 'B' and exists (select 1 from RATED_FEATURE rf where exists (select 1 from FEATURE where SWITCH_ACT_NEEDED = 'Y' and rf.FEATURE_CODE = FEATURE_CODE) and s.SOC = rf.SOC) is: 0 . release will continue. 
+NORMAL, Result of rule 817: select count(distinct SOC) from RATED_FEATURE rf, FEATURE f where rf.FEATURE_CODE = f.FEATURE_CODE and f.FM_TYPE = 'P' is: 0 . release will continue. 
+NORMAL, Result of rule 818: select count(*) from SOC where GEN_ATTRIBUTE like '%INTL_ROAMING%' is: 21 . release will continue. 
+NORMAL, Result of rule 819: select count(*) from RATED_FEATURE where SOC != 'SBPTDHI' and FEATURE_CODE in (select FEATURE_CODE from FEATURE where SWITCH_PARAM like '%ROAMENT=TD_NODOM_RM@%') is: 0 . release will continue. 
+NORMAL, Result of rule 821: select count(*) from FEATURE where FEATURE_CODE in ('TS360C','WBHSTC','TS360T','WBHSTT') is: 0 . release will continue. 
+NORMAL, Result of rule 826: select count(*) from SOC where DATA_ONLY_IND = 'B' and SOC not in ('TAPU','TVD2','TVDB','AN1UMUMSG') is: 0 . release will continue. 
+NORMAL, Result of rule 827: select count(*) from SOC where SOC_LEVEL_CODE != 'B' and GEN_ATTRIBUTE like '%DUAL_MODE_MRC%' is: 0 . release will continue. 
+NORMAL, Result of rule 828: select count(*) from SOC where GEN_ATTRIBUTE like '%DUAL_MODE_MRC%'and PRODUCT_TYPE != 'A' is: 0 . release will continue. 
+NORMAL, Result of rule 829: select count(*) from SOC where GEN_ATTRIBUTE like '%DUAL_MODE_MRC%'and MOBILE_TECHNOLOGY != 'M' is: 0 . release will continue. 
+NORMAL, Result of rule 830: select count(*) from SOC where GEN_ATTRIBUTE like '%DUAL_MODE_MRC%'and SOC not in (select SOC from RATED_FEATURE where RC_CHARGE_LVL_CODE != 'B') is: 0 . release will continue. 
+NORMAL, Result of rule 833: select count(*) from SOC where GEN_ATTRIBUTE like '%WAVE%' and ATL_ATTR_NAME not like '%WAVE%' is: 0 . release will continue. 
+NORMAL, Result of rule 834: select count(*) from SOC where GEN_ATTRIBUTE like '%NB_FMC%' and ATL_ATTR_NAME not like '%NB_FMC%' is: 0 . release will continue. 
+NORMAL, Result of rule 835: select count(*) from SOC where GEN_ATTRIBUTE like '%MWALLET%' and ATL_ATTR_NAME not like '%MWALLET%' is: 0 . release will continue. 
+NORMAL, Result of rule 840: select count(*) from SOC where EXCLUDED_IMEI_TYPES like '%A1%' is: 0 . release will continue. 
+NORMAL, Result of rule 845: select count(*) from DEALER_PROFILE where DEALER in ('OPUS2','ACARE','ECARE','CCARE','FCCNT') and END_DATE is not null is: 0 . release will continue. 
+NORMAL, Result of rule 852: select count(*) from DEALER_COMP_ATTR where DLR_TP_CD not in (select DLR_TP_CD from DEALER_CLASS) is: 0 . release will continue. 
+NORMAL, Result of rule 853: select count(*) from DEALER_COMP_ATTR where DLR_TP_CD is null and DLR_CLASS_CD is not null is: 0 . release will continue. 
+NORMAL, Result of rule 854: select count(*) from DEALER_COMP_ATTR where DLR_TP_CD is not null and DLR_CLASS_CD is null is: 0 . release will continue. 
+NORMAL, Result of rule 855: select count(*) from DEALER_PROFILE where SUB_MARKET is null is: 0 . release will continue. 
+NORMAL, Result of rule 856: select count(*) from DEALER_PROFILE where DLR_NAME like '%||%' is: 0 . release will continue. 
+NORMAL, Result of rule 857: select count(*) from DEALER_COMP_ATTR where DLR_ATTR like '%DNH1%' is: 0 . release will continue. 
+NORMAL, Result of rule 858: select count(*) from DEALER_COMP_ATTR where DEPOSIT_MTD is null is: 0 . release will continue. 
+NORMAL, Result of rule 859: select count(*) from DEALER_PROFILE where AGENT = 'B2B' and END_DATE is null and DEALER not in (select DEALER from DEALER_AGENT_LINK where AGENT_CODE = 'B2B') is: 0 . release will continue. 
+NORMAL, Result of rule 860: select count(*) from DEALER_PROFILE where AGENT = 'B2B' and END_DATE is null and DEALER not in (select DEALER from DEALER_AGENT_LINK where AGENT_CODE = 'BACP' or AGENT_CODE = 'BACP') is: 0 . release will continue. 
+NORMAL, Result of rule 861: select count(*) from DEALER_PROFILE where DEALER not in (select DEALER from DEALER_AGENT_LINK) and AGENT_LEVEL = 'L' is: 0 . release will continue. 
+NORMAL, Result of rule 862: select count (*) from DEALER_PROFILE where NL_CD is null is: 0 . release will continue. 
+NORMAL, Result of rule 864: select count(*) from SOC where SOC not in ('X5GBDCO','X5GCCSO') and nvl(POOLING_PROFILE,'*') != '*' and nvl(POOLING_TYPE,'*') = '*' is: 0 . release will continue. 
+NORMAL, Result of rule 870: select count(*) from activity_reason_text where instr(bill_text,chr(10))>0 OR instr(bill_text,chr(13))>0 is: 0 . release will continue. 
+NORMAL, Result of rule 871: select count(*) from SOC_RELATION where RELATION_TYPE = 'R' and SOC_DEST = 'M2ANFT' and SOC_SRC in (select SOC from SOC where SYS_CREATION_DATE > '01-JAN-2012' and SERVICE_TYPE = 'P' and FOR_SALE_IND = 'Y' and SOC_STATUS = 'A' and SOC in (select SOC from PP_RC_RATE where FEATURE_CODE = 'STD' and RATE < 80)) is: 0 . release will continue. 
+NORMAL, Result of rule 874: select count(*) from (select distinct FEATURE_CODE,rpad(trim(FEATURE_CODE),6,'_')||substr(g.GEN_CODE,1,3)||substr(FTR_REVENUE_CODE,1,1) from CHARGE_INFO, GENERIC_CODES g where g.GEN_TYPE = 'MARKET_CODE' and trim(TITAN_CHG_CODE) is not null minus select FEATURE_CODE,TITAN_CHG_CODE from CHARGE_INFO where trim(TITAN_CHG_CODE) is not null) is: 0 . release will continue. 
+NORMAL, Result of rule 875: select count(*) from CHARGE_INFO where trim(TITAN_CHG_CODE) is null is: 0 . release will continue. 
+NORMAL, Result of rule 876: select count(*) from (select distinct TITAN_OFFER_ID from soc where TITAN_OFFER_ID is not null and EXPIRATION_DATE is null group by TITAN_OFFER_ID having count(*) > 1) is: 0 . release will continue. 
+NORMAL, Result of rule 877: select count(1) from (select soc, service_type, soc_status, for_sale_ind, data_only_ind, subscription_class from soc a where service_type = 'P' and soc_status = 'A' and for_sale_ind = 'Y' and data_only_ind = 'Y' and regexp_instr(subscription_class,'[^ABFGHIJPSUV\;]') > 0 and soc not in ('SDDDRP') and not exists(select 'x' from SOC_RELATION b where a.soc = b.soc_src and relation_type = 'O' and soc_dest in ('AVRSTO','BVRSTO','BVRSTOX','DBVRSTO','GPRO','GPROS','PVVRSTO','RVRSTO','RVRSTOS','SBNPO','VRSTO','VRSTOPCI','VRSTOSS','VRSTOVS','VRSTOX', 'VRSTOPPD','VRSTRSO','VRSTORSO'))) is: 0 . release will continue. 
+NORMAL, Result of rule 878: select count(*) from soc where TITAN_OFFER_ID is null and TITAN_ELIG_IND='Y' is: 0 . release will continue. 
+NORMAL, Result of rule 882: select count(*) from SOC where SERVICE_TYPE = 'R' and SALE_EXP_DATE is null and RETIRING_GRP_PP_ID is not null and IRDB_TYPES not like '%J1%' and SOC in (select SOC from SOC_SALE_CHANNEL where SOC_CHANNEL_CD = 'PVT') is: 0 . release will continue. 
+NORMAL, Result of rule 883: select count(*) from FEATURE where FEATURE_CODE not in ('BADGE','CFC7','CFC10','CFC11','CFI7','CFI10','CFI11','CF7','CF10','CF11','MAS','RSA','RSS','LSALNK','LSAUSA','HY21','LSA1') and nvl(SWITCH_PARAM,'*') !='*' and SWITCH_PARAM not like '%=%@%' is: 0 . release will continue. 
+NORMAL, Result of rule 884: select count(*) from RATED_FEATURE where SOC in (select SOC from SOC where GEN_ATTRIBUTE like '%SDGSPRVCRP%') and FEATURE_CODE != 'ACT' and (BL_INCL_PRST_IND != 'N' and BILL_DISPLAY_IND != 'N') is: 0 . release will continue. 
+NORMAL, Result of rule 885: select count(*) from SOC where SERVICE_TYPE = 'P' and FOR_SALE_IND = 'Y' and TITAN_ELIG_IND = 'Y' and SOC not in ('CN0N00014','CN0N01460','CN0N00011','CN0N00014','SEN2','SEN260') and SOC not like '%XXX%C' and SOC not like '%XXA%C' and SOC not like '%XDX%C' and SOC not like '%XXX%N' and SOC not like '%XXA%N' and SOC not like '%XDX%N' and SOC in (select SOC_SRC from SOC_RELATION where RELATION_TYPE = 'O' and SOC_DEST in (select SOC from SOC where nvl(TITAN_ELIG_IND,'*') != 'Y')) is: 0 . release will continue. 
+NORMAL, Result of rule 887: select count(*) from DISCOUNT_PLAN where DDRESTRICTION_TYPE = 'N' is: 0 . release will continue. 
+NORMAL, Result of rule 890: select count(*) from jd8296.tmp_dealerprofRESELLERS a, dealer_profile b where a.DEALER=b.DEALER and (nvl(trim(upper(a.DLR_NAME)),'X')!=nvl(trim(upper(b.DLR_NAME)),'X') or nvl(trim(a.START_DATE),'X') !=nvl(trim(b.START_DATE),'X') or nvl(trim(a.END_DATE),'X') !=nvl(trim(b.END_DATE),'X') or nvl(trim(a.NL_CD),'X') !=nvl(trim(b.NL_CD),'X') or nvl(trim(a.DPRT_DEPARTMENT_CODE),'X') !=nvl(trim(b.DPRT_DEPARTMENT_CODE),'X') or nvl(trim(a.SUB_MARKET),'X') !=nvl(trim(b.SUB_MARKET),'X') or nvl(trim(a.AGENT),'X') !=nvl(trim(b.AGENT),'X') or nvl(trim(a.AGENT_LOCATION),'X') !=nvl(trim(b.AGENT_LOCATION),'X') or nvl(trim(a.AGENT_LEVEL),'X') !=nvl(trim(b.AGENT_LEVEL),'X')) and b.dealer!='FCCNT' is: 0 . release will continue. 
+NORMAL, Result of rule 892: select count(*) from soc where regexp_like(soc_long_desc, CHR(9)) or regexp_like(soc_long_desc, CHR(10)) or regexp_like(soc_long_desc, CHR(13)) or soc_long_desc like '%'||CHR(146)||'%' is: 0 . release will continue. 
+NORMAL, Result of rule 893: select count(*) from soc where regexp_like(soc_med_desc, CHR(9)) or regexp_like(soc_med_desc, CHR(10)) or regexp_like(soc_med_desc, CHR(13)) or soc_med_desc like '%'||CHR(146)||'%' is: 0 . release will continue. 
+NORMAL, Result of rule 894: select count(*) from soc where regexp_like(soc_description, CHR(9)) or regexp_like(soc_description, CHR(10)) or regexp_like(soc_description, CHR(13)) or soc_description like '%'||CHR(146)||'%' is: 0 . release will continue. 
+NORMAL, Result of rule 895: select count(*) from soc where regexp_like(offer_desc, CHR(9)) or regexp_like(offer_desc, CHR(10)) or regexp_like(offer_desc, CHR(13)) or offer_desc like '%'||CHR(146)||'%' is: 0 . release will continue. 
+NORMAL, Result of rule 896: select count(*) from ACTIVITY_REASON_TEXT where (bill_text like '%'||CHR(9)||'%') or (bill_text like '%'||CHR(10)||'%') or (bill_text like '%'||CHR(13)||'%') or (bill_text like '%'||CHR(146)||'%') is: 0 . release will continue. 
+NORMAL, Result of rule 897: select count(*) from ACTIVITY_REASON_TEXT where (bill_fixed_text like '%'||CHR(9)||'%') or (bill_fixed_text like '%'||CHR(10)||'%') or (bill_fixed_text like '%'||CHR(13)||'%') or (bill_fixed_text like '%'||CHR(146)||'%') is: 0 . release will continue. 
+NORMAL, Result of rule 898: select count(*) FROM SOC WHERE FOR_SALE_IND='N' AND SERVICE_TYPE IN ('M','B','O','N','S','P') AND SOC_STATUS='A' AND SALE_EXP_DATE IS NULL and soc not in('INC289289','INC139139','LAPDAT5','MHOTDAT3','TABDAT250','TABDAT2GB','INC250250','PNA2') and INTERNAL_TYPE !='I' and sale_eff_date >'05-NOV-08' is: 0 . release will continue. 
+NORMAL, Result of rule 899: select count(*) from soc where service_type='O' and length(trim(soc_med_desc)) > 40 is: 0 . release will continue. 
+NORMAL, Result of rule 900: select count(*) from soc where service_type ='R' and SALE_EFF_DATE > (SYSDATE +1) and  FOR_SALE_IND = 'Y' is: 0 . release will continue. 
+NORMAL, Result of rule 910: select count(*) from SOC_RELATION where RELATION_TYPE in ('N','O') and SOC_SRC in (select SOC from SOC where nvl(LTE_IND,'*') in ('N','*')) and SOC_DEST in (select SOC from SOC where LTE_IND = 'Y') is: 0 . release will continue. 
+NORMAL, Result of rule 911: select count(*) from FEATURE where APN_PRIORITY is not null and SWITCH_CODE != 'ISP' is: 0 . release will continue. 
+NORMAL, Result of rule 916: select count(*) from SOC where FOR_SALE_IND = 'N' and SOC in (select SOC_CODE from TRACK_SOC_RULES) is: 0 . release will continue. 
+NORMAL, Result of rule 921: select count(*) from SOC where trim(SOC_DURATION) is not null and GEN_ATTRIBUTE not like '%AUTOEXPIRE%' is: 0 . release will continue. 
+NORMAL, Result of rule 924: select count(1) from (select soc_src, irdb_type from (select s.*, trim(regexp_substr(irdb_types, '[^@]+', 1, levels.column_value)) as irdb_type from soc s, table(cast(multiset(select level from dual connect by level <= length(regexp_replace(irdb_types, '[^@]+'))+1) as sys.OdciNumberList)) levels), soc_relation sr where soc = soc_dest and data_group_ind='P' and trim(soc_mode) is null and relation_type = 'R' and irdb_type is not null and default_sdp = 'N' and exists(select 'x' from soc s2 where soc_src = s2.soc and data_group_ind = 'G' and sr.soc_src not in ('SDG30GBD')) minus select soc_src, irdb_type from (select s.*, trim(regexp_substr(irdb_types, '[^@]+', 1, levels.column_value)) as irdb_type from soc s, table(cast(multiset(select level from dual connect by level <= length(regexp_replace(irdb_types, '[^@]+'))+1) as sys.OdciNumberList)) levels), soc_relation sr where soc = soc_dest and data_group_ind='P' and relation_type = 'R' and irdb_type is not null and default_sdp = 'Y' order by soc_src, irdb_type) is: 0 . release will continue. 
+NORMAL, Result of rule 925: select count(1) from (select soc_src from (select s.*, trim(regexp_substr(irdb_types, '[^@]+', 1, levels.column_value)) as irdb_type from soc s, table(cast(multiset(select level from dual connect by level <= length(regexp_replace(irdb_types, '[^@]+'))+1) as sys.OdciNumberList)) levels), soc_relation sr where soc = soc_dest and data_group_ind='P' and trim(soc_mode) is null and relation_type = 'R' and irdb_type is not null and exists(select 'x' from soc s2 where soc_src = s2.soc and data_group_ind = 'G') minus select soc_src from (select s.*, trim(regexp_substr(irdb_types, '[^@]+', 1, levels.column_value)) as irdb_type from soc s, table(cast(multiset(select level from dual connect by level <= length(regexp_replace(irdb_types, '[^@]+'))+1) as sys.OdciNumberList)) levels), soc_relation sr where soc = soc_dest and data_group_ind='P' and soc_mode='R' and relation_type = 'R' and irdb_type is not null and irdb_type = 'A1' order by soc_src) is: 0 . release will continue. 
+NORMAL, Result of rule 926: select count(1) from (select soc_src, irdb_type, sub_class, count(1) from (select s.soc, soc_mode, data_group_ind, trim(regexp_substr(irdb_types, '[^@]+', 1, levels.column_value)) as irdb_type from soc s, table(cast(multiset(select level from dual connect by level <= length(regexp_replace(irdb_types, '[^@]+'))+1) as sys.OdciNumberList)) levels) t1, (select s2.soc, trim(regexp_substr(subscription_class, '[^;]+', 1, levels.column_value)) as sub_class from soc s2, table(cast(multiset(select level from dual connect by level <= length(regexp_replace(subscription_class, '[^;]+'))) as sys.OdciNumberList)) levels) t2, soc_relation sr where t2.soc = soc_dest and t1.soc = soc_dest and data_group_ind='P' and trim(soc_mode) is null and relation_type = 'R' and irdb_type is not null and default_sdp = 'Y' and soc_dest not in ('UNLCARCCL') group by soc_src, irdb_type, sub_class having count(1) > 1) is: 0 . release will continue. 
+NORMAL, Result of rule 928: select count(1) from SOC where instr(GEN_ATTRIBUTE,',') + instr(GEN_ATTRIBUTE,'@') + instr(GEN_ATTRIBUTE,'-') + instr(ATL_ATTR_NAME,',') + instr(ATL_ATTR_NAME,'@') + instr(ATL_ATTR_NAME,'-') + instr(IRDB_TYPES,',') + instr(IRDB_TYPES,';') + instr(IRDB_TYPES,'-') + instr(EXCLUDED_IMEI_TYPES,',') + instr(EXCLUDED_IMEI_TYPES,';') + instr(EXCLUDED_IMEI_TYPES,'-') + instr(FILTER_ATTRIBUTES,',') + instr(FILTER_ATTRIBUTES,'@') + instr(FILTER_ATTRIBUTES,'-') > 0 is: 0 . release will continue. 
+NORMAL, Result of rule 932: select count(*) from rated_feature where feature_code='TURBOC' and oc_info_ind !='Y' is: 0 . release will continue. 
+NORMAL, Result of rule 952: select case when count(1) > 1199 then count(1) else 0 end as tblcnt from intl_soc_category is: 0 . release will continue. 
+NORMAL, Result of rule 962: select count(*) from soc where soc in (select soc from rated_feature where feature_code in (select feature_code from feature where switch_code='BM')) and gen_attribute not like '%USG_METER%' is: 0 . release will continue. 
+NORMAL, Result of rule 963: select count(*) from soc where soc in (select soc from soc where gen_attribute like '%IR94_VIDEO_CALL%' union select soc from rated_feature where feature_code in (select feature_code from feature where switch_code='MC')) and gen_attribute not like '%ENBTRK_CONF%' is: 0 . release will continue. 
+NORMAL, Result of rule 964: select count(*) from soc_relation where relation_type='D' is: 449 . release will continue. 
+NORMAL, Result of rule 965: select count(*) from dealer_profile where dealer='DEFDE' and END_DATE is not null is: 0 . release will continue. 
+NORMAL, Result of rule 967: select
+(select count(1) from FEATURE
+where not regexp_like(FTR_MED_DESC,'^['||chr(32)||'-'||chr(126)||'¢]+$')
+and not regexp_like(FTR_MED_DESC, '^['||chr(32)||'-'||chr(126)||'¢]+\s+$')
+and not regexp_like(FTR_MED_DESC, '^['||chr(32)||'-'||chr(126)||'¢]+\s+['||chr(32)||'-'||chr(126)||'¢]+$'))
++
+(select count(1) from FEATURE
+where not regexp_like(FEATURE_DESC,'^['||chr(32)||'-'||chr(126)||'¢]+$')
+and not regexp_like(FEATURE_DESC, '^['||chr(32)||'-'||chr(126)||'¢]+\s+$')
+and not regexp_like(FEATURE_DESC, '^['||chr(32)||'-'||chr(126)||'¢]+\s+['||chr(32)||'-'||chr(126)||'¢]+$'))
+err_cnt
+from dual is: 0 . release will continue. 
+NORMAL, Result of rule 980: select count(1) from soc_relation a, soc_relation b where a.soc_src=b.soc_dest and a.soc_dest=b.soc_src and a.relation_type=b.relation_type and a.relation_type='I' is: 0 . release will continue. 
+NORMAL, Result of rule 981: select count(*) from soc where RSTR_PP_IND in ('Y','S','B') and soc not in (select soc_dest from soc_relation where relation_type='R') is: 0 . release will continue. 
+NORMAL, Result of rule 986: select count(*) from soc where rtrim(irdb_types) like '% %' and soc != 'AFM1XXX1W' is: 0 . release will continue. 
+NORMAL, Result of rule 990: select count(1) from soc where  nvl(gen_attribute,'x') not like '%SOCCOMB;%' and soc in (select soc_src from soc_relation where relation_type='I' union select soc_dest from soc_relation where relation_type='I') is: 0 . release will continue. 
+NORMAL, Result of rule 994: select count(1) from soc where SERVICE_TYPE = 'R' and FOR_SALE_IND = 'Y' and TITAN_ELIG_IND = 'Y' and SOC in (select SOC_SRC from SOC_RELATION where RELATION_TYPE = 'N' and SOC_DEST in (select SOC from SOC where nvl(TITAN_ELIG_IND,'*') != 'Y')) is: 0 . release will continue. 
+NORMAL, Result of rule 995: select count(1) from DISCOUNT_PLAN where trim(DISC_SOC) is not null and trim(SOC_CATEGORY)||trim(DISC_SOC) not in (select trim(CATEGORY_CODE)||trim(SOC) from DISCOUNT_SOC) is: 0 . release will continue. 
+NORMAL, Result of rule 996: select count(1) from rated_feature r where CALLING_ROUTE_TYPE='S' and not exists (select 1 from feature_calling_route where feature_code=r.feature_code and soc=r.soc) and feature_code not in ('CPKG','DPKG','RMSURC') and soc not in ('DEFLOCCHI','HAWREGELA','ALKREGELA','DEFLOCSPR','DEFLOCWIS','UNIQELAT','BFRT31R','REGNLELA') is: 0 . release will continue. 
+NORMAL, Result of rule 998: select count(*) from soc_relation where relation_type='M' group by soc_src having count(*) > 1 is: 0 . release will continue. 
+========================================================
+
+Summary of Errors:
+--------------------------------------------------------------------------------
+FILE             : dgn_gen_con.c
+Function         : dgni_connect_n, Line:14148   DL_CONNECT_AT_USER
+Message          : Connect AT to User ORACLE : CORREFWORK1607 Instance : PMDY12A
+                    
+--------------------------------------------------------------------------------
+FILE             : dgn_gen_con.c
+Function         : dgni_at_gt_con_tlg_vars, Line:13111   DL_CONNECT_TYPE
+Message          : Connect to ORACLE by TLG_AT_ORA_USER/TLG_AT_ORA_PASS accordin
+                   g to TLG_AT_ORA_INST.
+--------------------------------------------------------------------------------
+FILE             : dgn_gen_con.c
+Function         : dgni_connect_n, Line:14156   DL_CONNECT_USER
+Message          : Connect to User ORACLE : COROPERCON Instance : PMDY12C 
+--------------------------------------------------------------------------------
+FILE             : dgn_gen_con.c
+Function         : dgni_gt_con_tlg_vars, Line:12909   DL_CONNECT_TYPE
+Message          : Connect to ORACLE by TLG_ORA_USER/TLG_ORA_PASS according to T
+                   LG_ORA_INST/TLG_ORA_INST_NODE
+
+ End of Summary 
+========================================================
+
+dst_incrl_release: Export from Waiting Account CORREFWAIT1607
+dst_incrl_release: Disable of Foreign Keys in Waiting Account CORREFWAIT1607 only for tables that are marked as R in REF_TAB_REFRESH
+alter table  AGENT_LOCATION		    disable constraint
+AGENT_LOCATION_1FK	       ;
+
+alter table  CATEGORIES_DETAILS 	    disable constraint
+CATEGORIES_DETAILS_1FK	       ;
+
+alter table  CHARGE_INFO		    disable constraint
+CHARGE_INFO_1FK 	       ;
+
+alter table  CHARGE_INFO		    disable constraint
+CHARGE_INFO_2FK 	       ;
+
+alter table  COM_DLR_AGREEMENT		    disable constraint
+COM_DLR_AGREEMENT_1FK	       ;
+
+alter table  COM_PAYMENT_GROUP		    disable constraint
+COM_PAYMENT_GROUP_1FK	       ;
+
+alter table  COM_PAYMENT_GROUP		    disable constraint
+COM_PAYMENT_GROUP_2FK	       ;
+
+alter table  COM_RAMP_GROUP		    disable constraint
+COM_RAMP_GROUP_1FK	       ;
+
+alter table  COM_RAMP_GROUP		    disable constraint
+COM_RAMP_GROUP_2FK	       ;
+
+alter table  DEALER_AGENT_LINK		    disable constraint
+DEALER_AGENT_LINK_1FK	       ;
+
+alter table  DEALER_AGENT_LINK		    disable constraint
+DEALER_AGENT_LINK_2FK	       ;
+
+alter table  DEALER_CLASS		    disable constraint
+DEALER_CLASS_1FK	       ;
+
+alter table  DEALER_COMP_ATTR		    disable constraint
+DEALER_COMP_ATTR_1FK	       ;
+
+alter table  DEALER_COMP_ATTR		    disable constraint
+DEALER_COMP_ATTR_2FK	       ;
+
+alter table  DEALER_PROFILE		    disable constraint
+DEALER_PROFILE_1FK	       ;
+
+alter table  DEALER_PROFILE		    disable constraint
+DEALER_PROFILE_2FK	       ;
+
+alter table  DISCOUNT_CATEGORY		    disable constraint
+DISCOUNT_CATEGORY_1FK	       ;
+
+alter table  DISCOUNT_SALE_CHANNEL	    disable constraint
+DISCOUNT_SALE_CHANNEL_1FK      ;
+
+alter table  DISCOUNT_TIER		    disable constraint
+DISCOUNT_TIER_1FK	       ;
+
+alter table  EQU_PAYMENT_GROUP		    disable constraint
+EQU_PAYMENT_GROUP_1FK	       ;
+
+alter table  EQU_PAYMENT_GROUP		    disable constraint
+EQU_PAYMENT_GROUP_2FK	       ;
+
+alter table  INCLUS_BY_PERIOD		    disable constraint
+INCLUS_BY_PERIOD_1FK	       ;
+
+alter table  INCLUS_BY_PERIOD		    disable constraint
+INCLUS_BY_PERIOD_2FK	       ;
+
+alter table  MOU_BY_PERIOD		    disable constraint
+MOU_BY_PERIOD_1FK	       ;
+
+alter table  PERIOD			    disable constraint
+PERIOD_1FK		       ;
+
+alter table  PERIOD_NAME		    disable constraint
+PERIOD_NAME_1FK 	       ;
+
+alter table  PP_AC_RATE 		    disable constraint
+PP_AC_RATE_1FK		       ;
+
+alter table  PP_AC_RATE 		    disable constraint
+PP_AC_RATE_2FK		       ;
+
+alter table  PP_COMMITMENT		    disable constraint
+PP_COMMITMENT_1FK	       ;
+
+alter table  PP_OC_RATE 		    disable constraint
+PP_OC_RATE_1FK		       ;
+
+alter table  PP_OC_RATE 		    disable constraint
+PP_OC_RATE_2FK		       ;
+
+alter table  PP_PROMO_TERMS		    disable constraint
+PP_PROMO_TERMS_1FK	       ;
+
+alter table  PP_RC_RATE 		    disable constraint
+PP_RC_RATE_1FK		       ;
+
+alter table  PP_RC_RATE 		    disable constraint
+PP_RC_RATE_2FK		       ;
+
+alter table  PP_REMARK			    disable constraint
+PP_REMARK_1FK		       ;
+
+alter table  PP_UC_RATE 		    disable constraint
+PP_UC_RATE_1FK		       ;
+
+alter table  PP_UC_RATE 		    disable constraint
+PP_UC_RATE_2FK		       ;
+
+alter table  PROMOTION_TERMS		    disable constraint
+PROMOTION_TERMS_1FK	       ;
+
+alter table  PROMO_DLR_AGREEMENT	    disable constraint
+PROMO_DLR_AGREEMENT_1FK        ;
+
+alter table  PROMO_DLR_AGREEMENT	    disable constraint
+PROMO_DLR_AGREEMENT_2FK        ;
+
+alter table  RATED_FEATURE		    disable constraint
+RATED_FEATURE_1FK	       ;
+
+alter table  RATED_FEATURE		    disable constraint
+RATED_FEATURE_2FK	       ;
+
+alter table  REN_DLR_AGREEMENT		    disable constraint
+REN_DLR_AGREEMENT_1FK	       ;
+
+alter table  RES_DLR_AGREEMENT		    disable constraint
+RES_DLR_AGREEMENT_1FK	       ;
+
+alter table  RES_PAYMENT_GROUP		    disable constraint
+RES_PAYMENT_GROUP_1FK	       ;
+
+alter table  RES_PAYMENT_GROUP		    disable constraint
+RES_PAYMENT_GROUP_2FK	       ;
+
+alter table  RES_RAMP_GROUP		    disable constraint
+RES_RAMP_GROUP_1FK	       ;
+
+alter table  SOC			    disable constraint
+SOC_3FK 		       ;
+
+alter table  SOC_ACC_TYPE_EXCL		    disable constraint
+SOC_ACC_TYPE_EXCL_CRE_1FK      ;
+
+alter table  SOC_ACC_TYPE_EXCL		    disable constraint
+SOC_ACC_TYPE_EXCL_CRE_2FK      ;
+
+alter table  SOC_RELATION		    disable constraint
+SOC_RELATION_1FK	       ;
+
+alter table  SOC_RELATION		    disable constraint
+SOC_RELATION_2FK	       ;
+
+alter table  SOC_SALE_CHANNEL		    disable constraint
+SOC_SALE_CHANNEL_1FK	       ;
+
+alter table  SOC_SUB_MARKET		    disable constraint
+SOC_SUB_MARKET_1FK	       ;
+
+alter table  SPECIAL_DAYS		    disable constraint
+SPECIAL_DAYS_1FK	       ;
+
+alter table  TERM_ACT_PRD_STAT		    disable constraint
+TERM_ACT_PRD_STAT_1FK	       ;
+
+alter table  TIER			    disable constraint
+TIER_1FK		       ;
+
+alter table  TIER			    disable constraint
+TIER_2FK		       ;
+
+alter table  UC_RATED_FEATURE		    disable constraint
+UC_RATED_FEATURE_1FK	       ;
+
+alter table  UC_RATED_FEATURE		    disable constraint
+UC_RATED_FEATURE_2FK	       ;
+
+dst_incrl_release:  ALL relevant FK are disabled 
+Call exe file: dst_incremental_rel
+mkt_code is: COR
+ENV Variable, TS_TEMP_TAB is : USERS
+env variable DST_SORT_AREA_SIZE is not defined, RELEASE will continue with the default size
+  Num of rows for table : ACTIVITY_REASON_TEXT          8 EST 2015, in refwork that are not in refwait : 0
+  Num of rows for table : ACTIVITY_REASON_TEXT          8 EST 2015, in refwait that are not in refwork : 0
+ There are no changes between work and wait accounts for table: ACTIVITY_REASON_TEXT          8 EST 2015.
+ Decision : NO CHANGES for table ACTIVITY_REASON_TEXT          8 EST 2015.
+
+  Num of rows for table : ACTIVITY_REWARD_MAP           8 EST 2015, in refwork that are not in refwait : 0
+  Num of rows for table : ACTIVITY_REWARD_MAP           8 EST 2015, in refwait that are not in refwork : 0
+ There are no changes between work and wait accounts for table: ACTIVITY_REWARD_MAP           8 EST 2015.
+ Decision : NO CHANGES for table ACTIVITY_REWARD_MAP           8 EST 2015.
+
+  Num of rows for table : AGENT_INFO                    8 EST 2015, in refwork that are not in refwait : 591
+  Num of rows for table : AGENT_INFO                    8 EST 2015, in refwait that are not in refwork : 0
+ Total number of changes are less than REF_TAB_REFRESH.COUNT_FOR_FULL for tbl AGENT_INFO                    8 EST 2015 .
+ Decision : incremental release for table AGENT_INFO                    8 EST 2015.
+
+  Num of rows for table : AGENT_LOCATION                8 EST 2015, in refwork that are not in refwait : 591
+  Num of rows for table : AGENT_LOCATION                8 EST 2015, in refwait that are not in refwork : 0
+ Total number of changes are less than REF_TAB_REFRESH.COUNT_FOR_FULL for tbl AGENT_LOCATION                8 EST 2015 .
+ Decision : incremental release for table AGENT_LOCATION                8 EST 2015.
+
+  Num of rows for table : CALLING_ROUTE_CONTROL         8 EST 2015, in refwork that are not in refwait : 0
+  Num of rows for table : CALLING_ROUTE_CONTROL         8 EST 2015, in refwait that are not in refwork : 0
+ There are no changes between work and wait accounts for table: CALLING_ROUTE_CONTROL         8 EST 2015.
+ Decision : NO CHANGES for table CALLING_ROUTE_CONTROL         8 EST 2015.
+
+  Num of rows for table : CATEGORIES_DETAILS            8 EST 2015, in refwork that are not in refwait : 0
+  Num of rows for table : CATEGORIES_DETAILS            8 EST 2015, in refwait that are not in refwork : 0
+ There are no changes between work and wait accounts for table: CATEGORIES_DETAILS            8 EST 2015.
+ Decision : NO CHANGES for table CATEGORIES_DETAILS            8 EST 2015.
+
+  Num of rows for table : CHARGE_INFO                   8 EST 2015, in refwork that are not in refwait : 0
+  Num of rows for table : CHARGE_INFO                   8 EST 2015, in refwait that are not in refwork : 0
+ There are no changes between work and wait accounts for table: CHARGE_INFO                   8 EST 2015.
+ Decision : NO CHANGES for table CHARGE_INFO                   8 EST 2015.
+
+  Num of rows for table : CHARGE_TAX_INFO               8 EST 2015, in refwork that are not in refwait : 0
+  Num of rows for table : CHARGE_TAX_INFO               8 EST 2015, in refwait that are not in refwork : 0
+ There are no changes between work and wait accounts for table: CHARGE_TAX_INFO               8 EST 2015.
+ Decision : NO CHANGES for table CHARGE_TAX_INFO               8 EST 2015.
+
+  Num of rows for table : CONTRACT_MAPPING_SOC          8 EST 2015, in refwork that are not in refwait : 0
+  Num of rows for table : CONTRACT_MAPPING_SOC          8 EST 2015, in refwait that are not in refwork : 0
+ There are no changes between work and wait accounts for table: CONTRACT_MAPPING_SOC          8 EST 2015.
+ Decision : NO CHANGES for table CONTRACT_MAPPING_SOC          8 EST 2015.
+
+  Num of rows for table : CSM_ACTIVITY                  8 EST 2015, in refwork that are not in refwait : 0
+  Num of rows for table : CSM_ACTIVITY                  8 EST 2015, in refwait that are not in refwork : 0
+ There are no changes between work and wait accounts for table: CSM_ACTIVITY                  8 EST 2015.
+ Decision : NO CHANGES for table CSM_ACTIVITY                  8 EST 2015.
+
+  Num of rows for table : DATA_TIER                     8 EST 2015, in refwork that are not in refwait : 0
+  Num of rows for table : DATA_TIER                     8 EST 2015, in refwait that are not in refwork : 0
+ There are no changes between work and wait accounts for table: DATA_TIER                     8 EST 2015.
+ Decision : NO CHANGES for table DATA_TIER                     8 EST 2015.
+
+  Num of rows for table : DEALER_AGENT_LINK             8 EST 2015, in refwork that are not in refwait : 330
+  Num of rows for table : DEALER_AGENT_LINK             8 EST 2015, in refwait that are not in refwork : 0
+ Total number of changes are less than REF_TAB_REFRESH.COUNT_FOR_FULL for tbl DEALER_AGENT_LINK             8 EST 2015 .
+ Decision : incremental release for table DEALER_AGENT_LINK             8 EST 2015.
+
+  Num of rows for table : DEALER_CLASS                  8 EST 2015, in refwork that are not in refwait : 0
+  Num of rows for table : DEALER_CLASS                  8 EST 2015, in refwait that are not in refwork : 0
+ There are no changes between work and wait accounts for table: DEALER_CLASS                  8 EST 2015.
+ Decision : NO CHANGES for table DEALER_CLASS                  8 EST 2015.
+
+  Num of rows for table : DEALER_COMP_ATTR              8 EST 2015, in refwork that are not in refwait : 849
+  Num of rows for table : DEALER_COMP_ATTR              8 EST 2015, in refwait that are not in refwork : 27
+ Total number of changes are less than REF_TAB_REFRESH.COUNT_FOR_FULL for tbl DEALER_COMP_ATTR              8 EST 2015 .
+ Decision : incremental release for table DEALER_COMP_ATTR              8 EST 2015.
+
+  Num of rows for table : DEALER_PROFILE                8 EST 2015, in refwork that are not in refwait : 1226
+  Num of rows for table : DEALER_PROFILE                8 EST 2015, in refwait that are not in refwork : 404
+ Total number of changes are less than REF_TAB_REFRESH.COUNT_FOR_FULL for tbl DEALER_PROFILE                8 EST 2015 .
+ Decision : incremental release for table DEALER_PROFILE                8 EST 2015.
+
+  Num of rows for table : DEALER_TYPE                   8 EST 2015, in refwork that are not in refwait : 0
+  Num of rows for table : DEALER_TYPE                   8 EST 2015, in refwait that are not in refwork : 0
+ There are no changes between work and wait accounts for table: DEALER_TYPE                   8 EST 2015.
+ Decision : NO CHANGES for table DEALER_TYPE                   8 EST 2015.
+
+  Num of rows for table : DEPARTMENT                    8 EST 2015, in refwork that are not in refwait : 0
+  Num of rows for table : DEPARTMENT                    8 EST 2015, in refwait that are not in refwork : 0
+ There are no changes between work and wait accounts for table: DEPARTMENT                    8 EST 2015.
+ Decision : NO CHANGES for table DEPARTMENT                    8 EST 2015.
+
+  Num of rows for table : DISCOUNT_CATEGORY             8 EST 2015, in refwork that are not in refwait : 0
+  Num of rows for table : DISCOUNT_CATEGORY             8 EST 2015, in refwait that are not in refwork : 0
+ There are no changes between work and wait accounts for table: DISCOUNT_CATEGORY             8 EST 2015.
+ Decision : NO CHANGES for table DISCOUNT_CATEGORY             8 EST 2015.
+
+  Num of rows for table : DISCOUNT_PLAN                 8 EST 2015, in refwork that are not in refwait : 0
+  Num of rows for table : DISCOUNT_PLAN                 8 EST 2015, in refwait that are not in refwork : 0
+ There are no changes between work and wait accounts for table: DISCOUNT_PLAN                 8 EST 2015.
+ Decision : NO CHANGES for table DISCOUNT_PLAN                 8 EST 2015.
+
+  Num of rows for table : DISCOUNT_SALE_CHANNEL         8 EST 2015, in refwork that are not in refwait : 0
+  Num of rows for table : DISCOUNT_SALE_CHANNEL         8 EST 2015, in refwait that are not in refwork : 0
+ There are no changes between work and wait accounts for table: DISCOUNT_SALE_CHANNEL         8 EST 2015.
+ Decision : NO CHANGES for table DISCOUNT_SALE_CHANNEL         8 EST 2015.
+
+  Num of rows for table : DISCOUNT_SOC                  8 EST 2015, in refwork that are not in refwait : 0
+  Num of rows for table : DISCOUNT_SOC                  8 EST 2015, in refwait that are not in refwork : 0
+ There are no changes between work and wait accounts for table: DISCOUNT_SOC                  8 EST 2015.
+ Decision : NO CHANGES for table DISCOUNT_SOC                  8 EST 2015.
+
+  Num of rows for table : DISCOUNT_SUB_MARKET           8 EST 2015, in refwork that are not in refwait : 0
+  Num of rows for table : DISCOUNT_SUB_MARKET           8 EST 2015, in refwait that are not in refwork : 0
+ There are no changes between work and wait accounts for table: DISCOUNT_SUB_MARKET           8 EST 2015.
+ Decision : NO CHANGES for table DISCOUNT_SUB_MARKET           8 EST 2015.
+
+  Num of rows for table : DISCOUNT_TIER                 8 EST 2015, in refwork that are not in refwait : 0
+  Num of rows for table : DISCOUNT_TIER                 8 EST 2015, in refwait that are not in refwork : 0
+ There are no changes between work and wait accounts for table: DISCOUNT_TIER                 8 EST 2015.
+ Decision : NO CHANGES for table DISCOUNT_TIER                 8 EST 2015.
+
+  Num of rows for table : DOMESTIC_AREA_IND             8 EST 2015, in refwork that are not in refwait : 0
+  Num of rows for table : DOMESTIC_AREA_IND             8 EST 2015, in refwait that are not in refwork : 0
+ There are no changes between work and wait accounts for table: DOMESTIC_AREA_IND             8 EST 2015.
+ Decision : NO CHANGES for table DOMESTIC_AREA_IND             8 EST 2015.
+
+  Num of rows for table : DYNAMIC_SOC_MAPPING           8 EST 2015, in refwork that are not in refwait : 0
+  Num of rows for table : DYNAMIC_SOC_MAPPING           8 EST 2015, in refwait that are not in refwork : 0
+ There are no changes between work and wait accounts for table: DYNAMIC_SOC_MAPPING           8 EST 2015.
+ Decision : NO CHANGES for table DYNAMIC_SOC_MAPPING           8 EST 2015.
+
+  Num of rows for table : DYNAMIC_SOC_MAPPING_LINK      8 EST 2015, in refwork that are not in refwait : 0
+  Num of rows for table : DYNAMIC_SOC_MAPPING_LINK      8 EST 2015, in refwait that are not in refwork : 0
+ There are no changes between work and wait accounts for table: DYNAMIC_SOC_MAPPING_LINK      8 EST 2015.
+ Decision : NO CHANGES for table DYNAMIC_SOC_MAPPING_LINK      8 EST 2015.
+
+  Num of rows for table : ELIGIBILITY_DECISION          8 EST 2015, in refwork that are not in refwait : 0
+  Num of rows for table : ELIGIBILITY_DECISION          8 EST 2015, in refwait that are not in refwork : 0
+ There are no changes between work and wait accounts for table: ELIGIBILITY_DECISION          8 EST 2015.
+ Decision : NO CHANGES for table ELIGIBILITY_DECISION          8 EST 2015.
+
+  Num of rows for table : ELIG_PP                       8 EST 2015, in refwork that are not in refwait : 0
+  Num of rows for table : ELIG_PP                       8 EST 2015, in refwait that are not in refwork : 0
+ There are no changes between work and wait accounts for table: ELIG_PP                       8 EST 2015.
+ Decision : NO CHANGES for table ELIG_PP                       8 EST 2015.
+
+  Num of rows for table : FEATURE                       8 EST 2015, in refwork that are not in refwait : 0
+  Num of rows for table : FEATURE                       8 EST 2015, in refwait that are not in refwork : 0
+ There are no changes between work and wait accounts for table: FEATURE                       8 EST 2015.
+ Decision : NO CHANGES for table FEATURE                       8 EST 2015.
+
+  Num of rows for table : FEATURE_CALLING_ROUTE         8 EST 2015, in refwork that are not in refwait : 0
+  Num of rows for table : FEATURE_CALLING_ROUTE         8 EST 2015, in refwait that are not in refwork : 0
+ There are no changes between work and wait accounts for table: FEATURE_CALLING_ROUTE         8 EST 2015.
+ Decision : NO CHANGES for table FEATURE_CALLING_ROUTE         8 EST 2015.
+
+  Num of rows for table : FEATURE_GROUP_INFO            8 EST 2015, in refwork that are not in refwait : 0
+  Num of rows for table : FEATURE_GROUP_INFO            8 EST 2015, in refwait that are not in refwork : 0
+ There are no changes between work and wait accounts for table: FEATURE_GROUP_INFO            8 EST 2015.
+ Decision : NO CHANGES for table FEATURE_GROUP_INFO            8 EST 2015.
+
+  Num of rows for table : FLEXIBLE_ETF                  8 EST 2015, in refwork that are not in refwait : 0
+  Num of rows for table : FLEXIBLE_ETF                  8 EST 2015, in refwait that are not in refwork : 0
+ There are no changes between work and wait accounts for table: FLEXIBLE_ETF                  8 EST 2015.
+ Decision : NO CHANGES for table FLEXIBLE_ETF                  8 EST 2015.
+
+  Num of rows for table : FM_RELATED_FTR                8 EST 2015, in refwork that are not in refwait : 0
+  Num of rows for table : FM_RELATED_FTR                8 EST 2015, in refwait that are not in refwork : 0
+ There are no changes between work and wait accounts for table: FM_RELATED_FTR                8 EST 2015.
+ Decision : NO CHANGES for table FM_RELATED_FTR                8 EST 2015.
+
+  Num of rows for table : FTR_PRESENTATION              8 EST 2015, in refwork that are not in refwait : 0
+  Num of rows for table : FTR_PRESENTATION              8 EST 2015, in refwait that are not in refwork : 0
+ There are no changes between work and wait accounts for table: FTR_PRESENTATION              8 EST 2015.
+ Decision : NO CHANGES for table FTR_PRESENTATION              8 EST 2015.
+
+  Num of rows for table : FUNCTION                      8 EST 2015, in refwork that are not in refwait : 0
+  Num of rows for table : FUNCTION                      8 EST 2015, in refwait that are not in refwork : 0
+ There are no changes between work and wait accounts for table: FUNCTION                      8 EST 2015.
+ Decision : NO CHANGES for table FUNCTION                      8 EST 2015.
+
+  Num of rows for table : GL_REVENUE_MAPPING            8 EST 2015, in refwork that are not in refwait : 0
+  Num of rows for table : GL_REVENUE_MAPPING            8 EST 2015, in refwait that are not in refwork : 0
+ There are no changes between work and wait accounts for table: GL_REVENUE_MAPPING            8 EST 2015.
+ Decision : NO CHANGES for table GL_REVENUE_MAPPING            8 EST 2015.
+
+  Num of rows for table : IMEI_SOC_RELATION             8 EST 2015, in refwork that are not in refwait : 0
+  Num of rows for table : IMEI_SOC_RELATION             8 EST 2015, in refwait that are not in refwork : 0
+ There are no changes between work and wait accounts for table: IMEI_SOC_RELATION             8 EST 2015.
+ Decision : NO CHANGES for table IMEI_SOC_RELATION             8 EST 2015.
+
+  Num of rows for table : INCLUS_BY_PERIOD              8 EST 2015, in refwork that are not in refwait : 0
+  Num of rows for table : INCLUS_BY_PERIOD              8 EST 2015, in refwait that are not in refwork : 0
+ There are no changes between work and wait accounts for table: INCLUS_BY_PERIOD              8 EST 2015.
+ Decision : NO CHANGES for table INCLUS_BY_PERIOD              8 EST 2015.
+
+  Num of rows for table : INTL_SOC_CATEGORY             8 EST 2015, in refwork that are not in refwait : 0
+  Num of rows for table : INTL_SOC_CATEGORY             8 EST 2015, in refwait that are not in refwork : 1
+ Total number of changes are less than REF_TAB_REFRESH.COUNT_FOR_FULL for tbl INTL_SOC_CATEGORY             8 EST 2015 .
+ Decision : incremental release for table INTL_SOC_CATEGORY             8 EST 2015.
+
+  Num of rows for table : MKTING_PROGRAM                8 EST 2015, in refwork that are not in refwait : 0
+  Num of rows for table : MKTING_PROGRAM                8 EST 2015, in refwait that are not in refwork : 0
+ There are no changes between work and wait accounts for table: MKTING_PROGRAM                8 EST 2015.
+ Decision : NO CHANGES for table MKTING_PROGRAM                8 EST 2015.
+
+  Num of rows for table : MOU_BY_PERIOD                 8 EST 2015, in refwork that are not in refwait : 0
+  Num of rows for table : MOU_BY_PERIOD                 8 EST 2015, in refwait that are not in refwork : 0
+ There are no changes between work and wait accounts for table: MOU_BY_PERIOD                 8 EST 2015.
+ Decision : NO CHANGES for table MOU_BY_PERIOD                 8 EST 2015.
+
+  Num of rows for table : NL_PRODUCT_ATTR               8 EST 2015, in refwork that are not in refwait : 0
+  Num of rows for table : NL_PRODUCT_ATTR               8 EST 2015, in refwait that are not in refwork : 0
+ There are no changes between work and wait accounts for table: NL_PRODUCT_ATTR               8 EST 2015.
+ Decision : NO CHANGES for table NL_PRODUCT_ATTR               8 EST 2015.
+
+  Num of rows for table : NUMBER_LOCATION               8 EST 2015, in refwork that are not in refwait : 0
+  Num of rows for table : NUMBER_LOCATION               8 EST 2015, in refwait that are not in refwork : 0
+ There are no changes between work and wait accounts for table: NUMBER_LOCATION               8 EST 2015.
+ Decision : NO CHANGES for table NUMBER_LOCATION               8 EST 2015.
+
+  Num of rows for table : OPTIONAL_VIEW                 8 EST 2015, in refwork that are not in refwait : 0
+  Num of rows for table : OPTIONAL_VIEW                 8 EST 2015, in refwait that are not in refwork : 0
+ There are no changes between work and wait accounts for table: OPTIONAL_VIEW                 8 EST 2015.
+ Decision : NO CHANGES for table OPTIONAL_VIEW                 8 EST 2015.
+
+  Num of rows for table : PAPER_WORK_STATUS             8 EST 2015, in refwork that are not in refwait : 0
+  Num of rows for table : PAPER_WORK_STATUS             8 EST 2015, in refwait that are not in refwork : 0
+ There are no changes between work and wait accounts for table: PAPER_WORK_STATUS             8 EST 2015.
+ Decision : NO CHANGES for table PAPER_WORK_STATUS             8 EST 2015.
+
+  Num of rows for table : PERIOD                        8 EST 2015, in refwork that are not in refwait : 0
+  Num of rows for table : PERIOD                        8 EST 2015, in refwait that are not in refwork : 0
+ There are no changes between work and wait accounts for table: PERIOD                        8 EST 2015.
+ Decision : NO CHANGES for table PERIOD                        8 EST 2015.
+
+  Num of rows for table : PERIOD_NAME                   8 EST 2015, in refwork that are not in refwait : 0
+  Num of rows for table : PERIOD_NAME                   8 EST 2015, in refwait that are not in refwork : 0
+ There are no changes between work and wait accounts for table: PERIOD_NAME                   8 EST 2015.
+ Decision : NO CHANGES for table PERIOD_NAME                   8 EST 2015.
+
+  Num of rows for table : PERIOD_NAME_LANG              8 EST 2015, in refwork that are not in refwait : 0
+  Num of rows for table : PERIOD_NAME_LANG              8 EST 2015, in refwait that are not in refwork : 0
+ There are no changes between work and wait accounts for table: PERIOD_NAME_LANG              8 EST 2015.
+ Decision : NO CHANGES for table PERIOD_NAME_LANG              8 EST 2015.
+
+  Num of rows for table : PERIOD_SET                    8 EST 2015, in refwork that are not in refwait : 0
+  Num of rows for table : PERIOD_SET                    8 EST 2015, in refwait that are not in refwork : 0
+ There are no changes between work and wait accounts for table: PERIOD_SET                    8 EST 2015.
+ Decision : NO CHANGES for table PERIOD_SET                    8 EST 2015.
+
+  Num of rows for table : POOLING_PROFILES              8 EST 2015, in refwork that are not in refwait : 0
+  Num of rows for table : POOLING_PROFILES              8 EST 2015, in refwait that are not in refwork : 0
+ There are no changes between work and wait accounts for table: POOLING_PROFILES              8 EST 2015.
+ Decision : NO CHANGES for table POOLING_PROFILES              8 EST 2015.
+
+  Num of rows for table : PP_AC_RATE                    8 EST 2015, in refwork that are not in refwait : 0
+  Num of rows for table : PP_AC_RATE                    8 EST 2015, in refwait that are not in refwork : 0
+ There are no changes between work and wait accounts for table: PP_AC_RATE                    8 EST 2015.
+ Decision : NO CHANGES for table PP_AC_RATE                    8 EST 2015.
+
+  Num of rows for table : PP_CATEGORIES                 8 EST 2015, in refwork that are not in refwait : 0
+  Num of rows for table : PP_CATEGORIES                 8 EST 2015, in refwait that are not in refwork : 0
+ There are no changes between work and wait accounts for table: PP_CATEGORIES                 8 EST 2015.
+ Decision : NO CHANGES for table PP_CATEGORIES                 8 EST 2015.
+
+  Num of rows for table : PP_COMMITMENT                 8 EST 2015, in refwork that are not in refwait : 0
+  Num of rows for table : PP_COMMITMENT                 8 EST 2015, in refwait that are not in refwork : 0
+ There are no changes between work and wait accounts for table: PP_COMMITMENT                 8 EST 2015.
+ Decision : NO CHANGES for table PP_COMMITMENT                 8 EST 2015.
+
+  Num of rows for table : PP_OC_RATE                    8 EST 2015, in refwork that are not in refwait : 0
+  Num of rows for table : PP_OC_RATE                    8 EST 2015, in refwait that are not in refwork : 0
+ There are no changes between work and wait accounts for table: PP_OC_RATE                    8 EST 2015.
+ Decision : NO CHANGES for table PP_OC_RATE                    8 EST 2015.
+
+  Num of rows for table : PP_PROMO_TERMS                8 EST 2015, in refwork that are not in refwait : 0
+  Num of rows for table : PP_PROMO_TERMS                8 EST 2015, in refwait that are not in refwork : 0
+ There are no changes between work and wait accounts for table: PP_PROMO_TERMS                8 EST 2015.
+ Decision : NO CHANGES for table PP_PROMO_TERMS                8 EST 2015.
+
+  Num of rows for table : PP_RC_RATE                    8 EST 2015, in refwork that are not in refwait : 0
+  Num of rows for table : PP_RC_RATE                    8 EST 2015, in refwait that are not in refwork : 0
+ There are no changes between work and wait accounts for table: PP_RC_RATE                    8 EST 2015.
+ Decision : NO CHANGES for table PP_RC_RATE                    8 EST 2015.
+
+  Num of rows for table : PP_REMARK                     8 EST 2015, in refwork that are not in refwait : 0
+  Num of rows for table : PP_REMARK                     8 EST 2015, in refwait that are not in refwork : 0
+ There are no changes between work and wait accounts for table: PP_REMARK                     8 EST 2015.
+ Decision : NO CHANGES for table PP_REMARK                     8 EST 2015.
+
+  Num of rows for table : PP_UC_RATE                    8 EST 2015, in refwork that are not in refwait : 0
+  Num of rows for table : PP_UC_RATE                    8 EST 2015, in refwait that are not in refwork : 0
+ There are no changes between work and wait accounts for table: PP_UC_RATE                    8 EST 2015.
+ Decision : NO CHANGES for table PP_UC_RATE                    8 EST 2015.
+
+  Num of rows for table : PP_VIEW                       8 EST 2015, in refwork that are not in refwait : 0
+  Num of rows for table : PP_VIEW                       8 EST 2015, in refwait that are not in refwork : 0
+ There are no changes between work and wait accounts for table: PP_VIEW                       8 EST 2015.
+ Decision : NO CHANGES for table PP_VIEW                       8 EST 2015.
+
+  Num of rows for table : PRODUCT                       8 EST 2015, in refwork that are not in refwait : 0
+  Num of rows for table : PRODUCT                       8 EST 2015, in refwait that are not in refwork : 0
+ There are no changes between work and wait accounts for table: PRODUCT                       8 EST 2015.
+ Decision : NO CHANGES for table PRODUCT                       8 EST 2015.
+
+  Num of rows for table : PROMOTION_TERMS               8 EST 2015, in refwork that are not in refwait : 0
+  Num of rows for table : PROMOTION_TERMS               8 EST 2015, in refwait that are not in refwork : 0
+ There are no changes between work and wait accounts for table: PROMOTION_TERMS               8 EST 2015.
+ Decision : NO CHANGES for table PROMOTION_TERMS               8 EST 2015.
+
+  Num of rows for table : PROMO_TYPE                    8 EST 2015, in refwork that are not in refwait : 0
+  Num of rows for table : PROMO_TYPE                    8 EST 2015, in refwait that are not in refwork : 0
+ There are no changes between work and wait accounts for table: PROMO_TYPE                    8 EST 2015.
+ Decision : NO CHANGES for table PROMO_TYPE                    8 EST 2015.
+
+  Num of rows for table : PROMO_TYPE_PERIOD             8 EST 2015, in refwork that are not in refwait : 0
+  Num of rows for table : PROMO_TYPE_PERIOD             8 EST 2015, in refwait that are not in refwork : 0
+ There are no changes between work and wait accounts for table: PROMO_TYPE_PERIOD             8 EST 2015.
+ Decision : NO CHANGES for table PROMO_TYPE_PERIOD             8 EST 2015.
+
+  Num of rows for table : PROMO_VIEW                    8 EST 2015, in refwork that are not in refwait : 0
+  Num of rows for table : PROMO_VIEW                    8 EST 2015, in refwait that are not in refwork : 0
+ There are no changes between work and wait accounts for table: PROMO_VIEW                    8 EST 2015.
+ Decision : NO CHANGES for table PROMO_VIEW                    8 EST 2015.
+
+  Num of rows for table : PRTNR_ADJ_RSN_CHRG            8 EST 2015, in refwork that are not in refwait : 0
+  Num of rows for table : PRTNR_ADJ_RSN_CHRG            8 EST 2015, in refwait that are not in refwork : 0
+ There are no changes between work and wait accounts for table: PRTNR_ADJ_RSN_CHRG            8 EST 2015.
+ Decision : NO CHANGES for table PRTNR_ADJ_RSN_CHRG            8 EST 2015.
+
+  Num of rows for table : QA_PARAMETERS                 8 EST 2015, in refwork that are not in refwait : 0
+  Num of rows for table : QA_PARAMETERS                 8 EST 2015, in refwait that are not in refwork : 0
+ There are no changes between work and wait accounts for table: QA_PARAMETERS                 8 EST 2015.
+ Decision : NO CHANGES for table QA_PARAMETERS                 8 EST 2015.
+
+  Num of rows for table : QA_REQUESTED_CUST             8 EST 2015, in refwork that are not in refwait : 0
+  Num of rows for table : QA_REQUESTED_CUST             8 EST 2015, in refwait that are not in refwork : 0
+ There are no changes between work and wait accounts for table: QA_REQUESTED_CUST             8 EST 2015.
+ Decision : NO CHANGES for table QA_REQUESTED_CUST             8 EST 2015.
+
+  Num of rows for table : RATED_FEATURE                 8 EST 2015, in refwork that are not in refwait : 0
+  Num of rows for table : RATED_FEATURE                 8 EST 2015, in refwait that are not in refwork : 0
+ There are no changes between work and wait accounts for table: RATED_FEATURE                 8 EST 2015.
+ Decision : NO CHANGES for table RATED_FEATURE                 8 EST 2015.
+
+  Num of rows for table : RETIRING_GROUP_PP             8 EST 2015, in refwork that are not in refwait : 0
+  Num of rows for table : RETIRING_GROUP_PP             8 EST 2015, in refwait that are not in refwork : 0
+ There are no changes between work and wait accounts for table: RETIRING_GROUP_PP             8 EST 2015.
+ Decision : NO CHANGES for table RETIRING_GROUP_PP             8 EST 2015.
+
+  Num of rows for table : REWARD_ATTR_MAPPING           8 EST 2015, in refwork that are not in refwait : 0
+  Num of rows for table : REWARD_ATTR_MAPPING           8 EST 2015, in refwait that are not in refwork : 0
+ There are no changes between work and wait accounts for table: REWARD_ATTR_MAPPING           8 EST 2015.
+ Decision : NO CHANGES for table REWARD_ATTR_MAPPING           8 EST 2015.
+
+  Num of rows for table : SOC                           8 EST 2015, in refwork that are not in refwait : 7
+  Num of rows for table : SOC                           8 EST 2015, in refwait that are not in refwork : 7
+ Total number of changes are less than REF_TAB_REFRESH.COUNT_FOR_FULL for tbl SOC                           8 EST 2015 .
+ Decision : incremental release for table SOC                           8 EST 2015.
+
+  Num of rows for table : SOC_ACC_TYPE_EXCL             8 EST 2015, in refwork that are not in refwait : 0
+  Num of rows for table : SOC_ACC_TYPE_EXCL             8 EST 2015, in refwait that are not in refwork : 0
+ There are no changes between work and wait accounts for table: SOC_ACC_TYPE_EXCL             8 EST 2015.
+ Decision : NO CHANGES for table SOC_ACC_TYPE_EXCL             8 EST 2015.
+
+  Num of rows for table : SOC_CATEGORIES_LINK           8 EST 2015, in refwork that are not in refwait : 0
+  Num of rows for table : SOC_CATEGORIES_LINK           8 EST 2015, in refwait that are not in refwork : 0
+ There are no changes between work and wait accounts for table: SOC_CATEGORIES_LINK           8 EST 2015.
+ Decision : NO CHANGES for table SOC_CATEGORIES_LINK           8 EST 2015.
+
+  Num of rows for table : SOC_CLASS                     8 EST 2015, in refwork that are not in refwait : 0
+  Num of rows for table : SOC_CLASS                     8 EST 2015, in refwait that are not in refwork : 0
+ There are no changes between work and wait accounts for table: SOC_CLASS                     8 EST 2015.
+ Decision : NO CHANGES for table SOC_CLASS                     8 EST 2015.
+
+  Num of rows for table : SOC_INTNL_TOLL                8 EST 2015, in refwork that are not in refwait : 0
+  Num of rows for table : SOC_INTNL_TOLL                8 EST 2015, in refwait that are not in refwork : 0
+ There are no changes between work and wait accounts for table: SOC_INTNL_TOLL                8 EST 2015.
+ Decision : NO CHANGES for table SOC_INTNL_TOLL                8 EST 2015.
+
+  Num of rows for table : SOC_MAPPING                   8 EST 2015, in refwork that are not in refwait : 0
+  Num of rows for table : SOC_MAPPING                   8 EST 2015, in refwait that are not in refwork : 0
+ There are no changes between work and wait accounts for table: SOC_MAPPING                   8 EST 2015.
+ Decision : NO CHANGES for table SOC_MAPPING                   8 EST 2015.
+
+  Num of rows for table : SOC_RELATION                  8 EST 2015, in refwork that are not in refwait : 0
+  Num of rows for table : SOC_RELATION                  8 EST 2015, in refwait that are not in refwork : 0
+ There are no changes between work and wait accounts for table: SOC_RELATION                  8 EST 2015.
+ Decision : NO CHANGES for table SOC_RELATION                  8 EST 2015.
+
+  Num of rows for table : SOC_SALE_CHANNEL              8 EST 2015, in refwork that are not in refwait : 0
+  Num of rows for table : SOC_SALE_CHANNEL              8 EST 2015, in refwait that are not in refwork : 0
+ There are no changes between work and wait accounts for table: SOC_SALE_CHANNEL              8 EST 2015.
+ Decision : NO CHANGES for table SOC_SALE_CHANNEL              8 EST 2015.
+
+  Num of rows for table : SOC_SUB_MARKET                8 EST 2015, in refwork that are not in refwait : 0
+  Num of rows for table : SOC_SUB_MARKET                8 EST 2015, in refwait that are not in refwork : 0
+ There are no changes between work and wait accounts for table: SOC_SUB_MARKET                8 EST 2015.
+ Decision : NO CHANGES for table SOC_SUB_MARKET                8 EST 2015.
+
+  Num of rows for table : SPECIAL_DAYS                  8 EST 2015, in refwork that are not in refwait : 0
+  Num of rows for table : SPECIAL_DAYS                  8 EST 2015, in refwait that are not in refwork : 0
+ There are no changes between work and wait accounts for table: SPECIAL_DAYS                  8 EST 2015.
+ Decision : NO CHANGES for table SPECIAL_DAYS                  8 EST 2015.
+
+  Num of rows for table : SPECIAL_DAYS_SET              8 EST 2015, in refwork that are not in refwait : 0
+  Num of rows for table : SPECIAL_DAYS_SET              8 EST 2015, in refwait that are not in refwork : 0
+ There are no changes between work and wait accounts for table: SPECIAL_DAYS_SET              8 EST 2015.
+ Decision : NO CHANGES for table SPECIAL_DAYS_SET              8 EST 2015.
+
+  Num of rows for table : SPP_COMPONENT                 8 EST 2015, in refwork that are not in refwait : 0
+  Num of rows for table : SPP_COMPONENT                 8 EST 2015, in refwait that are not in refwork : 0
+ There are no changes between work and wait accounts for table: SPP_COMPONENT                 8 EST 2015.
+ Decision : NO CHANGES for table SPP_COMPONENT                 8 EST 2015.
+
+  Num of rows for table : TIER                          8 EST 2015, in refwork that are not in refwait : 0
+  Num of rows for table : TIER                          8 EST 2015, in refwait that are not in refwork : 0
+ There are no changes between work and wait accounts for table: TIER                          8 EST 2015.
+ Decision : NO CHANGES for table TIER                          8 EST 2015.
+
+  Num of rows for table : UC_RATED_FEATURE              8 EST 2015, in refwork that are not in refwait : 0
+  Num of rows for table : UC_RATED_FEATURE              8 EST 2015, in refwait that are not in refwork : 0
+ There are no changes between work and wait accounts for table: UC_RATED_FEATURE              8 EST 2015.
+ Decision : NO CHANGES for table UC_RATED_FEATURE              8 EST 2015.
+
+========================================================
+
+Summary of Errors:
+--------------------------------------------------------------------------------
+FILE             : dgn_gen_con.c
+Function         : dgni_connect_n, Line:14148   DL_CONNECT_AT_USER
+Message          : Connect AT to User ORACLE : COROPERCON Instance : PMDY12C 
+--------------------------------------------------------------------------------
+FILE             : dgn_gen_con.c
+Function         : dgni_at_gt_con_tlg_vars, Line:13111   DL_CONNECT_TYPE
+Message          : Connect to ORACLE by TLG_AT_ORA_USER/TLG_AT_ORA_PASS accordin
+                   g to TLG_AT_ORA_INST.
+--------------------------------------------------------------------------------
+FILE             : dgn_gen_con.c
+Function         : dgni_connect_n, Line:14156   DL_CONNECT_USER
+Message          : Connect to User ORACLE : CORREFWAIT1607 Instance : PMDY12A 
+--------------------------------------------------------------------------------
+FILE             : dgn_gen_con.c
+Function         : dgni_gt_con_tlg_vars, Line:12909   DL_CONNECT_TYPE
+Message          : Connect to ORACLE by TLG_ORA_USER/TLG_ORA_PASS according to T
+                   LG_ORA_INST/TLG_ORA_INST_NODE
+
+ End of Summary 
+========================================================
+
+========================================================
+
+Summary of Errors:
+--------------------------------------------------------------------------------
+FILE             : dgn_gen_con.c
+Function         : dgni_connect_n, Line:14156   DL_CONNECT_USER
+Message          : Connect to User ORACLE : COROPERCON Instance : PMDY12C 
+--------------------------------------------------------------------------------
+FILE             : dgn_gen_con.c
+Function         : dgni_gt_con_tlg_vars, Line:12909   DL_CONNECT_TYPE
+Message          : Connect to ORACLE by TLG_ORA_USER/TLG_ORA_PASS according to T
+                   LG_ORA_INST/TLG_ORA_INST_NODE
+--------------------------------------------------------------------------------
+FILE             : dgn_gen_con.c
+Function         : dgni_connect_n, Line:14156   DL_CONNECT_USER
+Message          : Connect to User ORACLE : CORREFWAIT1607 Instance : PMDY12A 
+--------------------------------------------------------------------------------
+FILE             : dgn_gen_con.c
+Function         : dgni_gt_con_tlg_vars, Line:12909   DL_CONNECT_TYPE
+Message          : Connect to ORACLE by TLG_ORA_USER/TLG_ORA_PASS according to T
+                   LG_ORA_INST/TLG_ORA_INST_NODE
+
+ End of Summary 
+========================================================
+
+dst_incrl_release: Check Constraints Succeeded
+Update REF_TAB_REFRESH from JOB_STATUS='R' to JOB_STATUS='N'
+Application run ended
+Application run ended successfully.
+ 
+***********************************************************************
+*  Operational Job ended successfully on Thu Oct 13 15:15:57 CDT 2016
+***********************************************************************

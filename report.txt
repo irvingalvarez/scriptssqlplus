@@ -1,0 +1,791 @@
+Upgrading AGENT_INFO
+
+0 rows deleted.
+--
+Upgrading AGENT_LOCATION
+
+0 rows deleted.
+--
+Upgrading CHARGE_TAX_INFO
+
+0 rows deleted.
+--
+Upgrading COM_DLR_AGREEMENT
+
+0 rows deleted.
+--
+Upgrading COM_SOC_SPA
+
+0 rows deleted.
+--
+Elapsed: 00:00:00.09
+
+0 rows created.
+--
+Upgrading CRSM_ON_OFF_RULES
+
+0 rows deleted.
+--
+Upgrading DATA_TIER
+
+0 rows deleted.
+--
+Upgrading DEALER_AGENT_LINK
+
+0 rows deleted.
+--
+Upgrading DEALER_COMP_ATTR
+
+0 rows deleted.
+--
+Upgrading DEALER_PROFILE
+
+0 rows deleted.
+--
+Upgrading DEALER_QTA
+
+0 rows deleted.
+--
+Elapsed: 00:00:00.06
+
+0 rows created.
+--
+Upgrading DEPARTMENT
+
+0 rows deleted.
+--
+Upgrading DEST_AREA_DETAILS
+
+0 rows deleted.
+--
+Upgrading DE_CONDITIONS
+
+0 rows deleted.
+--
+Elapsed: 00:00:00.08
+
+0 rows created.
+--
+Upgrading DE_CONTRIBUTE_LIST
+
+0 rows deleted.
+--
+Elapsed: 00:00:00.08
+
+0 rows created.
+--
+Upgrading DE_CRI_ALLOWED_OPS
+
+0 rows deleted.
+--
+Elapsed: 00:00:00.07
+
+0 rows created.
+--
+Upgrading DE_CRI_CONNECTIONS
+
+0 rows deleted.
+--
+Elapsed: 00:00:00.08
+
+0 rows created.
+--
+Upgrading DE_CRI_ITEMS
+
+0 rows deleted.
+--
+Elapsed: 00:00:00.09
+
+0 rows created.
+--
+Upgrading DE_CRI_PARAMS
+
+0 rows deleted.
+--
+Elapsed: 00:00:00.06
+
+0 rows created.
+--
+Upgrading DE_CRI_POOL
+
+0 rows deleted.
+--
+Elapsed: 00:00:00.06
+
+0 rows created.
+--
+Upgrading DE_CRI_PREDEF_VALUES
+
+0 rows deleted.
+--
+Elapsed: 00:00:00.08
+
+0 rows created.
+--
+Upgrading DE_DISCOUNT_ITEMS
+
+0 rows deleted.
+--
+Elapsed: 00:00:00.10
+
+0 rows created.
+--
+Upgrading DE_DISCOUNT_PLANS
+
+0 rows deleted.
+--
+Elapsed: 00:00:00.09
+
+0 rows created.
+--
+Upgrading DE_DI_FIELD_VVS
+
+0 rows deleted.
+--
+Elapsed: 00:00:00.11
+
+0 rows created.
+--
+Upgrading DE_DI_TYPES
+
+0 rows deleted.
+--
+Elapsed: 00:00:00.05
+
+0 rows created.
+--
+Upgrading DE_DI_TYPE_FIELDS
+
+0 rows deleted.
+--
+Elapsed: 00:00:00.07
+
+0 rows created.
+--
+Upgrading DE_DP_CATEGORIES
+
+0 rows deleted.
+--
+Elapsed: 00:00:00.07
+
+0 rows created.
+--
+Upgrading DE_DP_CAT_GROUPING
+
+0 rows deleted.
+--
+Elapsed: 00:00:00.07
+
+0 rows created.
+--
+Upgrading DE_DP_COMPONENTS
+
+0 rows deleted.
+--
+Elapsed: 00:00:00.07
+
+0 rows created.
+--
+Upgrading DE_ELIGIBLE_LIST
+
+0 rows deleted.
+--
+Elapsed: 00:00:00.07
+
+0 rows created.
+--
+Upgrading DE_EXTRA_COND_FIELDS
+
+0 rows deleted.
+--
+Elapsed: 00:00:00.06
+
+0 rows created.
+--
+Upgrading DE_EXTRA_DPC_FIELDS
+
+0 rows deleted.
+--
+Elapsed: 00:00:00.08
+
+0 rows created.
+--
+Upgrading DE_EXTRA_DP_FIELDS
+
+0 rows deleted.
+--
+Elapsed: 00:00:00.08
+
+0 rows created.
+--
+Upgrading DE_QUERY_AREA
+
+0 rows deleted.
+--
+Elapsed: 00:00:00.10
+
+0 rows created.
+--
+Upgrading DE_STEPS
+
+0 rows deleted.
+--
+Elapsed: 00:00:00.08
+
+0 rows created.
+--
+Upgrading DE_TIERS
+
+0 rows deleted.
+--
+Elapsed: 00:00:00.07
+
+0 rows created.
+--
+Upgrading DISCOUNT_SOC
+
+0 rows deleted.
+--
+Upgrading DISCOUNT_SUB_MARKET
+
+0 rows deleted.
+--
+Elapsed: 00:00:00.08
+
+0 rows created.
+--
+Upgrading DISCOUNT_TIER
+
+0 rows deleted.
+--
+Elapsed: 00:00:00.06
+
+0 rows created.
+--
+Upgrading DLR_COM_SOC_SPA
+
+0 rows deleted.
+--
+Upgrading DYNAMIC_SOC_MAPPING
+
+0 rows deleted.
+--
+Elapsed: 00:00:00.09
+
+0 rows created.
+--
+Upgrading DYNAMIC_SOC_MAPPING_LINK
+
+0 rows deleted.
+--
+Elapsed: 00:00:00.10
+
+0 rows created.
+--
+Upgrading ELIG_PP
+
+0 rows deleted.
+--
+Elapsed: 00:00:00.07
+
+0 rows created.
+--
+Upgrading EQUIPMENT_SKU
+
+0 rows deleted.
+--
+Elapsed: 00:00:00.06
+
+0 rows created.
+--
+Upgrading EQU_AGREEMENT
+
+0 rows deleted.
+--
+Elapsed: 00:00:00.06
+
+0 rows created.
+--
+Upgrading EQU_COMMIT_TERM_RAMP
+
+0 rows deleted.
+--
+Elapsed: 00:00:00.06
+
+0 rows created.
+--
+Upgrading EQU_DLR_AGREEMENT
+
+0 rows deleted.
+--
+Elapsed: 00:00:00.09
+
+0 rows created.
+--
+Upgrading EQU_PAYMENT_GROUP
+
+0 rows deleted.
+--
+Elapsed: 00:00:00.09
+
+0 rows created.
+--
+Upgrading EQU_RETAIN_DETAIL
+
+0 rows deleted.
+--
+Elapsed: 00:00:00.06
+
+0 rows created.
+--
+Upgrading ESN_POOL_TRANSFER
+
+0 rows deleted.
+--
+Elapsed: 00:00:00.08
+
+0 rows created.
+--
+Upgrading FEATURE_CALLING_ROUTE
+
+0 rows deleted.
+--
+Upgrading FORM_TYPE
+
+0 rows deleted.
+--
+Elapsed: 00:00:00.09
+
+0 rows created.
+--
+Upgrading FUNCTION
+
+0 rows deleted.
+--
+Upgrading GL_REVENUE_MAPPING
+
+0 rows deleted.
+--
+Upgrading GROUP_NL_LINK
+
+0 rows deleted.
+--
+Elapsed: 00:00:00.08
+
+0 rows created.
+--
+Upgrading HOLIDAYS
+
+0 rows deleted.
+--
+Elapsed: 00:00:00.08
+
+0 rows created.
+--
+Upgrading INCLUS_BY_PERIOD
+
+0 rows deleted.
+--
+Upgrading INTL_SOC_CATEGORY
+
+0 rows deleted.
+--
+Upgrading JIP_TO_SID
+
+0 rows deleted.
+--
+Elapsed: 00:00:00.10
+
+0 rows created.
+--
+Upgrading LOCATION_COMPID_LINK
+
+0 rows deleted.
+--
+Elapsed: 00:00:00.08
+
+0 rows created.
+--
+Upgrading LRN_TO_SID
+
+0 rows deleted.
+--
+Elapsed: 00:00:00.07
+
+0 rows created.
+--
+Upgrading MANUFACTURER_SPA
+
+0 rows deleted.
+--
+Elapsed: 00:00:00.06
+
+0 rows created.
+--
+Upgrading MARKET_MIN_LR
+
+0 rows deleted.
+--
+Upgrading MOU_BY_PERIOD
+
+0 rows deleted.
+--
+Elapsed: 00:00:00.07
+
+0 rows created.
+--
+Upgrading NBI_FTR_SWITCH_PRM
+
+0 rows deleted.
+--
+Elapsed: 00:00:00.10
+
+0 rows created.
+--
+Upgrading NUMBER_VALIDATIONS
+
+0 rows deleted.
+--
+Elapsed: 00:00:00.08
+
+0 rows created.
+--
+Upgrading PARAM_CHARACTERISTICS
+
+0 rows deleted.
+--
+Elapsed: 00:00:00.07
+
+0 rows created.
+--
+Upgrading PARAM_VALID_VALUES
+
+0 rows deleted.
+--
+Elapsed: 00:00:00.07
+
+0 rows created.
+--
+Upgrading PERIOD_NAME_LANG
+
+0 rows deleted.
+--
+Elapsed: 00:00:00.07
+
+0 rows created.
+--
+Upgrading PP_AC_RATE
+
+0 rows deleted.
+--
+Upgrading PP_COMMITMENT
+
+0 rows deleted.
+--
+Upgrading PP_OC_RATE
+
+0 rows deleted.
+--
+Upgrading PP_PROMO_TERMS
+
+0 rows deleted.
+--
+Upgrading PP_RC_RATE
+
+0 rows deleted.
+--
+Upgrading PP_REMARK
+
+0 rows deleted.
+--
+Upgrading PP_UC_RATE
+
+0 rows deleted.
+--
+Upgrading PRICING
+
+0 rows deleted.
+--
+Elapsed: 00:00:00.09
+
+0 rows created.
+--
+Upgrading PROMOTION_TERMS
+
+0 rows deleted.
+--
+Upgrading PROMO_RAMP_DETAILS
+
+0 rows deleted.
+--
+Elapsed: 00:00:00.06
+
+0 rows created.
+--
+Upgrading PROMO_TYPE
+
+0 rows deleted.
+--
+Upgrading PURCHASE_CARD_BIN_RANGE
+
+0 rows deleted.
+--
+Elapsed: 00:00:00.08
+
+0 rows created.
+--
+Upgrading QA_REQUESTED_CUST
+
+0 rows deleted.
+--
+Elapsed: 00:00:00.06
+
+0 rows created.
+--
+Upgrading RATED_FEATURE
+
+0 rows deleted.
+--
+Upgrading REGION
+
+0 rows deleted.
+--
+Elapsed: 00:00:00.06
+
+0 rows created.
+--
+Upgrading REGISTER
+
+0 rows deleted.
+--
+Elapsed: 00:00:00.07
+
+0 rows created.
+--
+Upgrading REPAIR_LOCATION
+
+0 rows deleted.
+--
+Elapsed: 00:00:00.09
+
+0 rows created.
+--
+Upgrading RES_CHURN_BONUS
+
+0 rows deleted.
+--
+Elapsed: 00:00:00.08
+
+0 rows created.
+--
+Upgrading RES_COMMITMENT_TERMS
+
+0 rows deleted.
+--
+Elapsed: 00:00:00.08
+
+0 rows created.
+--
+Upgrading RES_CRT_CHURN
+
+0 rows deleted.
+--
+Elapsed: 00:00:00.08
+
+0 rows created.
+--
+Upgrading RES_DLR_MINI_ELIG_PARAMS
+
+0 rows deleted.
+--
+Elapsed: 00:00:00.08
+
+0 rows created.
+--
+Upgrading RES_RED_BONUS
+
+0 rows deleted.
+--
+Elapsed: 00:00:00.08
+
+0 rows created.
+--
+Upgrading RES_SUB_ACTV_DATE
+
+0 rows deleted.
+--
+Elapsed: 00:00:00.06
+
+0 rows created.
+--
+Upgrading RES_SUB_AVERA_RAMP
+
+0 rows deleted.
+--
+Elapsed: 00:00:00.10
+
+0 rows created.
+--
+Upgrading RES_SUB_COMB
+
+0 rows deleted.
+--
+Elapsed: 00:00:00.06
+
+0 rows created.
+--
+Upgrading RES_SUB_COUNT_RAMP
+
+0 rows deleted.
+--
+Elapsed: 00:00:00.06
+
+0 rows created.
+--
+Upgrading RES_SUB_RVN
+
+0 rows deleted.
+--
+Elapsed: 00:00:00.07
+
+0 rows created.
+--
+Upgrading RES_SUB_SRV_LGTH
+
+0 rows deleted.
+--
+Elapsed: 00:00:00.08
+
+0 rows created.
+--
+Upgrading RMS_POS_RSN_CODE
+
+0 rows deleted.
+--
+Elapsed: 00:00:00.08
+
+0 rows created.
+--
+Upgrading SIM_PROFILE_PRODUCT
+
+0 rows deleted.
+--
+Elapsed: 00:00:00.09
+
+0 rows created.
+--
+Upgrading SKU_GP_DSC
+
+0 rows deleted.
+--
+Elapsed: 00:00:00.06
+
+0 rows created.
+--
+Upgrading SKU_GROUP
+
+0 rows deleted.
+--
+Elapsed: 00:00:00.07
+
+0 rows created.
+--
+Upgrading SOC
+
+0 rows deleted.
+--
+Upgrading SOC_ACC_TYPE_EXCL
+
+0 rows deleted.
+--
+Upgrading SOC_CATEGORIES_LINK
+
+0 rows deleted.
+--
+Upgrading SOC_INTNL_TOLL
+
+0 rows deleted.
+--
+Upgrading SOC_RELATION
+
+0 rows deleted.
+--
+Upgrading SOC_SALE_CHANNEL
+
+0 rows deleted.
+--
+Upgrading SOC_SUB_MARKET
+
+0 rows deleted.
+--
+Upgrading SPP_COMPONENT
+
+0 rows deleted.
+--
+Elapsed: 00:00:00.07
+
+0 rows created.
+--
+Upgrading SUB_MARKET_SEC
+
+0 rows deleted.
+--
+Elapsed: 00:00:00.09
+
+0 rows created.
+--
+Upgrading TBL_RLT
+
+0 rows deleted.
+--
+Elapsed: 00:00:00.08
+
+0 rows created.
+--
+Upgrading TIER
+
+0 rows deleted.
+--
+Upgrading TYPE_SPA
+
+0 rows deleted.
+--
+Elapsed: 00:00:00.08
+
+0 rows created.
+--
+Upgrading UC_RATED_FEATURE
+
+0 rows deleted.
+--
+Upgrading WAF_PROMO_PERIOD
+
+0 rows deleted.
+--
+Upgrading WHSE_ITEM
+
+0 rows deleted.
+--
+Elapsed: 00:00:00.08
+
+0 rows created.
+--
+Upgrading ZERO_AT_SOC_REP
+
+0 rows deleted.
+--
+Elapsed: 00:00:00.08
+
+0 rows created.
+--
+RUNNING FILE /tables/tables/Upgrade/UpgradeAllMarkets1610/AllSqds/atlas_xml_tags_upd_dls_20160410_010101.sqd
+
+0 rows updated.
+--
+Elapsed: 00:00:00.06
+
+0 rows updated.
+--
+RUNNING FILE /tables/tables/Upgrade/UpgradeAllMarkets1610/AllSqds/param_values_ins_ind_20160810_093334.sqd
+
+0 rows deleted.
